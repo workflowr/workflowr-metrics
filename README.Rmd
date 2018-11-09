@@ -16,6 +16,14 @@ knitr::opts_chunk$set(
 
 Last update: `r Sys.time()`
 
+```{r projects}
+projects <- read.delim("data/github-projects.txt", stringsAsFactors = FALSE)
+projects$count <- 1
+projects$cumulative <- cumsum(projects$count)
+```
+
+* Number of workflowr projects on GitHub: `r projects$cumulative[nrow(projects)]`
+
 ```{r stars}
 stars <- read.delim("data/github-stars.txt", stringsAsFactors = FALSE)
 stars$count <- 1
