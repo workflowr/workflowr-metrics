@@ -12,6 +12,8 @@ knitr::opts_chunk$set(
 
 # workflowr-metrics
 
+[![Travis-CI Build Status](https://travis-ci.org/workflowr/workflowr-metrics.svg?branch=master)](https://travis-ci.org/workflowr/workflowr-metrics)
+
 Last update: `r Sys.time()`
 
 ```{r downloads}
