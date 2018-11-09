@@ -19,3 +19,16 @@ script:
   - Rscript scripts/cranlogs.R data/cranlogs.txt
   - Rscript scripts/github-views.R data/github-views.txt
   - Rscript scripts/github-clones.R data/github-clones.txt
+
+# Commit updates to data files
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_PAT  # Set in the settings page of your repository, as a secure variable
+  target-branch: gh-pages
+  keep-history: true
+  allow-empty-commit: true
+  verbose: true
+  on:
+    branch: master
+    repo: workflowr/workflowr-metrics
