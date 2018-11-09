@@ -16,4 +16,5 @@ install:
   - Rscript scripts/install.R
 
 script:
-  - bash main.sh
+  - Rscript scripts/cranlogs.R > data/cranlogs.txt
+  - Rscript scripts/github-views.R data/github-views.txt
