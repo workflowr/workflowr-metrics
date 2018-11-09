@@ -21,7 +21,6 @@ date	user	repo
 2017-01-19	kevinlkx	workflow_test
 2017-01-20	NKweiwang	flash_workflow
 2017-01-21	NKweiwang	logisticFlash_workflow
-2017-01-21	NKweiwang	logisticFlash_workflow
 2017-01-22	NKweiwang	TDS_study1
 2017-01-29	LSun	truncash
 2017-01-29	LSun	truncash
@@ -57,7 +56,6 @@ date	user	repo
 2017-05-15	simingz	TransElement
 2017-05-19	kkdey	CorShrink_workflow
 2017-06-12	erinfry6	BAGER
-2017-06-19	jdblischak	workflowr-demo01
 2017-06-26	hamulmyo	mixopt
 2017-06-28	stephenslab	wflow-divvy
 2017-06-29	eEricWagner	ProjectPortfolio
@@ -77,13 +75,14 @@ date	user	repo
 2017-07-12	Oliviagao74	batch_effect_bootcamp
 2017-07-12	whateversclever79	batchEffect
 2017-07-12	hfigler	bootcamp_batcheffect
-2017-07-12	ktw5072	workflowr
 2017-07-12	laurabau	workflo
+2017-07-12	ktw5072	workflowr
 2017-07-12	mmrathbun333	batch_effect
 2017-07-12	FranklinShen	workflowr_example
 2017-07-12	ConstanzaSilva	Wednesday
 2017-07-12	studylopez	Test_R
 2017-07-18	jbryois	workflowr
+2017-07-21	xiangzhu	sumstat-catalog
 2017-07-21	xiangzhu	sumstat-catalog
 2017-07-21	kkdey	singlecell-clustering
 2017-07-23	nateaff	eeg-complex
@@ -127,6 +126,7 @@ date	user	repo
 2017-11-29	dcgerard	mupdog_analysis
 2017-12-03	jhsiao999	nasalmicrobiome
 2017-12-07	kevinlkx	test
+2017-12-08	tk382	SCNoisyClustering
 2017-12-11	annakrystalli	rstudio_git_github_hpc
 2017-12-12	AlfonsoRReyes	myproject
 2017-12-13	han16	mutation-rate-modeling
@@ -192,7 +192,6 @@ date	user	repo
 2018-06-20	viviancai13	workflowr
 2018-06-20	haiderinam	myproject
 2018-06-20	biomonika	myproject2
-2018-06-20	biomonika	myproject2
 2018-06-20	kevinlkx	ATAC-seq_footprint_analysis
 2018-06-20	skitchen19	website_mock
 2018-06-20	rongma	bootcamp
@@ -204,6 +203,7 @@ date	user	repo
 2018-06-26	KaiqianZhang	Celltype-Variable-Selection
 2018-07-05	mengyin	general_ash
 2018-07-11	dewoller	user-conference
+2018-07-12	han16	An_Introduction_to_Bayesian_Statistics
 2018-07-15	dewoller	sleep_apneoa
 2018-07-15	willwerscheid	FLASHvestigations
 2018-07-16	chunghueywu	my_wflow_project
@@ -232,7 +232,6 @@ date	user	repo
 2018-07-17	mmYeung	Reproducibility_Live_Demo
 2018-07-17	yao-ban	workshop
 2018-07-17	blaw36	live-demo
-2018-07-17	Moderate-PG	workflowr-live-demo
 2018-07-17	Moderate-PG	workflowr-live-demo
 2018-07-17	jdblischak	live-demo
 2018-07-17	heejungshim	live-demo
@@ -272,6 +271,7 @@ date	user	repo
 2018-08-23	anthonyhung	myproject
 2018-08-26	jonathandash	understorey
 2018-08-30	davidhen	ipdln_hackathon
+2018-08-30	amromeo	icsh_irf
 2018-09-01	flliu315	project
 2018-09-07	dewoller	doctor-shopping
 2018-09-10	dewoller	wf_continuing
