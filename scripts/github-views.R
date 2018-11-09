@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Get number of views of workflowr GitHub repository
+# Get number of views of workflowr GitHub repository for last 14 days
 #
 # Requires environment variable GITHUB_PAT with GitHub token
 #
@@ -14,6 +14,7 @@ suppressPackageStartupMessages(library("lubridate"))
 suppressPackageStartupMessages(library("purrr"))
 
 fname <- commandArgs(trailingOnly = TRUE)[1]
+# fname <- "data/github-views.txt"
 stopifnot(file.exists(fname))
 
 datafile <- read.delim(fname, stringsAsFactors = FALSE)
@@ -30,5 +31,4 @@ colnames(views)[1] <- "date"
 date_min <- min(views$date)
 output <- rbind(datafile[datafile$date < date_min, ], views)
 
-write.table(output, file = fname, quote = FALSE, sep = "\t",
-            row.names = FALSE)
+write.table(output, file = fname, quote = FALSE, sep = "\t", row.names = FALSE)
