@@ -11,7 +11,6 @@
 
 suppressPackageStartupMessages(library("gh"))
 suppressPackageStartupMessages(library("lubridate"))
-suppressPackageStartupMessages(library("purrr"))
 
 fname <- commandArgs(trailingOnly = TRUE)[1]
 # fname <- "data/github-views.txt"
@@ -23,7 +22,7 @@ datafile$date <- as_date(datafile$date)
 views <- gh("/repos/:owner/:repo/traffic/views",
             owner = "jdblischak", repo = "workflowr")
 views <- views$views
-views <- map_dfr(views, function(x) as.data.frame(x, stringsAsFactors = FALSE))
+views <- do.call(rbind.data.frame, views)
 views$timestamp <- as_date(views$timestamp)
 colnames(views)[1] <- "date"
 

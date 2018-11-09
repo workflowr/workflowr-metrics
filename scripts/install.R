@@ -1,5 +1,3 @@
 install.packages("cranlogs")
-install.packages("dplyr")
 install.packages("gh")
 install.packages("lubridate")
-install.packages("purrr")
