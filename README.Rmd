@@ -16,6 +16,14 @@ knitr::opts_chunk$set(
 
 Last update: `r Sys.time()`
 
+```{r stars}
+stars <- read.delim("data/github-stars.txt", stringsAsFactors = FALSE)
+stars$count <- 1
+stars$cumulative <- cumsum(stars$count)
+```
+
+* Stars of workflowr GitHub repository: `r stars$cumulative[nrow(stars)]`
+
 ```{r downloads}
 downloads <- read.delim("data/cranlogs.txt", stringsAsFactors = FALSE)
 downloads$cumulative <- cumsum(downloads$count)
