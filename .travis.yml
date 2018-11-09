@@ -12,11 +12,8 @@ r:
 repos:
   CRAN: https://mran.microsoft.com/snapshot/2018-11-09
 
-r_packages:
-  - cranlogs
-  - dplyr
-  - lubridate
-  - purrr
+install:
+  - Rscript scripts/install.R
 
 script:
   - bash main.sh
