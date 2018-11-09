@@ -5,8 +5,8 @@
 # https://cranlogs.r-pkg.org/
 # https://github.com/metacran/cranlogs
 
-library("cranlogs")
-library("lubridate")
+suppressPackageStartupMessages(library("cranlogs"))
+suppressPackageStartupMessages(library("lubridate"))
 
 # workflowr was released on 2018-04-23
 downloads <- cran_downloads(package = "workflowr",
