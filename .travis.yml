@@ -9,5 +9,14 @@ pandoc_version: 1.19.2.1
 r:
   - 3.5.1
 
+repos:
+  CRAN: https://mran.microsoft.com/snapshot/2018-11-09
+
+r_packages:
+  - cranlogs
+  - dplyr
+  - lubridate
+  - purrr
+
 script:
   - bash main.sh

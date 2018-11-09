@@ -1,8 +1,0 @@
-Package: workflowr.metrics
-Imports:
-    cranlogs,
-    dplyr,
-    lubridate,
-    purrr
-Description: Record metrics of workflowr usage. The file DESCRIPTION is used to
-    install dependencies. This repository is not an R package.
