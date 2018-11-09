@@ -21,14 +21,11 @@ script:
   - Rscript scripts/github-clones.R data/github-clones.txt
 
 # Commit updates to data files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_PAT  # Set in the settings page of your repository, as a secure variable
-  target-branch: gh-pages
-  keep-history: true
-  allow-empty-commit: true
-  verbose: true
-  on:
-    branch: master
-    repo: workflowr/workflowr-metrics
+after_success: |
+  if [ -n "$GITHUB_PAT" ]; then
+    git config user.name "Travis CI"
+    git config user.email "Travis CI"
+    git add data/
+    git commit --allow-empty -m "Update data [skip ci]"
+    git push --quiet https://jdblischak:$GITHUB_PAT@github.com//workflowr-metrics-master master &>/dev/null
+  fi
