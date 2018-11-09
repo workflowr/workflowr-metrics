@@ -33,6 +33,6 @@ after_success: |
     git checkout -q master
     git add data/ README.md
     git commit --allow-empty -m "Update data [skip ci]"
-    git remote add autheticated https://workflowr:$GITHUB_PAT@github.com/workflowr/workflowr-metrics.git
+    git remote add authenticated https://workflowr:$GITHUB_PAT@github.com/workflowr/workflowr-metrics.git
     git push --quiet authenticated master &>/dev/null
   fi
