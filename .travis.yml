@@ -19,6 +19,7 @@ script:
   - Rscript scripts/cranlogs.R data/cranlogs.txt
   - Rscript scripts/github-views.R data/github-views.txt
   - Rscript scripts/github-clones.R data/github-clones.txt
+  - Rscript -e 'rmarkdown::render("readme.Rmd")'
 
 branches:
   only:
@@ -30,7 +31,7 @@ after_success: |
     git config user.name "Travis CI"
     git config user.email "Travis CI"
     git checkout -q master
-    git add data/
+    git add data/ README.md
     git commit --allow-empty -m "Update data [skip ci]"
     git push --quiet https://workflowr:$GITHUB_PAT@github.com/workflowr/workflowr-metrics.git master &>/dev/null
   fi

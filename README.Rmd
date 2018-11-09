@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE
+)
+```
+
+# workflowr-metrics
+
+Last update: `r Sys.time()`
+
+```{r downloads}
+downloads <- read.delim("data/cranlogs.txt", stringsAsFactors = FALSE)
+downloads$cumulative <- cumsum(downloads$count)
+```
+
+* CRAN downloads: `r downloads$cumulative[nrow(downloads)]`
+
+```{r views}
+views <- read.delim("data/github-views.txt", stringsAsFactors = FALSE)
+views$cumulative <- cumsum(views$count)
+```
+
+* Views of workflowr GitHub repository: `r views$cumulative[nrow(views)]`
+
+```{r clones}
+clones <- read.delim("data/github-clones.txt", stringsAsFactors = FALSE)
+clones$cumulative <- cumsum(clones$count)
+```
+
+* Clones of workflowr GitHub repository: `r clones$cumulative[nrow(clones)]`
