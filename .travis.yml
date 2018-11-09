@@ -1,0 +1,13 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: r
+sudo: false
+cache: packages
+latex: false
+pandoc_version: 1.19.2.1
+
+r:
+  - 3.5.1
+
+script:
+  - bash main.sh
