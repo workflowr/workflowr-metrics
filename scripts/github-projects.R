@@ -19,18 +19,21 @@ stopifnot(file.exists(fname))
 projects <- list()
 page <- 1
 while (TRUE) {
-  # Can't pass page argument because of the query I am using
+  # Can't pass page argument because of the query I am using. Also, can't use
+  # .limit argument because of the structure of the search API results.
   g <- gh(paste0("/search/code?page=", page,
-                 "&q=_site.yml+in%3Apath+path%3Aanalysis"))
+                 "&q=_site.yml+in%3Apath+path%3Aanalysis&sort=indexed&per_page=100"))
   projects <- c(projects, g$items)
   if (length(g$items) < 30 || page > 20) {
     break
   } else {
     page <- page + 1
     # To avoid triggering abuse detection mechanisms
-    Sys.sleep(3)
+    Sys.sleep(15)
   }
 }
+
+stopifnot(length(projects) == g$total_count)
 
 project_users <- Map(function(x) x[["repository"]][["owner"]][["login"]],
                      projects)
@@ -54,7 +57,7 @@ output <- data.frame(date = created_at, user = project_users,
                      repo = project_names, stringsAsFactors = FALSE)
 output <- output[order(output$date), ]
 # Note: Some repositoires may have been created prior to the beta release of
-# workflowr in Dec 2016 because they were later convereted to workflowr
+# workflowr in Dec 2016 because they were later converted to workflowr
 # projects.
 
 write.table(output, file = fname, quote = FALSE, sep = "\t", row.names = FALSE)
