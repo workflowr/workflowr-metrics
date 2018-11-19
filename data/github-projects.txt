@@ -62,7 +62,6 @@ date	user	repo
 2017-06-29	eEricWagner	ProjectPortfolio
 2017-07-05	kkdey	pathtpx-workflow
 2017-07-06	DongyueXie	Sequence-Motif-Depletion
-2017-07-11	GaoYu	myproject
 2017-07-12	Khumbu-kay	R_workflow
 2017-07-12	laurabau	workflo
 2017-07-12	Oliviagao74	batch_effect_bootcamp
@@ -167,6 +166,7 @@ date	user	repo
 2018-04-25	syl0125	myproject
 2018-04-26	daaronr	substitution-replaced
 2018-05-01	brimittleman	threeprimeseq
+2018-05-02	stephenslab	dsc-log-fold-change
 2018-05-03	DongyueXie	smash-gen
 2018-05-10	zouyuxin	mash_Gandal_2018
 2018-05-10	jixing475	aijun_leigongteng
@@ -277,6 +277,7 @@ date	user	repo
 2018-09-10	jonathandash	tekapo-shelterbelt
 2018-09-10	dewoller	wf_continuing
 2018-09-13	Oshlack	combes-organoid-paper
+2018-09-18	Lauren-Blake	weight_restoration
 2018-09-20	danielschad	test_workflowr
 2018-09-21	parajago	TCGA-Nigerian-RNAseq
 2018-09-21	lobbrabe	my_project
@@ -332,3 +333,7 @@ date	user	repo
 2018-11-03	zihao12	finm331-fall-2018
 2018-11-08	courtneyschiffman	Drug_Repo
 2018-11-10	dewoller	door_pix_recognize
+2018-11-13	DongyueXie	stat349
+2018-11-16	jhsiao999	singlecell-viz
+2018-11-16	ssoba	lake_powell
+2018-11-18	jasonbaik94	myproject
