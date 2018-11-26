@@ -2,6 +2,7 @@ date	user	repo
 2015-06-14	stephens999	fiveMinuteStats
 2015-10-14	stephenslab	gtexresults
 2015-12-15	stephens999	hgen48600
+2015-12-30	timtrice	ncdc_storm_events
 2016-04-06	xiangzhu	rss-gsea
 2016-04-22	liu-genomics	Tiao_Seq
 2016-07-23	YubinXie	Life
@@ -81,7 +82,6 @@ date	user	repo
 2017-07-12	Sarthok	batch_effect
 2017-07-12	vldeleo	bootcamp2017_batcheffect
 2017-07-12	ConstanzaSilva	Wednesday
-2017-07-18	jbryois	workflowr
 2017-07-21	xiangzhu	sumstat-catalog
 2017-07-21	kkdey	singlecell-clustering
 2017-07-23	nateaff	eeg-complex
@@ -244,8 +244,8 @@ date	user	repo
 2018-07-20	dewoller	benzodiazepine_opioid_usage
 2018-07-20	mplastow	street_tree_census
 2018-07-20	mplastow	street_trees_wf
-2018-07-23	bingrus	myproject
 2018-07-23	dewoller	data_science_students_2018
+2018-07-23	bingrus	myproject
 2018-07-24	rukaht	RUK1IPL
 2018-07-24	dennyshin	first_project
 2018-07-24	Nirmala100	STM5IPL
@@ -254,6 +254,7 @@ date	user	repo
 2018-07-25	ajpelu	testWFr
 2018-07-25	dennyshin	Learning-Thoughts
 2018-08-01	brimittleman	comparative_threeprime
+2018-08-04	timtrice	twitterlikes
 2018-08-04	timtrice	twitterlikes
 2018-08-06	dewoller	dusk2dawn
 2018-08-07	davismcc	fibroblast-clonality
@@ -295,7 +296,6 @@ date	user	repo
 2018-09-23	llinaslab	sanger_rnaseq
 2018-09-28	melsiddieg	GBM_Results
 2018-09-28	docmanny	workflowr-blogdown-experiment
-2018-09-28	surbut	myproject
 2018-09-28	anthonyhung	MSTPsummerstatistics
 2018-10-01	xhyuo	Workflowr_GBRS_array0
 2018-10-02	stephens999	susier-investigate
@@ -337,3 +337,6 @@ date	user	repo
 2018-11-16	jhsiao999	singlecell-viz
 2018-11-16	ssoba	lake_powell
 2018-11-18	jasonbaik94	myproject
+2018-11-20	simingz	cropseq
+2018-11-21	annakrystalli	git-github-intro
+2018-11-25	timtrice	hurricane_harvey_prelims
