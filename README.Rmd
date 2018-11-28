@@ -39,6 +39,21 @@ downloads$cumulative <- cumsum(downloads$count)
 
 * CRAN downloads: `r downloads$cumulative[nrow(downloads)]`
 
+```{r forks}
+forks <- read.delim("data/github-forks.txt", stringsAsFactors = FALSE)
+forks$count <- 1
+forks$cumulative <- cumsum(forks$count)
+```
+
+* Forks of workflowr GitHub repository: `r forks$cumulative[nrow(forks)]`
+
+```{r forks-updated}
+# How many forks were updated more than 60 seconds after being created?
+forks_updated <- sum(forks$update_difftime > 60)
+```
+
+* Forks of workflowr GitHub repository with updates: `r forks_updated`
+
 ```{r views}
 views <- read.delim("data/github-views.txt", stringsAsFactors = FALSE)
 views$cumulative <- cumsum(views$count)

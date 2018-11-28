@@ -19,6 +19,7 @@ script:
   - Rscript scripts/github-projects.R data/github-projects.txt
   - Rscript scripts/github-stars.R data/github-stars.txt
   - Rscript scripts/cranlogs.R data/cranlogs.txt
+  - Rscript scripts/github-forks.R data/github-forks.txt
   - Rscript scripts/github-views.R data/github-views.txt
   - Rscript scripts/github-clones.R data/github-clones.txt
   - Rscript -e 'rmarkdown::render("README.Rmd")'
