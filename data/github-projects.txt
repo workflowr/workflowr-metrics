@@ -26,9 +26,13 @@ date	user	repo
 2017-01-29	LSun	truncash
 2017-02-05	simecek	TheAgingProteome
 2017-02-06	jdblischak	workflowr-demo-archive
+2017-02-06	jdblischak	workflowr-demo-archive
 2017-02-06	jhsiao999	singleCell-workflow
 2017-02-15	jean997	rccSims
+2017-02-15	jean997	rccSims
 2017-02-21	stephens999	singlecell-ideas
+2017-02-21	stephens999	singlecell-ideas
+2017-02-25	ameilij	trmpred
 2017-02-25	ameilij	trmpred
 2017-02-26	stephens999	dscr-normalmeans
 2017-02-27	stephenslab	ebayesthresh2
@@ -68,7 +72,6 @@ date	user	repo
 2017-07-12	Oliviagao74	batch_effect_bootcamp
 2017-07-12	whateversclever79	batchEffect
 2017-07-12	haihaba	WorkFlowR_ex_20170712_01
-2017-07-12	mariano11	batch_effect
 2017-07-12	RuBP	BatchEffect
 2017-07-12	FranklinShen	workflowr_example
 2017-07-12	HolyRomulus	batch
@@ -119,7 +122,6 @@ date	user	repo
 2017-11-16	jdblischak	wflow-build-undefined-variable
 2017-11-17	annakrystalli	learn-TwitteR
 2017-11-18	kkdey	methClust-pages
-2017-11-21	diengiau	efinlit
 2017-11-23	kkdey	CorShrink-pages
 2017-11-24	rgayler	vsa_bind_ecc
 2017-11-29	dcgerard	mupdog_analysis
@@ -136,8 +138,6 @@ date	user	repo
 2017-12-28	DongyueXie	GSCCA
 2018-01-08	noahknob	Stellar_Formation_Rate
 2018-01-10	zouyuxin	mashr_contrast_simulation
-2018-01-23	kkdey	autoimmune
-2018-01-23	VPetukhov	dropEstAnalysis
 2018-01-24	jhsiao999	sc-power
 2018-01-24	jhsiao999	dropseq
 2018-01-25	jdblischak	new-project
