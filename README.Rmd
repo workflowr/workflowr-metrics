@@ -39,6 +39,12 @@ downloads$cumulative <- cumsum(downloads$count)
 
 * CRAN downloads: `r downloads$cumulative[nrow(downloads)]`
 
+```{r watchers}
+watchers <- read.delim("data/github-watchers.txt", stringsAsFactors = FALSE)
+```
+
+* Watchers of workflowr GitHub repository: `r nrow(watchers)`
+
 ```{r forks}
 forks <- read.delim("data/github-forks.txt", stringsAsFactors = FALSE)
 forks$count <- 1
