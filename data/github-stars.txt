@@ -238,3 +238,5 @@ date	stargazer
 2018-11-25	gisma
 2018-11-26	jaapwalhout
 2018-11-28	harlydurbin
+2018-11-30	gfleetwood
+2018-11-30	mauriziopaul
