@@ -162,7 +162,6 @@ date	user	repo
 2018-04-12	kkdey	Black_magazines
 2018-04-13	Lauren-Blake	Explore_WGCNA
 2018-04-16	zouyuxin	mash_John_2015
-2018-04-23	datalorax	sch-ach-gaps
 2018-04-25	syl0125	myproject
 2018-04-26	daaronr	substitution-replaced
 2018-05-01	brimittleman	threeprimeseq
@@ -341,8 +340,11 @@ date	user	repo
 2018-11-25	timtrice	hurricane_harvey_prelims
 2018-12-02	timtrice	eclipse_megamovie
 2018-12-03	andrewg3311	susieR_logistic_wflow
-2018-12-05	dcgerard	orderEDA
 2018-12-05	LSun	cashr_paper
+2018-12-05	dcgerard	orderEDA
 2018-12-06	heqixin	var_functionalDiff
 2018-12-07	KristinaRiemer	wflow_test
 2018-12-08	jasonbaik94	playoff_score_effect_site
+2018-12-13	courtneyschiffman	CourtneySchiffman
+2018-12-14	BUStools	BUS_notebooks_R
+2018-12-14	dewoller	tenyear

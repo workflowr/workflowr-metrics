@@ -8,7 +8,7 @@ date	user	update_difftime
 2017-08-24	stevepeak	2
 2017-08-25	xingjiegenetics	2
 2017-09-01	johnsonlab	3
-2017-09-18	CreRecombinase	20562273
+2017-09-18	CreRecombinase	38990440
 2017-10-11	MMesbahU	2
 2017-10-20	dondealban	2
 2017-10-31	vanAmsterdam	2
