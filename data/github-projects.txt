@@ -332,12 +332,13 @@ date	user	repo
 2018-11-08	courtneyschiffman	Drug_Repo
 2018-11-10	dewoller	door_pix_recognize
 2018-11-13	DongyueXie	stat349
-2018-11-16	jhsiao999	singlecell-viz
 2018-11-16	ssoba	lake_powell
+2018-11-16	jhsiao999	singlecell-viz
 2018-11-18	jasonbaik94	myproject
 2018-11-20	simingz	cropseq
 2018-11-21	annakrystalli	git-github-intro
 2018-11-25	timtrice	hurricane_harvey_prelims
+2018-12-01	tamdrashtri	data-analysis-final-project
 2018-12-02	timtrice	eclipse_megamovie
 2018-12-03	andrewg3311	susieR_logistic_wflow
 2018-12-05	LSun	cashr_paper
@@ -348,3 +349,6 @@ date	user	repo
 2018-12-13	courtneyschiffman	CourtneySchiffman
 2018-12-14	BUStools	BUS_notebooks_R
 2018-12-14	dewoller	tenyear
+2018-12-18	ChiChunLiu	myproject
+2018-12-20	zouyuxin	GTEx
+2018-12-22	huangyh09	vireo-manual
