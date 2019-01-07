@@ -243,3 +243,5 @@ date	stargazer
 2018-12-07	EricAlcaide
 2018-12-14	ASKurz
 2018-12-25	scarbunkle
+2019-01-03	durraniu
+2019-01-03	MarijnJABoer

@@ -255,6 +255,7 @@ date	user	repo
 2018-08-04	timtrice	twitterlikes
 2018-08-06	dewoller	dusk2dawn
 2018-08-07	davismcc	fibroblast-clonality
+2018-08-07	davismcc	fibroblast-clonality
 2018-08-07	umccr	google_lims
 2018-08-08	timtrice	workflowr_child_docs
 2018-08-09	dewoller	LMS_reports
@@ -266,8 +267,6 @@ date	user	repo
 2018-08-20	annakrystalli	intro-r-gis
 2018-08-20	AnselmJeong	workflowr_test
 2018-08-21	rukaht	WorkFlowTutorial
-2018-08-21	rukaht	WorkFlowTutorial
-2018-08-23	anthonyhung	myproject
 2018-08-23	anthonyhung	myproject
 2018-08-26	jonathandash	understorey
 2018-08-30	amromeo	icsh_irf
@@ -276,7 +275,6 @@ date	user	repo
 2018-09-07	dewoller	doctor-shopping
 2018-09-10	jonathandash	tekapo-shelterbelt
 2018-09-10	dewoller	wf_continuing
-2018-09-13	Oshlack	combes-organoid-paper
 2018-09-18	Lauren-Blake	weight_restoration
 2018-09-20	danielschad	test_workflowr
 2018-09-21	parajago	TCGA-Nigerian-RNAseq
@@ -339,6 +337,7 @@ date	user	repo
 2018-11-18	jasonbaik94	myproject
 2018-11-20	simingz	cropseq
 2018-11-21	annakrystalli	git-github-intro
+2018-11-25	timtrice	hurricane_harvey_prelims
 2018-12-01	tamdrashtri	data-analysis-final-project
 2018-12-02	timtrice	eclipse_megamovie
 2018-12-03	andrewg3311	susieR_logistic_wflow
@@ -354,4 +353,6 @@ date	user	repo
 2018-12-20	zouyuxin	GTEx
 2018-12-22	huangyh09	vireo-manual
 2018-12-26	scottzijiezhang	MeRIPtoolsManual
+2018-12-27	LSun	OracleBayesMT
 2018-12-28	Voltemand	Summer-Project
+2019-01-07	dewoller	australia_opioids
