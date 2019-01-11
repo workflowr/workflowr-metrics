@@ -51,18 +51,25 @@ project_names <- vapply(projects,
                         function(x) x[["repository"]][["name"]],
                         character(1))
 
-# Get created_at dates
+# Get created_at dates and other repo info
 created_at <- character(length(project_users))
+forks <- numeric(length(project_users))
+stars <- numeric(length(project_users))
+open_issues <- forks <- numeric(length(project_users))
 for (i in seq_along(project_users)) {
   g <- gh("/repos/:owner/:repo", owner = project_users[i],
           repo = project_names[i])
   created_at[i] <- g$created_at
+  forks[i] <- g$forks_count
+  stars[i] <- g$stargazers_count
+  open_issues[i] <- g$open_issues_count
   Sys.sleep(0.5)
 }
 created_at <- as_date(created_at)
 
 output <- data.frame(date = created_at, user = project_users,
-                     repo = project_names, stringsAsFactors = FALSE)
+                     repo = project_names, forks, stars, open_issues,
+                     stringsAsFactors = FALSE)
 output <- output[order(output$date, output$user, output$repo), ]
 # Note: Some repositories may have been created prior to the beta release of
 # workflowr in Dec 2016 because they were later converted to workflowr
