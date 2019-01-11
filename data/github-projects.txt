@@ -1,4 +1,5 @@
 date	user	repo
+2014-03-19	stephenslab	smash-paper
 2015-06-14	stephens999	fiveMinuteStats
 2015-10-14	stephenslab	gtexresults
 2015-12-15	stephens999	hgen48600
@@ -356,3 +357,5 @@ date	user	repo
 2018-12-27	LSun	OracleBayesMT
 2019-01-07	dewoller	australia_opioids
 2019-01-07	jean997	ptb
+2019-01-10	lazappi	phd-thesis-analysis
+2019-01-11	timtrice	connors_rsi

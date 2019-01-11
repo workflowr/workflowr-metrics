@@ -26,10 +26,15 @@ per_page <- 100
 pages <- ceiling(total / per_page)
 p <- 1
 while (length(projects) < total) {
+
   g <- gh(paste0("/search/code?page=", p,
                  "&q=_site.yml+in%3Apath+path%3Aanalysis&sort=indexed&per_page=100"))
   projects <- c(projects, g$items)
-  projects <- projects[!duplicated(projects)]
+
+  # Remove duplicates
+  id <- vapply(projects, function(x) x[["repository"]][["id"]], numeric(1))
+  projects <- projects[!duplicated(id)]
+
   p <- if (p < pages) p + 1 else 1
   # To avoid triggering abuse detection mechanisms
   Sys.sleep(5)
@@ -38,13 +43,13 @@ while (length(projects) < total) {
 stopifnot(g$total_count == total)
 stopifnot(length(projects) == total)
 
-project_users <- Map(function(x) x[["repository"]][["owner"]][["login"]],
-                     projects)
-project_users <- unlist(project_users)
+project_users <- vapply(projects,
+                        function(x) x[["repository"]][["owner"]][["login"]],
+                        character(1))
 
-project_names <- Map(function(x) x[["repository"]][["name"]],
-                     projects)
-project_names <- unlist(project_names)
+project_names <- vapply(projects,
+                        function(x) x[["repository"]][["name"]],
+                        character(1))
 
 # Get created_at dates
 created_at <- character(length(project_users))
