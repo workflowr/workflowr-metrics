@@ -75,7 +75,7 @@ for (i in seq_along(project_users)) {
   open_issues[i] <- g$open_issues_count
   # To avoid triggering abuse detection mechanisms
   rate_lim <- gh("/rate_limit")
-  if (rate_lim$resources$core$remaining < 100) Sys.sleep(15) else Sys.sleep(0.5)
+  if (rate_lim$resources$core$remaining < 100) Sys.sleep(15) else Sys.sleep(1)
 }
 created_at <- as_date(created_at)
 
