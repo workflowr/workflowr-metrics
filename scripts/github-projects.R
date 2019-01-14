@@ -11,8 +11,17 @@ suppressPackageStartupMessages(library("gh"))
 suppressPackageStartupMessages(library("lubridate"))
 
 fname <- commandArgs(trailingOnly = TRUE)[1]
-# fname <- "data/github-projects.txt"
+if (is.na(fname)) fname <- "data/github-projects.txt"
 stopifnot(file.exists(fname))
+
+# Wait until sufficient API resources
+while (TRUE) {
+  source("scripts/github-rate.R")
+  if (rate_lim$resources$search$remaining > 10 &&
+      rate_lim$resources$core$remaining > 100) {
+    break
+  }
+}
 
 # Search query:
 # https://github.com/search?q=_site.yml+in%3Apath+path%3Aanalysis&type=Code
@@ -37,7 +46,8 @@ while (length(projects) < total) {
 
   p <- if (p < pages) p + 1 else 1
   # To avoid triggering abuse detection mechanisms
-  Sys.sleep(5)
+  rate_lim <- gh("/rate_limit")
+  if (rate_lim$resources$search$remaining < 10) Sys.sleep(15) else Sys.sleep(5)
 }
 
 stopifnot(g$total_count == total)
@@ -63,7 +73,9 @@ for (i in seq_along(project_users)) {
   forks[i] <- g$forks_count
   stars[i] <- g$stargazers_count
   open_issues[i] <- g$open_issues_count
-  Sys.sleep(0.5)
+  # To avoid triggering abuse detection mechanisms
+  rate_lim <- gh("/rate_limit")
+  if (rate_lim$resources$core$remaining < 100) Sys.sleep(15) else Sys.sleep(0.5)
 }
 created_at <- as_date(created_at)
 

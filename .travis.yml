@@ -16,7 +16,9 @@ install:
   - Rscript scripts/install.R
 
 script:
+  - Rscript scripts/github-rate.R
   - Rscript scripts/github-projects.R data/github-projects.txt
+  - Rscript scripts/github-rate.R
   - Rscript scripts/github-stars.R data/github-stars.txt
   - Rscript scripts/cranlogs.R data/cranlogs.txt
   - Rscript scripts/github-watchers.R data/github-watchers.txt
