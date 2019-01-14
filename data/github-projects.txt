@@ -173,7 +173,6 @@ date	user	repo	forks	stars	open_issues
 2018-05-12	LSun	BHq	0	0	0
 2018-05-17	adibender	simpamm	0	0	0
 2018-05-24	eossiander	OpioidMaps	0	0	0
-2018-05-25	KaiqianZhang	workflowrdemo	0	0	0
 2018-05-30	gatoravi	scstoch	0	0	0
 2018-06-05	mturchin20	InterPath	0	0	0
 2018-06-05	xinguangliu	myproject	0	0	0
@@ -285,7 +284,6 @@ date	user	repo	forks	stars	open_issues
 2018-09-21	JordanJousma	example_project	0	0	0
 2018-09-21	kzawieracz	mynewproject1	0	0	0
 2018-09-21	lobbrabe	my_project	0	0	0
-2018-09-21	parajago	TCGA-Nigerian-RNAseq	0	0	0
 2018-09-21	qicaibiology	my_project	0	0	0
 2018-09-21	sophiacarryl	workflow_project	0	0	0
 2018-09-21	Wenhe-Lin	my_project	0	0	0
@@ -359,3 +357,5 @@ date	user	repo	forks	stars	open_issues
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	0	0
 2019-01-11	timtrice	connors_rsi	0	0	0
+2019-01-12	parajago	TCGA-Nigerian-RNAseq	0	0	0
+2019-01-14	KaiqianZhang	susie-np	0	0	0

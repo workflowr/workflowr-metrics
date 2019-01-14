@@ -245,3 +245,5 @@ date	stargazer
 2018-12-25	scarbunkle
 2019-01-03	durraniu
 2019-01-03	MarijnJABoer
+2019-01-10	emilyriederer
+2019-01-11	dddd1007
