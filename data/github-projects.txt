@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	38	94	9
+2015-06-14	stephens999	fiveMinuteStats	38	95	9
 2015-10-14	stephenslab	gtexresults	5	8	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -104,7 +104,7 @@ date	user	repo	forks	stars	open_issues
 2017-09-18	jdblischak	test-git	0	0	0
 2017-09-18	MilesMcBain	keras_facial_keypoints	0	1	1
 2017-09-21	dcgerard	scmouthwash	0	0	0
-2017-10-05	IttaiEres	HiC	0	0	0
+2017-10-05	IttaiEres	HiC	0	1	0
 2017-10-06	JesseGarcia562	LD1000Genomes	0	0	0
 2017-10-12	vanAmsterdam	epi_simulations	0	0	0
 2017-10-17	brimittleman	Net-seq	0	0	0
@@ -166,7 +166,7 @@ date	user	repo	forks	stars	open_issues
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
 2018-05-01	brimittleman	threeprimeseq	0	1	0
-2018-05-02	stephenslab	dsc-log-fold-change	1	0	0
+2018-05-02	stephenslab	dsc-log-fold-change	1	1	0
 2018-05-03	DongyueXie	smash-gen	0	0	0
 2018-05-10	jixing475	aijun_leigongteng	0	0	0
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
@@ -359,3 +359,6 @@ date	user	repo	forks	stars	open_issues
 2019-01-11	timtrice	connors_rsi	0	0	0
 2019-01-12	parajago	TCGA-Nigerian-RNAseq	0	0	0
 2019-01-14	KaiqianZhang	susie-np	0	0	0
+2019-01-14	kkdey	CorShrink2	0	0	0
+2019-01-15	zouyuxin	dsc-susie-z	0	0	0
+2019-01-19	KaiqianZhang	research-notes	0	0	0

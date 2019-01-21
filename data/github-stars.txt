@@ -155,7 +155,6 @@ date	stargazer
 2018-05-23	kellyquek
 2018-05-24	thoolihan
 2018-05-25	kimiyuki
-2018-05-25	dustindall
 2018-05-26	sbalci
 2018-05-28	ViniciusBRodrigues
 2018-05-29	talegari
@@ -247,3 +246,4 @@ date	stargazer
 2019-01-03	MarijnJABoer
 2019-01-10	emilyriederer
 2019-01-11	dddd1007
+2019-01-15	AmaliT
