@@ -18,19 +18,19 @@ env:
   - secure: "iZK/YhJB1WZqe8x7GaCdH/qsAw59m8wGnF0YCIqAHkClKh0z1lQ5L/2lKBuWk3r5sbhlrWKUGuaCXoz00mgU5xFM6ATblwB5rjhc13O9PGJDCjNxfYyrB/4s6VKhgyJ4YbOrwftNBe8E64DzILZ1DYxBHc+NBAKe/G68l3OPvCYwo8N/SbfHK98u6U1RQWRZ0c9zLacht6uZEvke0fhhaV+HH741avV12294g5zkNQP0Ai9cZ9GKrScai9w9XmVbJc4YMmfEhxR0DfFWY9d2AseXxqRF8R5IwzLUxSHtqpmAsFqG8WsJrzbQrMBi8Eluk7osOWGchAdWdNyC7N3H5qlVBicbXwVak+mxsWHsoY/aUinFqdPYKstZbzwTrs+S+yZpeUf3wX4vC1KZrPb3pgwnHlMcAeYaA9F11+QrbIbhscGCFSzB5zLWz9Kc12fk/0HeAvgI8ixUNzglDn9FfyESjfdnldcCF+uJyzR0x7OUtQwms/9HuT5bBhZmr0toS3iq4F7T82sf3vMuXeE2eoCJ7lUzpPpLOzEiwETOVHGk1wsXR+et1KWeZ5pGr8AVyxIv9LMNdJDwSwxFRuIi1Ec5+1fNRQRvcRQs6YtBjMIv+lk+Jx+Pm/nHKynRw8n8yYPDBnID1y3+YePljJoV/MpP3zwdkvDpEoAzwQg7umY="
 
 install:
-  - Rscript scripts/install.R
+  - travis_retry Rscript scripts/install.R
 
 script:
-  - Rscript scripts/github-rate.R
-  - Rscript scripts/github-projects.R data/github-projects.txt
-  - Rscript scripts/github-rate.R
-  - Rscript scripts/github-stars.R data/github-stars.txt
-  - Rscript scripts/cranlogs.R data/cranlogs.txt
-  - Rscript scripts/github-watchers.R data/github-watchers.txt
-  - Rscript scripts/github-forks.R data/github-forks.txt
-  - Rscript scripts/github-views.R data/github-views.txt
-  - Rscript scripts/github-clones.R data/github-clones.txt
-  - Rscript -e 'rmarkdown::render("README.Rmd")'
+  - travis_retry Rscript scripts/github-rate.R
+  - travis_retry Rscript scripts/github-projects.R data/github-projects.txt
+  - travis_retry Rscript scripts/github-rate.R
+  - travis_retry Rscript scripts/github-stars.R data/github-stars.txt
+  - travis_retry Rscript scripts/cranlogs.R data/cranlogs.txt
+  - travis_retry Rscript scripts/github-watchers.R data/github-watchers.txt
+  - travis_retry Rscript scripts/github-forks.R data/github-forks.txt
+  - travis_retry Rscript scripts/github-views.R data/github-views.txt
+  - travis_retry Rscript scripts/github-clones.R data/github-clones.txt
+  - travis_retry Rscript -e 'rmarkdown::render("README.Rmd")'
 
 branches:
   only:

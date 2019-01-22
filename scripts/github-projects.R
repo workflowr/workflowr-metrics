@@ -34,6 +34,8 @@ total <- gh("/search/code?q=_site.yml+in%3Apath+path%3Aanalysis")$total_count
 per_page <- 100
 pages <- ceiling(total / per_page)
 p <- 1
+message("Searching for workflowr projects")
+message(sprintf("Expecting %d projects", total))
 while (length(projects) < total) {
 
   g <- gh(paste0("/search/code?page=", p,
@@ -50,8 +52,14 @@ while (length(projects) < total) {
   if (rate_lim$resources$search$remaining < 10) Sys.sleep(15) else Sys.sleep(5)
 }
 
-stopifnot(g$total_count == total)
-stopifnot(length(projects) == total)
+message("Finished searching for workflowr projects")
+message(sprintf("Found %d projects", length(projects)))
+message(sprintf("The latest count returned by the search was %d", g$total_count))
+stopifnot(length(projects) == total || length(projects) == g$total_count)
+if (g$total_count != total) {
+  warning("Mismatch between original and final estimates of workflowr projects: ",
+          sprintf("%d vs %d", total, g$total_count))
+}
 
 project_users <- vapply(projects,
                         function(x) x[["repository"]][["owner"]][["login"]],
@@ -66,6 +74,7 @@ created_at <- character(length(project_users))
 forks <- numeric(length(project_users))
 stars <- numeric(length(project_users))
 open_issues <- forks <- numeric(length(project_users))
+message("Gathering information for workflowr projects")
 for (i in seq_along(project_users)) {
   g <- gh("/repos/:owner/:repo", owner = project_users[i],
           repo = project_names[i])
@@ -76,6 +85,7 @@ for (i in seq_along(project_users)) {
   # To avoid triggering abuse detection mechanisms
   rate_lim <- gh("/rate_limit")
   if (rate_lim$resources$core$remaining < 100) Sys.sleep(15) else Sys.sleep(1)
+  if (i %% 25 == 0) message(sprintf("Completed %d / %d", i, length(projects)))
 }
 created_at <- as_date(created_at)
 
