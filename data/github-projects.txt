@@ -1,7 +1,7 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
 2015-06-14	stephens999	fiveMinuteStats	38	95	9
-2015-10-14	stephenslab	gtexresults	5	8	0
+2015-10-14	stephenslab	gtexresults	5	9	1
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
 2016-04-06	xiangzhu	rss-gsea	1	4	1
@@ -362,3 +362,7 @@ date	user	repo	forks	stars	open_issues
 2019-01-14	kkdey	CorShrink2	0	0	0
 2019-01-15	zouyuxin	dsc-susie-z	0	0	0
 2019-01-19	KaiqianZhang	research-notes	0	0	0
+2019-01-24	anamariaelek	germfree-mice-RNA-analysis	0	0	0
+2019-01-25	jdblischak	for-future-reference	0	0	0
+2019-01-25	lo2811	IPFproject	0	0	0
+2019-01-25	yasinkaymaz	Harvard-NissenLab	0	0	0
