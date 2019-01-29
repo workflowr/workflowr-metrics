@@ -1,7 +1,14 @@
-install.packages("cranlogs")
-install.packages("gh")
-install.packages("lubridate")
-install.packages("rmarkdown")
+pkgs <- c(
+  "cranlogs",
+  "gh",
+  "lubridate",
+  "rmarkdown"
+)
 # To run scripts/github-projects-stats.R locally
-# install.packages("git2r")
-# install.packages("workflowr")
+# pkgs <- c(pkgs, "git2r", "workflowr")
+
+installed <- rownames(installed.packages())
+
+for (p in pkgs) {
+  if (!p %in% installed) install.packages(p)
+}
