@@ -5,13 +5,13 @@ workflowr-metrics
 
 [![Travis-CI Build Status](https://travis-ci.org/workflowr/workflowr-metrics.svg?branch=master)](https://travis-ci.org/workflowr/workflowr-metrics)
 
-Last update: 2019-01-28 15:00:56
+Last update: 2019-01-29 20:10:30
 
 -   Number of workflowr projects on GitHub: 367
 
 -   Stars of workflowr GitHub repository: 248
 
--   CRAN downloads: 2576
+-   CRAN downloads: 2587
 
 -   Watchers of workflowr GitHub repository: 20
 
@@ -19,6 +19,6 @@ Last update: 2019-01-28 15:00:56
 
 -   Forks of workflowr GitHub repository with updates: 4
 
--   Views of workflowr GitHub repository: 3092
+-   Views of workflowr GitHub repository: 3100
 
--   Clones of workflowr GitHub repository: 280
+-   Clones of workflowr GitHub repository: 278
