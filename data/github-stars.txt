@@ -247,3 +247,9 @@ date	stargazer
 2019-01-11	dddd1007
 2019-01-15	AmaliT
 2019-01-25	n1l-404
+2019-01-30	FedericoComoglio
+2019-01-31	Zepeng-Mu
+2019-01-31	rogues-gallery
+2019-02-01	ryansafner
+2019-02-01	CharlesJB
+2019-02-03	fei0810
