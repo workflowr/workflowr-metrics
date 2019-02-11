@@ -1,14 +1,14 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	38	95	9
-2015-10-14	stephenslab	gtexresults	5	9	0
+2015-06-14	stephens999	fiveMinuteStats	40	95	9
+2015-10-14	stephenslab	gtexresults	5	10	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
 2016-04-06	xiangzhu	rss-gsea	1	4	1
 2016-04-22	liu-genomics	Tiao_Seq	0	0	4
 2016-07-23	YubinXie	Life	0	0	0
 2016-09-11	kkdey	ecostructure	1	3	2
-2016-10-28	jdblischak	fucci-seq	3	2	2
+2016-10-28	jdblischak	fucci-seq	3	3	3
 2016-11-17	dcgerard	updog_sims	0	0	0
 2016-11-17	stephenslab	fast-ash.orig	0	0	2
 2016-12-05	liu-genomics	ASD	0	0	0
@@ -104,7 +104,7 @@ date	user	repo	forks	stars	open_issues
 2017-09-18	jdblischak	test-git	0	0	0
 2017-09-18	MilesMcBain	keras_facial_keypoints	0	1	1
 2017-09-21	dcgerard	scmouthwash	0	0	0
-2017-10-05	IttaiEres	HiC	0	1	0
+2017-10-05	IttaiEres	HiC	1	1	0
 2017-10-06	JesseGarcia562	LD1000Genomes	0	0	0
 2017-10-12	vanAmsterdam	epi_simulations	0	0	0
 2017-10-17	brimittleman	Net-seq	0	0	0
@@ -115,7 +115,7 @@ date	user	repo	forks	stars	open_issues
 2017-11-07	annakrystalli	workflowr-example-project	0	0	0
 2017-11-07	pzross	pberghei_ap2mutant	0	0	0
 2017-11-10	jdblischak	test-push-pull	0	0	0
-2017-11-10	pwh124	sc-da-parkinsons	2	3	0
+2017-11-10	pwh124	sc-da-parkinsons	3	3	0
 2017-11-15	stephenslab	mash-application-immune	0	1	0
 2017-11-16	jdblischak	wflow-build-undefined-variable	0	0	0
 2017-11-17	annakrystalli	learn-TwitteR	0	0	0
@@ -158,6 +158,7 @@ date	user	repo	forks	stars	open_issues
 2018-03-25	stephens999	stat34800	5	0	0
 2018-03-29	davidhen	rural_urban	0	0	0
 2018-03-29	Lauren-Blake	Kaggle_donors_choose	0	0	0
+2018-04-11	kevinlkx	data_smoothing	0	0	0
 2018-04-11	Lauren-Blake	Chimp_eqtl	0	0	0
 2018-04-12	kkdey	Black_magazines	0	0	0
 2018-04-13	Lauren-Blake	Explore_WGCNA	0	1	0
@@ -165,10 +166,12 @@ date	user	repo	forks	stars	open_issues
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
 2018-05-01	brimittleman	threeprimeseq	0	1	0
-2018-05-02	stephenslab	dsc-log-fold-change	1	1	1
+2018-05-02	stephenslab	dsc-log-fold-change	2	2	1
 2018-05-03	DongyueXie	smash-gen	0	0	0
 2018-05-10	jixing475	aijun_leigongteng	0	0	0
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
+2018-05-12	LSun	BHq	0	0	0
+2018-05-17	adibender	simpamm	0	0	0
 2018-05-24	eossiander	OpioidMaps	0	0	0
 2018-05-30	gatoravi	scstoch	0	0	0
 2018-06-05	mturchin20	InterPath	0	0	0
@@ -271,7 +274,7 @@ date	user	repo	forks	stars	open_issues
 2018-09-07	dewoller	doctor-shopping	0	0	0
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
-2018-09-13	Oshlack	combes-organoid-paper	0	2	0
+2018-09-13	Oshlack	combes-organoid-paper	0	3	0
 2018-09-18	Lauren-Blake	weight_restoration	0	0	0
 2018-09-20	danielschad	test_workflowr	0	0	0
 2018-09-21	amrutapn	my_first_project	0	0	0
@@ -363,5 +366,8 @@ date	user	repo	forks	stars	open_issues
 2019-01-23	truenomad	responserate_mres	0	0	0
 2019-01-24	anamariaelek	germfree-mice-RNA-analysis	0	0	0
 2019-01-25	jdblischak	for-future-reference	0	0	0
-2019-01-25	lo2811	IPFproject	0	0	0
 2019-01-25	yasinkaymaz	Harvard-NissenLab	0	0	0
+2019-02-05	dewoller	generate_vaed_dataset	0	0	0
+2019-02-06	lo2811	IPF_LB	0	0	0
+2019-02-07	parajago	Tempus	0	0	0
+2019-02-08	nathanlawless	test_repo	0	0	0
