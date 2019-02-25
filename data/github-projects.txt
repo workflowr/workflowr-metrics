@@ -1,13 +1,13 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
 2015-06-14	stephens999	fiveMinuteStats	40	95	9
-2015-10-14	stephenslab	gtexresults	5	10	0
+2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
 2016-04-06	xiangzhu	rss-gsea	1	4	1
 2016-04-22	liu-genomics	Tiao_Seq	0	0	4
 2016-07-23	YubinXie	Life	0	0	0
-2016-09-11	kkdey	ecostructure	1	3	2
+2016-09-11	kkdey	ecostructure	1	4	2
 2016-10-28	jdblischak	fucci-seq	3	3	2
 2016-11-17	dcgerard	updog_sims	0	0	0
 2016-11-17	stephenslab	fast-ash.orig	0	0	2
@@ -36,7 +36,7 @@ date	user	repo	forks	stars	open_issues
 2017-03-01	dcgerard	voom_sva	0	0	0
 2017-03-02	kevinlkx	chrom_cluster_workflow	0	0	0
 2017-03-02	kevinlkx	workflows_test	0	0	0
-2017-03-03	stephenslab	gtex-zcorr	0	0	0
+2017-03-03	stephenslab	gtex-zcorr	0	1	0
 2017-03-07	stephenslab	confounding-polygenic	0	0	0
 2017-03-08	simecek	High-Resolution-Mapping-of-Reference-Populations	0	0	0
 2017-03-09	CreRecombinase	eqtl_estimation	0	0	0
@@ -166,7 +166,7 @@ date	user	repo	forks	stars	open_issues
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
 2018-05-01	brimittleman	threeprimeseq	0	1	0
-2018-05-02	stephenslab	dsc-log-fold-change	2	2	1
+2018-05-02	stephenslab	dsc-log-fold-change	2	2	7
 2018-05-03	DongyueXie	smash-gen	0	0	0
 2018-05-10	jixing475	aijun_leigongteng	0	0	0
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
@@ -349,7 +349,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-14	BUStools	BUS_notebooks_R	0	2	0
 2018-12-14	dewoller	tenyear	0	0	0
 2018-12-18	ChiChunLiu	myproject	0	0	0
-2018-12-20	zouyuxin	GTEx	0	0	0
+2018-12-20	zouyuxin	GTEx	0	1	0
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
 2018-12-27	LSun	OracleBayesMT	0	0	0
@@ -375,4 +375,9 @@ date	user	repo	forks	stars	open_issues
 2019-02-11	pritchardlabatpsu	pair_con_select	0	0	0
 2019-02-14	yasinkaymaz	Harvard-GillardonLab	0	0	0
 2019-02-14	youngseok-kim	simplerflash	0	0	0
+2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0
 2019-02-17	euctrl-pru	reproducible-ans-performance-paper	0	0	0
+2019-02-19	joellarwood	RuminationSadnessMusicRegulation	0	0	0
+2019-02-22	anthonyhung	queueingProcessVignettes	0	0	0
+2019-02-23	MohamedRefaat92	myproject	0	0	0
+2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0
