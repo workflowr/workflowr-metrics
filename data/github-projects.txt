@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	40	95	9
+2015-06-14	stephens999	fiveMinuteStats	41	96	9
 2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -87,7 +87,7 @@ date	user	repo	forks	stars	open_issues
 2017-07-21	xiangzhu	sumstat-catalog	0	0	0
 2017-07-23	nateaff	eeg-complex	0	1	0
 2017-07-27	miheerdew	BMD-NullSimulations	0	0	0
-2017-07-28	CreRecombinase	PolygenicRSS	0	0	4
+2017-07-28	CreRecombinase	PolygenicRSS	0	0	5
 2017-07-28	dcgerard	stat234	1	0	0
 2017-07-28	rcc-uchicago	R-intro-divvy-2017	1	1	0
 2017-07-29	smozaffari	oberlab_git	1	0	0
@@ -115,7 +115,7 @@ date	user	repo	forks	stars	open_issues
 2017-11-07	annakrystalli	workflowr-example-project	0	0	0
 2017-11-07	pzross	pberghei_ap2mutant	0	0	0
 2017-11-10	jdblischak	test-push-pull	0	0	0
-2017-11-10	pwh124	sc-da-parkinsons	3	3	0
+2017-11-10	pwh124	sc-da-parkinsons	4	3	0
 2017-11-15	stephenslab	mash-application-immune	0	1	0
 2017-11-16	jdblischak	wflow-build-undefined-variable	0	0	0
 2017-11-17	annakrystalli	learn-TwitteR	0	0	0
@@ -134,7 +134,7 @@ date	user	repo	forks	stars	open_issues
 2017-12-18	qianfeng2	workflowr	0	1	0
 2017-12-19	jhsiao999	mediation	0	0	0
 2017-12-27	noahknob	Baseball_App	0	0	0
-2017-12-28	DongyueXie	GSCCA	0	0	0
+2017-12-28	DongyueXie	GSCCA	0	0	1
 2018-01-08	noahknob	Stellar_Formation_Rate	0	0	0
 2018-01-10	zouyuxin	mashr_contrast_simulation	0	0	0
 2018-01-23	kkdey	autoimmune	0	0	0
@@ -155,7 +155,7 @@ date	user	repo	forks	stars	open_issues
 2018-03-16	hcheruiy	databases	0	0	0
 2018-03-24	Lauren-Blake	Donors_choose	0	0	0
 2018-03-25	kkdey	wallace_analysis	0	1	0
-2018-03-25	stephens999	stat34800	5	0	0
+2018-03-25	stephens999	stat34800	5	1	0
 2018-03-29	davidhen	rural_urban	0	0	0
 2018-03-29	Lauren-Blake	Kaggle_donors_choose	0	0	0
 2018-04-11	kevinlkx	data_smoothing	0	0	0
@@ -166,7 +166,7 @@ date	user	repo	forks	stars	open_issues
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
 2018-05-01	brimittleman	threeprimeseq	0	1	0
-2018-05-02	stephenslab	dsc-log-fold-change	2	2	7
+2018-05-02	stephenslab	dsc-log-fold-change	2	2	5
 2018-05-03	DongyueXie	smash-gen	0	0	0
 2018-05-10	jixing475	aijun_leigongteng	0	0	0
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
@@ -211,7 +211,6 @@ date	user	repo	forks	stars	open_issues
 2018-07-17	bingrus	live-demo	0	0	0
 2018-07-17	blaw36	live-demo	0	0	0
 2018-07-17	dennyshin	workflowr-live-demo	0	0	0
-2018-07-17	dvespasiani	live-demo	0	0	0
 2018-07-17	gadams1959	live-demo	0	0	0
 2018-07-17	gkong1	potatoes	0	0	0
 2018-07-17	gtsambos	live-demo	0	0	0
@@ -240,8 +239,6 @@ date	user	repo	forks	stars	open_issues
 2018-07-18	juliusPeppers	PepperFlow	0	0	0
 2018-07-19	ballardtj	recruitment	0	0	0
 2018-07-20	dewoller	benzodiazepine_opioid_usage	0	0	0
-2018-07-20	mplastow	street_tree_census	0	0	0
-2018-07-20	mplastow	street_trees_wf	0	0	0
 2018-07-23	bingrus	myproject	0	0	0
 2018-07-23	dewoller	data_science_students_2018	0	0	0
 2018-07-24	dennyshin	first_project	0	0	0
@@ -264,7 +261,6 @@ date	user	repo	forks	stars	open_issues
 2018-08-17	egarcias	prueba5	0	0	0
 2018-08-17	egarcias	redistribution_workflowr	0	0	0
 2018-08-20	annakrystalli	intro-r-gis	0	7	0
-2018-08-20	AnselmJeong	workflowr_test	0	0	0
 2018-08-21	rukaht	WorkFlowTutorial	0	0	0
 2018-08-23	anthonyhung	myproject	0	0	0
 2018-08-26	jonathandash	understorey	0	0	0
@@ -348,7 +344,6 @@ date	user	repo	forks	stars	open_issues
 2018-12-13	courtneyschiffman	CourtneySchiffman	0	0	0
 2018-12-14	BUStools	BUS_notebooks_R	0	2	0
 2018-12-14	dewoller	tenyear	0	0	0
-2018-12-18	ChiChunLiu	myproject	0	0	0
 2018-12-20	zouyuxin	GTEx	0	1	0
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
@@ -380,4 +375,7 @@ date	user	repo	forks	stars	open_issues
 2019-02-19	joellarwood	RuminationSadnessMusicRegulation	0	0	0
 2019-02-22	anthonyhung	queueingProcessVignettes	0	0	0
 2019-02-23	MohamedRefaat92	myproject	0	0	0
+2019-02-24	zihao12	topics-simulation-experiments	0	0	0
 2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0
+2019-03-01	KaiqianZhang	paper-reading	0	0	0
+2019-03-04	jcquiroz	projection_fishpop	0	0	0
