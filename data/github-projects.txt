@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	41	96	9
+2015-06-14	stephens999	fiveMinuteStats	41	97	9
 2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -8,7 +8,7 @@ date	user	repo	forks	stars	open_issues
 2016-04-22	liu-genomics	Tiao_Seq	0	0	4
 2016-07-23	YubinXie	Life	0	0	0
 2016-09-11	kkdey	ecostructure	1	4	2
-2016-10-28	jdblischak	fucci-seq	3	3	2
+2016-10-28	jdblischak	fucci-seq	3	5	3
 2016-11-17	dcgerard	updog_sims	0	0	0
 2016-11-17	stephenslab	fast-ash.orig	0	0	2
 2016-12-05	liu-genomics	ASD	0	0	0
@@ -56,6 +56,7 @@ date	user	repo	forks	stars	open_issues
 2017-05-07	han16	ScientificComputing	0	0	0
 2017-05-08	han16	Graphical-models	0	0	0
 2017-05-15	simingz	TransElement	0	0	0
+2017-05-16	andrewheiss	ngo-crackdowns-philanthropy	0	3	0
 2017-05-19	kkdey	CorShrink_workflow	0	0	0
 2017-06-12	erinfry6	BAGER	0	2	0
 2017-06-19	jdblischak	workflowr-demo01	0	0	0
@@ -302,7 +303,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-14	jean997	cause	1	1	0
 2018-10-15	alaminmm331	ElectionProjectAA	0	0	0
 2018-10-15	alaminmm331	ElectionProjectCD	0	0	1
-2018-10-15	annakrystalli	rrtools-repro-research	0	5	4
+2018-10-15	annakrystalli	rrtools-repro-research	0	6	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -373,9 +374,18 @@ date	user	repo	forks	stars	open_issues
 2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0
 2019-02-17	euctrl-pru	reproducible-ans-performance-paper	0	0	0
 2019-02-19	joellarwood	RuminationSadnessMusicRegulation	0	0	0
-2019-02-22	anthonyhung	queueingProcessVignettes	0	0	0
 2019-02-23	MohamedRefaat92	myproject	0	0	0
 2019-02-24	zihao12	topics-simulation-experiments	0	0	0
 2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0
 2019-03-01	KaiqianZhang	paper-reading	0	0	0
 2019-03-04	jcquiroz	projection_fishpop	0	0	0
+2019-03-05	yasinkaymaz	Harvard-RosenbrockLab	0	0	0
+2019-03-06	youyupei	workflowr	0	0	0
+2019-03-07	lukeholman	queen-pheromone-RNAseq	0	0	0
+2019-03-09	frm1789	gt_examples	1	11	0
+2019-03-10	frm1789	ShinyExample	0	0	0
+2019-03-10	timtrice	workflowr_skeleton	0	0	0
+2019-03-11	githubz0r	fuck	0	0	0
+2019-03-11	githubz0r	practice	0	0	0
+2019-03-12	han16	network-analysis-for-autism	0	0	0
+2019-03-12	IttaiEres	HiCiPSC	0	0	0
