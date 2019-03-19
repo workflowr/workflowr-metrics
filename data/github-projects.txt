@@ -105,7 +105,7 @@ date	user	repo	forks	stars	open_issues
 2017-09-18	jdblischak	test-git	0	0	0
 2017-09-18	MilesMcBain	keras_facial_keypoints	0	1	1
 2017-09-21	dcgerard	scmouthwash	0	0	0
-2017-10-05	IttaiEres	HiC	1	1	0
+2017-10-05	IttaiEres	HiC	0	1	0
 2017-10-06	JesseGarcia562	LD1000Genomes	0	0	0
 2017-10-12	vanAmsterdam	epi_simulations	0	0	0
 2017-10-17	brimittleman	Net-seq	0	0	0
@@ -149,7 +149,6 @@ date	user	repo	forks	stars	open_issues
 2018-02-19	egouldo	ReproEcoDecisions	0	2	4
 2018-02-26	MarkPlatts	Bee_Clustering_Website	1	2	0
 2018-02-27	psudmant	BurgeLabBeerTasting2018	0	0	0
-2018-03-08	hcheruiy	data-science-essentials	0	0	0
 2018-03-09	ck2136	ttp_prediction	0	0	0
 2018-03-09	jdblischak	test-windows-push	0	0	0
 2018-03-09	liu-genomics	Single-cell-noncoding	0	0	0
@@ -242,7 +241,6 @@ date	user	repo	forks	stars	open_issues
 2018-07-20	dewoller	benzodiazepine_opioid_usage	0	0	0
 2018-07-23	bingrus	myproject	0	0	0
 2018-07-23	dewoller	data_science_students_2018	0	0	0
-2018-07-24	dennyshin	first_project	0	0	0
 2018-07-24	dewoller	workflowr_tutorial	0	0	0
 2018-07-24	Nirmala100	STM5IPL	0	0	0
 2018-07-24	rukaht	RUK1IPL	0	0	0
@@ -286,7 +284,7 @@ date	user	repo	forks	stars	open_issues
 2018-09-21	Wenhe-Lin	my_project	0	0	0
 2018-09-21	XRCHAM	myproject	0	0	0
 2018-09-23	egarcias	desigualdad_colombia	0	0	0
-2018-09-23	llinaslab	sanger_rnaseq	0	0	0
+2018-09-23	llinaslab	sanger_rnaseq	0	1	0
 2018-09-28	anthonyhung	MSTPsummerstatistics	0	0	0
 2018-09-28	docmanny	workflowr-blogdown-experiment	0	0	0
 2018-09-28	melsiddieg	GBM_Results	0	0	0
@@ -340,6 +338,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-05	dcgerard	orderEDA	0	0	0
 2018-12-05	LSun	cashr_paper	0	0	0
 2018-12-06	heqixin	var_functionalDiff	0	0	0
+2018-12-06	JiaxiangBU	string	0	0	0
 2018-12-07	KristinaRiemer	wflow_test	0	0	0
 2018-12-08	jasonbaik94	playoff_score_effect_site	0	1	0
 2018-12-13	courtneyschiffman	CourtneySchiffman	0	0	0
@@ -349,6 +348,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
 2018-12-27	LSun	OracleBayesMT	0	0	0
+2018-12-30	JiaxiangBU	learn_rmd	0	0	0
 2019-01-07	dewoller	australia_opioids	0	0	0
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
@@ -379,13 +379,17 @@ date	user	repo	forks	stars	open_issues
 2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0
 2019-03-01	KaiqianZhang	paper-reading	0	0	0
 2019-03-04	jcquiroz	projection_fishpop	0	0	0
-2019-03-05	yasinkaymaz	Harvard-RosenbrockLab	0	0	0
+2019-03-05	yasinkaymaz	Harvard-RosenbrockLab	0	1	0
 2019-03-06	youyupei	workflowr	0	0	0
 2019-03-07	lukeholman	queen-pheromone-RNAseq	0	0	0
-2019-03-09	frm1789	gt_examples	1	11	0
+2019-03-09	frm1789	gt_examples	1	14	0
 2019-03-10	frm1789	ShinyExample	0	0	0
 2019-03-10	timtrice	workflowr_skeleton	0	0	0
 2019-03-11	githubz0r	fuck	0	0	0
-2019-03-11	githubz0r	practice	0	0	0
 2019-03-12	han16	network-analysis-for-autism	0	0	0
 2019-03-12	IttaiEres	HiCiPSC	0	0	0
+2019-03-13	joellarwood	Negative-Valence-Specific-Deficit-in-Music-Affect-Perception-in-Alexithymia	0	0	0
+2019-03-18	bfairkun	test_workflowr	0	0	0
+2019-03-18	dennyshin	Deep-learning-chromatin-accessibility	0	0	0
+2019-03-18	lo2811	workflowr	0	0	0
+2019-03-18	psychemistz	test_project	0	0	0
