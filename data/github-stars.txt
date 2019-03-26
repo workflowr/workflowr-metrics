@@ -60,7 +60,7 @@ date	stargazer
 2017-10-23	yongalan
 2017-10-27	timeahead
 2017-11-04	statmike
-2017-11-04	Guilz
+2017-11-04	Guillawme
 2017-11-07	itsvenu
 2017-11-10	KevinRamsunder
 2017-11-13	ryetochondria
@@ -287,3 +287,9 @@ date	stargazer
 2019-03-19	JovMaksimovic
 2019-03-19	Leo-Lee15
 2019-03-19	aehr2
+2019-03-20	vikjam
+2019-03-20	hugh1li
+2019-03-22	dcroteau-chonka
+2019-03-22	Nazeeefa
+2019-03-23	blair919
+2019-03-25	johnnysullivan
