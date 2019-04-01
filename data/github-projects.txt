@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	42	98	10
+2015-06-14	stephens999	fiveMinuteStats	43	98	10
 2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -94,9 +94,6 @@ date	user	repo	forks	stars	open_issues
 2017-07-29	smozaffari	oberlab_git	1	0	0
 2017-08-03	kevinlkx	MILLIPEDE_workflow	0	0	0
 2017-08-09	jdblischak	singlecell-qtl	2	4	0
-2017-08-16	CreRecombinase	MidwayFuture	0	0	0
-2017-08-21	heatherhall	predictingGlucoseSpikesPrelim	0	0	0
-2017-08-29	Yafei611	Test_batch_effect	0	1	0
 2017-08-30	kkdey	Logolas-pages	0	0	0
 2017-09-05	stephenslab	cormotif	0	1	0
 2017-09-06	nateaff	legolda	4	3	0
@@ -166,7 +163,7 @@ date	user	repo	forks	stars	open_issues
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
 2018-05-01	brimittleman	threeprimeseq	0	1	0
-2018-05-02	stephenslab	dsc-log-fold-change	2	2	4
+2018-05-02	stephenslab	dsc-log-fold-change	2	2	5
 2018-05-03	DongyueXie	smash-gen	0	0	0
 2018-05-10	jixing475	aijun_leigongteng	0	0	0
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
@@ -208,7 +205,6 @@ date	user	repo	forks	stars	open_issues
 2018-07-15	willwerscheid	FLASHvestigations	0	0	0
 2018-07-16	chunghueywu	my_wflow_project	0	0	0
 2018-07-17	amcguinn	live-demo	0	0	0
-2018-07-17	amyloughman	live-demo	0	0	0
 2018-07-17	bingrus	live-demo	0	0	0
 2018-07-17	blaw36	live-demo	0	0	0
 2018-07-17	dennyshin	workflowr-live-demo	0	0	0
@@ -283,7 +279,6 @@ date	user	repo	forks	stars	open_issues
 2018-09-21	qicaibiology	my_project	0	0	0
 2018-09-21	sophiacarryl	workflow_project	0	0	0
 2018-09-21	Wenhe-Lin	my_project	0	0	0
-2018-09-21	XRCHAM	myproject	0	0	0
 2018-09-23	egarcias	desigualdad_colombia	0	0	0
 2018-09-23	llinaslab	sanger_rnaseq	0	1	0
 2018-09-28	anthonyhung	MSTPsummerstatistics	0	0	0
@@ -399,3 +394,4 @@ date	user	repo	forks	stars	open_issues
 2019-03-19	bfairkun	Comparative_eQTL	0	0	0
 2019-03-19	han16	network-dependent-data	0	0	0
 2019-03-22	willwerscheid	scFLASH	0	0	0
+2019-03-27	csglab	phantom_purge	0	0	0
