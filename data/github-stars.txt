@@ -75,7 +75,7 @@ date	stargazer
 2018-01-05	freeman-lab
 2018-01-06	minyk
 2018-01-09	fbaffie
-2018-01-09	AJinMotion
+2018-01-09	ajmoralesa
 2018-01-14	emraher
 2018-01-17	wangpengwen
 2018-01-22	sigven
@@ -195,7 +195,6 @@ date	stargazer
 2018-07-19	juyeongkim
 2018-07-21	embracefall
 2018-07-22	melsiddieg
-2018-07-26	mairindeith
 2018-07-31	mLRY
 2018-08-02	bailliecharles
 2018-08-08	behnido
@@ -295,3 +294,8 @@ date	stargazer
 2019-03-25	johnnysullivan
 2019-04-01	davidski
 2019-04-05	romgienious
+2019-04-09	nachti
+2019-04-10	mairindeith
+2019-04-10	gtm19
+2019-04-12	Rrtk2
+2019-04-13	mikemc
