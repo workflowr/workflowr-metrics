@@ -299,3 +299,7 @@ date	stargazer
 2019-04-10	gtm19
 2019-04-12	Rrtk2
 2019-04-13	mikemc
+2019-04-18	paularstrpo
+2019-04-19	PoisonAlien
+2019-04-19	11rchitwood
+2019-04-22	sweing

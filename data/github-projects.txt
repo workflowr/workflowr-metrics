@@ -156,7 +156,7 @@ date	user	repo	forks	stars	open_issues
 2018-03-16	hcheruiy	databases	0	0	0
 2018-03-24	Lauren-Blake	Donors_choose	0	0	0
 2018-03-25	kkdey	wallace_analysis	0	1	0
-2018-03-25	stephens999	stat34800	6	3	0
+2018-03-25	stephens999	stat34800	8	2	0
 2018-03-29	davidhen	rural_urban	0	0	0
 2018-03-29	Lauren-Blake	Kaggle_donors_choose	0	0	0
 2018-04-11	kevinlkx	data_smoothing	0	0	0
@@ -335,7 +335,7 @@ date	user	repo	forks	stars	open_issues
 2018-11-18	jasonbaik94	myproject	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	0
+2018-11-25	JiaxiangBU	learn_git	0	0	1
 2018-11-25	timtrice	hurricane_harvey_prelims	0	0	0
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
@@ -353,7 +353,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
 2018-12-27	LSun	OracleBayesMT	0	0	0
-2018-12-30	JiaxiangBU	learn_rmd	0	0	0
+2018-12-30	JiaxiangBU	learn_rmd	0	0	4
 2019-01-07	dewoller	australia_opioids	0	0	0
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
