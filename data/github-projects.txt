@@ -147,7 +147,7 @@ date	user	repo	forks	stars	open_issues
 2018-02-06	tk382	diffNet	0	0	0
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
-2018-02-19	egouldo	ReproEcoDecisions	0	2	4
+2018-02-19	egouldo	ReproEcoDecisions	1	2	4
 2018-02-26	MarkPlatts	Bee_Clustering_Website	1	2	0
 2018-02-27	psudmant	BurgeLabBeerTasting2018	0	0	0
 2018-03-09	ck2136	ttp_prediction	0	0	0
@@ -410,3 +410,18 @@ date	user	repo	forks	stars	open_issues
 2019-04-11	brimittleman	apaQTL	0	0	0
 2019-04-12	JiaxiangBU	test-workflowr	1	0	0
 2019-04-15	githubz0r	SecretUtils	0	0	0
+2019-04-22	TheBeeGuy	Task_Specialization	0	0	0
+2019-04-23	blakesanders	myproject	0	0	0
+2019-04-23	dschnitkey	myproject	0	0	0
+2019-04-23	jdblischak	myproject	0	0	0
+2019-04-23	jejpatton	workflowr_tutorial	0	0	0
+2019-04-23	jgblanc	myproject	0	0	0
+2019-04-23	lily-burton	myproject	0	0	0
+2019-04-23	liuweihanty	myproject	0	0	0
+2019-04-23	maxaweis	myproject	0	0	0
+2019-04-23	sgartner456	myproject	0	0	0
+2019-04-23	That-Other-Other-Guy	My_Project	0	0	0
+2019-04-23	Wenhe-Lin	myproject	0	0	0
+2019-04-23	yym7670	myproject	0	0	0
+2019-04-25	KaiqianZhang	brooker-genetics	0	0	0
+2019-04-26	MrsLaviniaG	NotesOnReproducibility	0	0	0
