@@ -21,7 +21,7 @@ date	user	repo	forks	stars	open_issues
 2017-01-14	YubinXie	test	0	0	0
 2017-01-17	annakrystalli	ACCE_RDM	1	1	0
 2017-01-19	kevinlkx	workflow_test	0	0	0
-2017-01-20	NKweiwang	flash_workflow	1	1	0
+2017-01-20	NKweiwang	flash_workflow	1	2	0
 2017-01-21	NKweiwang	logisticFlash_workflow	0	0	0
 2017-01-22	NKweiwang	TDS_study1	0	0	0
 2017-01-29	LSun	truncash	1	1	0
@@ -156,7 +156,7 @@ date	user	repo	forks	stars	open_issues
 2018-03-16	hcheruiy	databases	0	0	0
 2018-03-24	Lauren-Blake	Donors_choose	0	0	0
 2018-03-25	kkdey	wallace_analysis	0	1	0
-2018-03-25	stephens999	stat34800	8	2	0
+2018-03-25	stephens999	stat34800	10	2	0
 2018-03-29	davidhen	rural_urban	0	0	0
 2018-03-29	Lauren-Blake	Kaggle_donors_choose	0	0	0
 2018-04-11	kevinlkx	data_smoothing	0	0	0
@@ -269,7 +269,7 @@ date	user	repo	forks	stars	open_issues
 2018-08-30	amromeo	icsh_irf	0	0	0
 2018-08-30	davidhen	ipdln_hackathon	0	0	0
 2018-09-01	flliu315	project	0	0	0
-2018-09-07	andrewheiss	why-donors-donate	1	2	3
+2018-09-07	andrewheiss	why-donors-donate	1	2	2
 2018-09-07	dewoller	doctor-shopping	0	0	0
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
@@ -305,7 +305,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-14	jean997	cause	1	1	0
 2018-10-15	alaminmm331	ElectionProjectAA	0	0	0
 2018-10-15	alaminmm331	ElectionProjectCD	0	0	1
-2018-10-15	annakrystalli	rrtools-repro-research	0	6	4
+2018-10-15	annakrystalli	rrtools-repro-research	2	8	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -329,13 +329,14 @@ date	user	repo	forks	stars	open_issues
 2018-11-03	zihao12	finm331-fall-2018	0	0	0
 2018-11-08	courtneyschiffman	Drug_Repo	0	0	0
 2018-11-10	dewoller	door_pix_recognize	0	0	0
+2018-11-12	lukeholman	W_shredder	0	0	0
 2018-11-13	DongyueXie	stat349	0	0	0
 2018-11-16	jhsiao999	singlecell-viz	0	0	0
 2018-11-16	ssoba	lake_powell	0	0	0
 2018-11-18	jasonbaik94	myproject	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	1
+2018-11-25	JiaxiangBU	learn_git	0	0	7
 2018-11-25	timtrice	hurricane_harvey_prelims	0	0	0
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
@@ -382,7 +383,6 @@ date	user	repo	forks	stars	open_issues
 2019-02-20	ValentinVoillet	collab_SylvainSimon	0	0	0
 2019-02-23	MohamedRefaat92	myproject	0	0	0
 2019-02-24	zihao12	topics-simulation-experiments	0	0	0
-2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0
 2019-03-01	KaiqianZhang	paper-reading	0	0	0
 2019-03-04	jcquiroz	projection_fishpop	0	0	0
 2019-03-05	yasinkaymaz	Harvard-RosenbrockLab	0	1	0
@@ -425,3 +425,5 @@ date	user	repo	forks	stars	open_issues
 2019-04-23	yym7670	myproject	0	0	0
 2019-04-25	KaiqianZhang	brooker-genetics	0	0	0
 2019-04-26	MrsLaviniaG	NotesOnReproducibility	0	0	0
+2019-04-30	dewoller	ehr_exploration	0	0	0
+2019-05-01	CreRecombinase	ptb_workflowr	0	0	0
