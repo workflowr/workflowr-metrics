@@ -305,3 +305,9 @@ date	stargazer
 2019-04-22	sweing
 2019-04-23	jimbrig2011
 2019-05-03	lsheble
+2019-05-07	jordandsnyder
+2019-05-08	CrumpLab
+2019-05-08	antass
+2019-05-09	zhangyang2017
+2019-05-10	fenandosr
+2019-05-10	StephanieWinkelbeiner

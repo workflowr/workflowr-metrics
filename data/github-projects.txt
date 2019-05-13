@@ -93,7 +93,7 @@ date	user	repo	forks	stars	open_issues
 2017-07-28	rcc-uchicago	R-intro-divvy-2017	1	1	0
 2017-07-29	smozaffari	oberlab_git	1	0	0
 2017-08-03	kevinlkx	MILLIPEDE_workflow	0	0	0
-2017-08-09	jdblischak	singlecell-qtl	3	4	0
+2017-08-09	jdblischak	singlecell-qtl	3	5	0
 2017-08-16	CreRecombinase	MidwayFuture	0	0	0
 2017-08-21	heatherhall	predictingGlucoseSpikesPrelim	0	0	0
 2017-08-29	Yafei611	Test_batch_effect	0	1	0
@@ -296,7 +296,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-01	xhyuo	Workflowr_GBRS_array0	0	0	0
 2018-10-02	stephens999	susier-investigate	0	1	0
 2018-10-03	ballardtj	stim_ids	0	0	0
-2018-10-03	lazappi	twitter-stats	2	0	0
+2018-10-03	lazappi	twitter-stats	3	0	0
 2018-10-04	ballardtj	dynamic_modelling	0	0	0
 2018-10-06	pzross	frameshifts	0	0	0
 2018-10-07	zihao12	stat374-fall-2018	0	0	0
@@ -336,7 +336,7 @@ date	user	repo	forks	stars	open_issues
 2018-11-18	jasonbaik94	myproject	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	7
+2018-11-25	JiaxiangBU	learn_git	0	0	14
 2018-11-25	timtrice	hurricane_harvey_prelims	0	0	0
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
@@ -354,7 +354,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
 2018-12-27	LSun	OracleBayesMT	0	0	0
-2018-12-30	JiaxiangBU	learn_rmd	0	0	4
+2018-12-30	JiaxiangBU	learn_rmd	0	0	6
 2019-01-07	dewoller	australia_opioids	0	0	0
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
@@ -427,3 +427,7 @@ date	user	repo	forks	stars	open_issues
 2019-04-26	MrsLaviniaG	NotesOnReproducibility	0	0	0
 2019-04-30	dewoller	ehr_exploration	0	0	0
 2019-05-01	CreRecombinase	ptb_workflowr	0	0	0
+2019-05-07	noah-padgett	mcfa-fit	0	0	0
+2019-05-07	perslab	190510-scWorkshop	0	0	0
+2019-05-07	seb1621	myproject	0	0	0
+2019-05-10	dewoller	can-oz-assoc	0	0	0
