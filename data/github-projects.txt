@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	102	11
+2015-06-14	stephens999	fiveMinuteStats	45	105	11
 2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	6	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -18,14 +18,6 @@ date	user	repo	forks	stars	open_issues
 2017-01-09	pzross	EvoBioMol	0	0	0
 2017-01-11	stephenslab	fast-ash	1	4	0
 2017-01-12	dcgerard	ruvb_plus_ash	0	0	0
-2017-01-14	YubinXie	test	0	0	0
-2017-01-17	annakrystalli	ACCE_RDM	1	1	0
-2017-01-19	kevinlkx	workflow_test	0	0	0
-2017-01-20	NKweiwang	flash_workflow	1	2	0
-2017-01-21	NKweiwang	logisticFlash_workflow	0	0	0
-2017-01-22	NKweiwang	TDS_study1	0	0	0
-2017-01-29	LSun	truncash	1	1	0
-2017-02-05	simecek	TheAgingProteome	2	4	0
 2017-02-06	jdblischak	workflowr-demo-archive	0	0	0
 2017-02-06	jhsiao999	singleCell-workflow	0	1	0
 2017-02-15	jean997	rccSims	0	1	0
@@ -44,10 +36,8 @@ date	user	repo	forks	stars	open_issues
 2017-03-14	stephens999	workflowr-talks	0	0	0
 2017-03-15	jean997	sh2Ash	1	0	0
 2017-03-21	dcgerard	gaussian_mixtures	0	0	0
-2017-03-23	dleelab	iasvaExamples	1	2	1
 2017-03-28	CreRecombinase	DeepVariantAnnotation	0	0	0
 2017-03-28	han16	rare-var-project	0	0	0
-2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
 2017-04-14	stephens999	misc	0	1	0
 2017-04-20	mengyin	bulk_single	0	0	0
@@ -193,7 +183,7 @@ date	user	repo	forks	stars	open_issues
 2018-06-20	firephoenix11	Fengping_website	0	0	0
 2018-06-20	haiderinam	myproject	0	0	0
 2018-06-20	Jas1374	Bootcamp-Website	0	0	0
-2018-06-20	kevinlkx	ATAC-seq_footprint_analysis	0	0	0
+2018-06-20	kevinlkx	ATAC-seq_footprint_analysis	0	1	0
 2018-06-20	rongma	bootcamp	0	0	0
 2018-06-20	skitchen19	website_mock	0	0	0
 2018-06-20	Vieira34	myworkflowr	0	0	0
@@ -237,7 +227,6 @@ date	user	repo	forks	stars	open_issues
 2018-07-17	yao-ban	workshop	0	0	0
 2018-07-17	zitonglee	live-demo	0	0	0
 2018-07-17	ziweil8	live-demo	0	0	0
-2018-07-18	ballardtj	gen_arch	0	0	0
 2018-07-18	jiangrongo	workflowr	0	0	0
 2018-07-18	juliusPeppers	PepperFlow	0	0	0
 2018-07-19	ballardtj	recruitment	0	0	0
@@ -251,11 +240,8 @@ date	user	repo	forks	stars	open_issues
 2018-07-25	dennyshin	Learning-Thoughts	0	0	0
 2018-07-25	heqixin	varSeq	0	0	0
 2018-08-01	brimittleman	comparative_threeprime	0	0	0
-2018-08-04	timtrice	twitterlikes	0	1	0
-2018-08-06	dewoller	dusk2dawn	0	0	0
 2018-08-07	davismcc	fibroblast-clonality	4	3	1
 2018-08-07	umccr	google_lims	1	1	1
-2018-08-08	timtrice	workflowr_child_docs	0	1	0
 2018-08-09	dewoller	LMS_reports	0	0	0
 2018-08-10	carlmurie	RTSSProject	0	0	0
 2018-08-12	AustinTHilliard	networks	0	0	0
@@ -333,10 +319,9 @@ date	user	repo	forks	stars	open_issues
 2018-11-13	DongyueXie	stat349	0	0	0
 2018-11-16	jhsiao999	singlecell-viz	0	0	0
 2018-11-16	ssoba	lake_powell	0	0	0
-2018-11-18	jasonbaik94	myproject	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	14
+2018-11-25	JiaxiangBU	learn_git	0	0	19
 2018-11-25	timtrice	hurricane_harvey_prelims	0	0	0
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
@@ -346,7 +331,6 @@ date	user	repo	forks	stars	open_issues
 2018-12-06	heqixin	var_functionalDiff	0	0	0
 2018-12-06	JiaxiangBU	string	0	0	0
 2018-12-07	KristinaRiemer	wflow_test	0	0	0
-2018-12-08	jasonbaik94	playoff_score_effect_site	0	1	0
 2018-12-13	courtneyschiffman	CourtneySchiffman	0	0	0
 2018-12-14	BUStools	BUS_notebooks_R	0	2	0
 2018-12-14	dewoller	tenyear	0	0	0
@@ -354,7 +338,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-22	huangyh09	vireo-manual	0	0	0
 2018-12-26	scottzijiezhang	MeRIPtoolsManual	0	0	0
 2018-12-27	LSun	OracleBayesMT	0	0	0
-2018-12-30	JiaxiangBU	learn_rmd	0	0	6
+2018-12-30	JiaxiangBU	learn_rmd	0	0	7
 2019-01-07	dewoller	australia_opioids	0	0	0
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
@@ -407,7 +391,7 @@ date	user	repo	forks	stars	open_issues
 2019-04-08	yasinkaymaz	metaCancer	0	0	0
 2019-04-09	annakrystalli	rrresearch	0	0	0
 2019-04-09	surbut	ProjectforHongZhu	0	0	0
-2019-04-11	brimittleman	apaQTL	0	0	0
+2019-04-11	brimittleman	apaQTL	1	0	0
 2019-04-12	JiaxiangBU	test-workflowr	1	0	0
 2019-04-15	githubz0r	SecretUtils	0	0	0
 2019-04-22	TheBeeGuy	Task_Specialization	0	0	0
@@ -431,3 +415,6 @@ date	user	repo	forks	stars	open_issues
 2019-05-07	perslab	190510-scWorkshop	0	0	0
 2019-05-07	seb1621	myproject	0	0	0
 2019-05-10	dewoller	can-oz-assoc	0	0	0
+2019-05-13	dewoller	health_informatics_3_r_tutorial	0	0	0
+2019-05-13	robwschlegel	MHWNWA	0	0	0
+2019-05-16	andrewheiss	canary-ngos	0	0	0
