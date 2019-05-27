@@ -1,8 +1,8 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	105	11
+2015-06-14	stephens999	fiveMinuteStats	45	107	11
 2015-10-14	stephenslab	gtexresults	5	11	0
-2015-12-15	stephens999	hgen48600	6	1	0
+2015-12-15	stephens999	hgen48600	7	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
 2016-04-06	xiangzhu	rss-gsea	1	4	1
 2016-04-22	liu-genomics	Tiao_Seq	0	0	4
@@ -18,6 +18,14 @@ date	user	repo	forks	stars	open_issues
 2017-01-09	pzross	EvoBioMol	0	0	0
 2017-01-11	stephenslab	fast-ash	1	4	0
 2017-01-12	dcgerard	ruvb_plus_ash	0	0	0
+2017-01-14	YubinXie	test	0	0	0
+2017-01-17	annakrystalli	ACCE_RDM	1	1	0
+2017-01-19	kevinlkx	workflow_test	0	0	0
+2017-01-20	NKweiwang	flash_workflow	1	2	0
+2017-01-21	NKweiwang	logisticFlash_workflow	0	0	0
+2017-01-22	NKweiwang	TDS_study1	0	0	0
+2017-01-29	LSun	truncash	1	1	0
+2017-02-05	simecek	TheAgingProteome	2	4	0
 2017-02-06	jdblischak	workflowr-demo-archive	0	0	0
 2017-02-06	jhsiao999	singleCell-workflow	0	1	0
 2017-02-15	jean997	rccSims	0	1	0
@@ -36,8 +44,10 @@ date	user	repo	forks	stars	open_issues
 2017-03-14	stephens999	workflowr-talks	0	0	0
 2017-03-15	jean997	sh2Ash	1	0	0
 2017-03-21	dcgerard	gaussian_mixtures	0	0	0
+2017-03-23	dleelab	iasvaExamples	1	2	1
 2017-03-28	CreRecombinase	DeepVariantAnnotation	0	0	0
 2017-03-28	han16	rare-var-project	0	0	0
+2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
 2017-04-14	stephens999	misc	0	1	0
 2017-04-20	mengyin	bulk_single	0	0	0
@@ -134,6 +144,7 @@ date	user	repo	forks	stars	open_issues
 2018-01-24	jhsiao999	sc-power	0	0	0
 2018-01-25	jdblischak	new-project	0	0	0
 2018-02-01	davidhen	Scottish_Social_Care_Open_Data	0	0	0
+2018-02-01	pat-s	2019-feature-selection	0	2	6
 2018-02-06	tk382	diffNet	0	0	0
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
@@ -227,6 +238,7 @@ date	user	repo	forks	stars	open_issues
 2018-07-17	yao-ban	workshop	0	0	0
 2018-07-17	zitonglee	live-demo	0	0	0
 2018-07-17	ziweil8	live-demo	0	0	0
+2018-07-18	ballardtj	gen_arch	0	0	0
 2018-07-18	jiangrongo	workflowr	0	0	0
 2018-07-18	juliusPeppers	PepperFlow	0	0	0
 2018-07-19	ballardtj	recruitment	0	0	0
@@ -240,8 +252,11 @@ date	user	repo	forks	stars	open_issues
 2018-07-25	dennyshin	Learning-Thoughts	0	0	0
 2018-07-25	heqixin	varSeq	0	0	0
 2018-08-01	brimittleman	comparative_threeprime	0	0	0
+2018-08-04	timtrice	twitterlikes	0	1	0
+2018-08-06	dewoller	dusk2dawn	0	0	0
 2018-08-07	davismcc	fibroblast-clonality	4	3	1
 2018-08-07	umccr	google_lims	1	1	1
+2018-08-08	timtrice	workflowr_child_docs	0	1	0
 2018-08-09	dewoller	LMS_reports	0	0	0
 2018-08-10	carlmurie	RTSSProject	0	0	0
 2018-08-12	AustinTHilliard	networks	0	0	0
@@ -255,13 +270,12 @@ date	user	repo	forks	stars	open_issues
 2018-08-30	amromeo	icsh_irf	0	0	0
 2018-08-30	davidhen	ipdln_hackathon	0	0	0
 2018-09-01	flliu315	project	0	0	0
-2018-09-07	andrewheiss	why-donors-donate	1	2	2
+2018-09-07	andrewheiss	why-donors-donate	1	2	1
 2018-09-07	dewoller	doctor-shopping	0	0	0
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
 2018-09-13	Oshlack	combes-organoid-paper	0	3	0
 2018-09-18	Lauren-Blake	weight_restoration	0	0	0
-2018-09-20	danielschad	test_workflowr	0	0	0
 2018-09-21	amrutapn	my_first_project	0	0	0
 2018-09-21	CreRecombinase	my_project	0	0	0
 2018-09-21	jayoung95	myproject	0	0	0
@@ -291,7 +305,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-14	jean997	cause	1	1	0
 2018-10-15	alaminmm331	ElectionProjectAA	0	0	0
 2018-10-15	alaminmm331	ElectionProjectCD	0	0	1
-2018-10-15	annakrystalli	rrtools-repro-research	2	8	4
+2018-10-15	annakrystalli	rrtools-repro-research	2	9	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -321,7 +335,7 @@ date	user	repo	forks	stars	open_issues
 2018-11-16	ssoba	lake_powell	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	19
+2018-11-25	JiaxiangBU	learn_git	0	0	21
 2018-11-25	timtrice	hurricane_harvey_prelims	0	0	0
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
@@ -331,6 +345,7 @@ date	user	repo	forks	stars	open_issues
 2018-12-06	heqixin	var_functionalDiff	0	0	0
 2018-12-06	JiaxiangBU	string	0	0	0
 2018-12-07	KristinaRiemer	wflow_test	0	0	0
+2018-12-07	pat-s	pathogen-modeling	1	2	0
 2018-12-13	courtneyschiffman	CourtneySchiffman	0	0	0
 2018-12-14	BUStools	BUS_notebooks_R	0	2	0
 2018-12-14	dewoller	tenyear	0	0	0
@@ -358,7 +373,7 @@ date	user	repo	forks	stars	open_issues
 2019-02-07	envima	EMMa	0	0	0
 2019-02-07	parajago	Tempus	0	0	0
 2019-02-08	nathanlawless	test_repo	0	0	0
-2019-02-11	pritchardlabatpsu	pair_con_select	0	0	0
+2019-02-11	pritchardlabatpsu	pairwisecomparisons	0	0	0
 2019-02-14	yasinkaymaz	Harvard-GillardonLab	0	0	0
 2019-02-14	youngseok-kim	simplerflash	0	0	0
 2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0
@@ -418,3 +433,5 @@ date	user	repo	forks	stars	open_issues
 2019-05-13	dewoller	health_informatics_3_r_tutorial	0	0	0
 2019-05-13	robwschlegel	MHWNWA	0	0	0
 2019-05-16	andrewheiss	canary-ngos	0	0	0
+2019-05-20	pcarbo	workflowr_test	0	0	0
+2019-05-22	jdblischak	test-httr	0	0	0
