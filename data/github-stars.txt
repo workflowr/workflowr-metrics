@@ -314,3 +314,5 @@ date	stargazer
 2019-05-25	loftwah
 2019-05-25	enigma2281
 2019-05-29	jhofman
+2019-06-04	th122
+2019-06-05	Trecek
