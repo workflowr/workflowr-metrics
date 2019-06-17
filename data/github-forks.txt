@@ -8,7 +8,7 @@ date	user	update_difftime
 2017-08-24	stevepeak	2
 2017-08-25	xingjiegenetics	2
 2017-09-01	johnsonlab	3
-2017-09-18	CreRecombinase	38990440
+2017-09-18	CreRecombinase	54985627
 2017-10-11	MMesbahU	2
 2017-10-20	dondealban	2
 2017-10-31	vanAmsterdam	2
@@ -36,7 +36,7 @@ date	user	update_difftime
 2018-09-21	pridiltal	2
 2018-10-24	QinLab	3
 2018-11-03	Jaugust7	3
-2018-11-09	workflowr	2
+2018-11-09	workflowr	18740351
 2018-11-28	envima	2
 2019-02-11	singwoo	2
 2019-02-18	friend1ws	3

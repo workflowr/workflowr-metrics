@@ -316,3 +316,6 @@ date	stargazer
 2019-05-29	jhofman
 2019-06-04	th122
 2019-06-05	Trecek
+2019-06-12	petebaker
+2019-06-13	sergiballestar
+2019-06-13	TBradley27

@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	107	11
+2015-06-14	stephens999	fiveMinuteStats	45	108	11
 2015-10-14	stephenslab	gtexresults	5	11	0
 2015-12-15	stephens999	hgen48600	9	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -58,11 +58,8 @@ date	user	repo	forks	stars	open_issues
 2017-05-08	han16	Graphical-models	0	0	0
 2017-05-15	simingz	TransElement	0	0	0
 2017-05-16	andrewheiss	ngo-crackdowns-philanthropy	0	4	0
-2017-05-19	kkdey	CorShrink_workflow	0	0	0
-2017-06-12	erinfry6	BAGER	0	2	0
-2017-06-19	jdblischak	workflowr-demo01	0	0	0
 2017-06-26	hamulmyo	mixopt	0	0	0
-2017-06-28	stephenslab	wflow-divvy	2	5	1
+2017-06-28	stephenslab	wflow-divvy	2	6	1
 2017-06-29	eEricWagner	ProjectPortfolio	0	0	0
 2017-07-05	kkdey	pathtpx-workflow	0	0	0
 2017-07-06	DongyueXie	Sequence-Motif-Depletion	0	0	0
@@ -143,7 +140,7 @@ date	user	repo	forks	stars	open_issues
 2018-01-24	jhsiao999	sc-power	0	0	0
 2018-01-25	jdblischak	new-project	0	0	0
 2018-02-01	davidhen	Scottish_Social_Care_Open_Data	0	0	0
-2018-02-01	pat-s	2019-feature-selection	0	3	6
+2018-02-01	pat-s	2019-feature-selection	1	4	6
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
 2018-02-19	egouldo	ReproEcoDecisions	1	2	4
@@ -173,7 +170,6 @@ date	user	repo	forks	stars	open_issues
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
 2018-05-12	LSun	BHq	0	0	0
 2018-05-17	adibender	simpamm	0	0	0
-2018-05-24	eossiander	OpioidMaps	0	0	0
 2018-05-24	robwschlegel	MHWdetection	0	0	0
 2018-05-30	gatoravi	scstoch	0	0	0
 2018-06-05	mturchin20	InterPath	0	0	0
@@ -199,7 +195,6 @@ date	user	repo	forks	stars	open_issues
 2018-06-20	viviancai13	workflowr	0	0	0
 2018-06-20	zzl136	zl	0	0	0
 2018-06-21	dleelab	leedonghyung	0	0	0
-2018-06-21	haiderinam	medsproject	0	0	0
 2018-06-21	zzl136	zfy	0	0	0
 2018-06-26	KaiqianZhang	Celltype-Variable-Selection	0	0	0
 2018-07-05	mengyin	general_ash	1	0	0
@@ -252,8 +247,8 @@ date	user	repo	forks	stars	open_issues
 2018-08-01	brimittleman	comparative_threeprime	0	0	0
 2018-08-04	timtrice	twitterlikes	0	1	0
 2018-08-06	dewoller	dusk2dawn	0	0	0
-2018-08-07	davismcc	fibroblast-clonality	4	3	1
-2018-08-07	umccr	google_lims	1	1	1
+2018-08-07	davismcc	fibroblast-clonality	4	3	0
+2018-08-07	umccr	google_lims	1	0	1
 2018-08-08	timtrice	workflowr_child_docs	0	1	0
 2018-08-09	dewoller	LMS_reports	0	0	0
 2018-08-10	carlmurie	RTSSProject	0	0	0
@@ -356,7 +351,7 @@ date	user	repo	forks	stars	open_issues
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
 2019-01-10	PatBall1	forest_monitoring	0	0	0
-2019-01-11	timtrice	connors_rsi	0	0	0
+2019-01-11	timtrice	connors_rsi	1	0	0
 2019-01-12	parajago	TCGA-Nigerian-RNAseq	0	0	0
 2019-01-14	KaiqianZhang	susie-np	0	0	0
 2019-01-14	kkdey	CorShrink2	0	0	0
@@ -455,3 +450,12 @@ date	user	repo	forks	stars	open_issues
 2019-06-06	snoopy57	SILLYACRONYM	0	0	0
 2019-06-06	xxihe	bootcamp	0	0	0
 2019-06-07	jiuchao	STAT555-RNAseq	0	0	0
+2019-06-11	jdblischak	wflow-tidy-tuesday	0	0	0
+2019-06-11	JonThom	19-BMI-brain-sc-analysis	0	0	0
+2019-06-12	jdblischak	wflow-datos-de-miercoles	0	0	0
+2019-06-12	surbut	nejm	0	0	0
+2019-06-14	johnmorehouse	myproject	0	0	0
+2019-06-16	FangBigSheep	stats-topics	0	0	0
+2019-06-17	allenczhu	stats_2019_lecture_2	0	0	0
+2019-06-17	allenczhu	summerstats2019	0	0	0
+2019-06-17	CoolEarth-James	forest_monitoring	0	0	0
