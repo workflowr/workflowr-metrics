@@ -319,3 +319,8 @@ date	stargazer
 2019-06-12	petebaker
 2019-06-13	sergiballestar
 2019-06-13	TBradley27
+2019-06-20	sonoshah
+2019-06-22	BassK
+2019-06-24	imartinezl
+2019-06-25	ChiChunLiu
+2019-06-25	drunaar

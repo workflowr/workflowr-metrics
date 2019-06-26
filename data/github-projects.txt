@@ -8,7 +8,6 @@ date	user	repo	forks	stars	open_issues
 2016-04-06	xiangzhu	rss-gsea	1	4	1
 2016-04-22	liu-genomics	Tiao_Seq	0	0	4
 2016-07-23	YubinXie	Life	0	0	0
-2016-09-11	kkdey	ecostructure	1	4	2
 2016-10-28	jdblischak	fucci-seq	3	5	2
 2016-11-17	dcgerard	updog_sims	0	0	0
 2016-11-17	stephenslab	fast-ash.orig	0	0	2
@@ -58,6 +57,9 @@ date	user	repo	forks	stars	open_issues
 2017-05-08	han16	Graphical-models	0	0	0
 2017-05-15	simingz	TransElement	0	0	0
 2017-05-16	andrewheiss	ngo-crackdowns-philanthropy	0	4	0
+2017-05-19	kkdey	CorShrink_workflow	0	0	0
+2017-06-12	erinfry6	BAGER	0	2	0
+2017-06-19	jdblischak	workflowr-demo01	0	0	0
 2017-06-26	hamulmyo	mixopt	0	0	0
 2017-06-28	stephenslab	wflow-divvy	2	6	1
 2017-06-29	eEricWagner	ProjectPortfolio	0	0	0
@@ -140,7 +142,7 @@ date	user	repo	forks	stars	open_issues
 2018-01-24	jhsiao999	sc-power	0	0	0
 2018-01-25	jdblischak	new-project	0	0	0
 2018-02-01	davidhen	Scottish_Social_Care_Open_Data	0	0	0
-2018-02-01	pat-s	2019-feature-selection	1	4	6
+2018-02-01	pat-s	2019-feature-selection	1	5	6
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
 2018-02-19	egouldo	ReproEcoDecisions	1	2	4
@@ -170,7 +172,8 @@ date	user	repo	forks	stars	open_issues
 2018-05-10	zouyuxin	mash_Gandal_2018	1	0	0
 2018-05-12	LSun	BHq	0	0	0
 2018-05-17	adibender	simpamm	0	0	0
-2018-05-24	robwschlegel	MHWdetection	0	0	0
+2018-05-24	eossiander	OpioidMaps	0	0	0
+2018-05-24	robwschlegel	MHWdetection	0	1	0
 2018-05-30	gatoravi	scstoch	0	0	0
 2018-06-05	mturchin20	InterPath	0	0	0
 2018-06-05	xinguangliu	myproject	0	0	0
@@ -195,6 +198,7 @@ date	user	repo	forks	stars	open_issues
 2018-06-20	viviancai13	workflowr	0	0	0
 2018-06-20	zzl136	zl	0	0	0
 2018-06-21	dleelab	leedonghyung	0	0	0
+2018-06-21	haiderinam	medsproject	0	0	0
 2018-06-21	zzl136	zfy	0	0	0
 2018-06-26	KaiqianZhang	Celltype-Variable-Selection	0	0	0
 2018-07-05	mengyin	general_ash	1	0	0
@@ -245,7 +249,7 @@ date	user	repo	forks	stars	open_issues
 2018-07-25	dennyshin	Learning-Thoughts	0	0	0
 2018-07-25	heqixin	varSeq	0	0	0
 2018-08-01	brimittleman	comparative_threeprime	0	0	0
-2018-08-04	timtrice	twitterlikes	0	1	0
+2018-08-04	timtrice	twitter_api	0	1	0
 2018-08-06	dewoller	dusk2dawn	0	0	0
 2018-08-07	davismcc	fibroblast-clonality	4	3	0
 2018-08-07	umccr	google_lims	1	0	1
@@ -263,7 +267,7 @@ date	user	repo	forks	stars	open_issues
 2018-08-30	amromeo	icsh_irf	0	0	0
 2018-08-30	davidhen	ipdln_hackathon	0	0	0
 2018-09-01	flliu315	project	0	0	0
-2018-09-07	andrewheiss	why-donors-donate	1	2	1
+2018-09-07	andrewheiss	why-donors-donate	0	2	1
 2018-09-07	dewoller	doctor-shopping	0	0	0
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
@@ -278,7 +282,6 @@ date	user	repo	forks	stars	open_issues
 2018-09-21	lobbrabe	my_project	0	0	0
 2018-09-21	qicaibiology	my_project	0	0	0
 2018-09-21	sophiacarryl	workflow_project	0	0	0
-2018-09-21	Wenhe-Lin	my_project	0	0	0
 2018-09-21	XRCHAM	myproject	0	0	0
 2018-09-23	egarcias	desigualdad_colombia	0	0	0
 2018-09-23	llinaslab	sanger_rnaseq	0	1	0
@@ -298,7 +301,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-14	jean997	cause	1	1	0
 2018-10-15	alaminmm331	ElectionProjectAA	0	0	0
 2018-10-15	alaminmm331	ElectionProjectCD	0	0	1
-2018-10-15	annakrystalli	rrtools-repro-research	2	9	4
+2018-10-15	annakrystalli	rrtools-repro-research	3	9	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -338,9 +341,9 @@ date	user	repo	forks	stars	open_issues
 2018-12-06	heqixin	var_functionalDiff	0	0	0
 2018-12-06	JiaxiangBU	string	0	0	1
 2018-12-07	KristinaRiemer	wflow_test	0	0	0
-2018-12-07	pat-s	pathogen-modeling	1	2	0
+2018-12-07	pat-s	pathogen-modeling	2	5	0
 2018-12-13	courtneyschiffman	CourtneySchiffman	0	0	0
-2018-12-14	BUStools	BUS_notebooks_R	0	2	0
+2018-12-14	BUStools	BUS_notebooks_R	0	3	0
 2018-12-14	dewoller	tenyear	0	0	0
 2018-12-20	zouyuxin	GTEx	0	1	0
 2018-12-22	huangyh09	vireo-manual	0	0	0
@@ -371,7 +374,6 @@ date	user	repo	forks	stars	open_issues
 2019-02-14	youngseok-kim	simplerflash	0	0	0
 2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0
 2019-02-17	euctrl-pru	reproducible-ans-performance-paper	0	0	0
-2019-02-19	joellarwood	RuminationSadnessMusicRegulation	0	0	0
 2019-02-20	ValentinVoillet	collab_SylvainSimon	0	0	0
 2019-02-23	MohamedRefaat92	myproject	0	0	0
 2019-02-24	zihao12	topics-simulation-experiments	0	0	0
@@ -386,7 +388,6 @@ date	user	repo	forks	stars	open_issues
 2019-03-11	githubz0r	fuck	0	0	0
 2019-03-12	han16	network-analysis-for-autism	0	0	0
 2019-03-12	IttaiEres	HiCiPSC	0	0	0
-2019-03-13	joellarwood	Negative-Valence-Specific-Deficit-in-Music-Affect-Perception-in-Alexithymia	0	0	0
 2019-03-18	psychemistz	test_project	0	0	0
 2019-03-19	andrewheiss	constraint-closure	0	1	0
 2019-03-19	bfairkun	Comparative_eQTL	0	0	0
@@ -413,7 +414,6 @@ date	user	repo	forks	stars	open_issues
 2019-04-23	maxaweis	myproject	0	0	0
 2019-04-23	sgartner456	myproject	0	0	0
 2019-04-23	That-Other-Other-Guy	My_Project	0	0	0
-2019-04-23	Wenhe-Lin	myproject	0	0	0
 2019-04-23	yym7670	myproject	0	0	0
 2019-04-25	KaiqianZhang	brooker-genetics	0	0	0
 2019-04-26	MrsLaviniaG	NotesOnReproducibility	0	0	0
@@ -425,6 +425,7 @@ date	user	repo	forks	stars	open_issues
 2019-05-10	dewoller	can-oz-assoc	0	0	0
 2019-05-13	dewoller	health_informatics_3_r_tutorial	0	0	0
 2019-05-13	robwschlegel	MHWNWA	0	0	0
+2019-05-15	zihao12	lowrank-nmf	0	0	0
 2019-05-16	andrewheiss	canary-ngos	0	0	0
 2019-05-20	pcarbo	workflowr_test	0	0	0
 2019-05-22	jdblischak	test-httr	0	0	0
@@ -454,8 +455,16 @@ date	user	repo	forks	stars	open_issues
 2019-06-11	JonThom	19-BMI-brain-sc-analysis	0	0	0
 2019-06-12	jdblischak	wflow-datos-de-miercoles	0	0	0
 2019-06-12	surbut	nejm	0	0	0
-2019-06-14	johnmorehouse	myproject	0	0	0
-2019-06-16	FangBigSheep	stats-topics	0	0	0
+2019-06-16	FangBigSheep	stats-topics	0	1	0
 2019-06-17	allenczhu	stats_2019_lecture_2	0	0	0
 2019-06-17	allenczhu	summerstats2019	0	0	0
 2019-06-17	CoolEarth-James	forest_monitoring	0	0	0
+2019-06-18	bfairkun	snaptron-analysis	0	0	0
+2019-06-18	lazappi	OzSingleCells2019	0	0	0
+2019-06-20	johnmorehouse	workflow_template	0	0	0
+2019-06-23	timtrice	sample_workflowr	0	0	0
+2019-06-24	AMChalkie	test_workflowr	0	0	0
+2019-06-24	the-pudding	libraries-data	0	0	0
+2019-06-24	timtrice	automated_workflowr	0	0	0
+2019-06-24	Wenhe-Lin	myproject	0	0	0
+2019-06-25	fdhidalgo	transparency_pilot	0	0	0
