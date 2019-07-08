@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	109	11
+2015-06-14	stephens999	fiveMinuteStats	45	111	11
 2015-10-14	stephenslab	gtexresults	5	11	1
 2015-12-15	stephens999	hgen48600	9	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -49,7 +49,7 @@ date	user	repo	forks	stars	open_issues
 2017-03-28	han16	rare-var-project	0	0	0
 2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
-2017-04-14	stephens999	misc	0	1	0
+2017-04-14	stephens999	misc	1	2	1
 2017-04-20	mengyin	bulk_single	0	0	0
 2017-04-21	docmanny	Data-In-Motion	0	1	0
 2017-05-07	han16	Bioinformatics	0	0	0
@@ -254,7 +254,6 @@ date	user	repo	forks	stars	open_issues
 2018-08-06	dewoller	dusk2dawn	0	0	0
 2018-08-07	davismcc	fibroblast-clonality	4	3	0
 2018-08-07	umccr	google_lims	1	0	1
-2018-08-08	timtrice	workflowr_child_docs	0	1	0
 2018-08-09	dewoller	LMS_reports	0	0	0
 2018-08-10	carlmurie	RTSSProject	0	0	0
 2018-08-12	AustinTHilliard	networks	0	0	0
@@ -318,7 +317,6 @@ date	user	repo	forks	stars	open_issues
 2018-10-31	han16	Data-Science-in-R	0	0	0
 2018-10-31	jcalderonv	ensamblaje2	0	0	0
 2018-10-31	Mabelvac	ensamblaje	0	0	0
-2018-10-31	PatBall1	Ashaninka_monitoring	0	0	0
 2018-10-31	robertomansilla	ensamblaje2	0	0	0
 2018-10-31	rsimon64	ensamblaje2	1	0	0
 2018-11-03	zihao12	finm331-fall-2018	0	0	0
@@ -330,7 +328,7 @@ date	user	repo	forks	stars	open_issues
 2018-11-16	ssoba	lake_powell	0	0	0
 2018-11-20	simingz	cropseq	0	0	0
 2018-11-21	annakrystalli	git-github-intro	1	0	2
-2018-11-25	JiaxiangBU	learn_git	0	0	22
+2018-11-25	JiaxiangBU	learn_git	0	0	23
 2018-12-01	tamdrashtri	data-analysis-final-project	0	0	0
 2018-12-02	timtrice	eclipse_megamovie	0	0	0
 2018-12-03	andrewg3311	susieR_logistic_wflow	0	0	0
@@ -351,7 +349,6 @@ date	user	repo	forks	stars	open_issues
 2019-01-07	dewoller	australia_opioids	0	0	0
 2019-01-07	jean997	ptb	0	0	0
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0
-2019-01-10	PatBall1	forest_monitoring	0	0	0
 2019-01-11	timtrice	connors_rsi	1	0	0
 2019-01-12	parajago	TCGA-Nigerian-RNAseq	0	0	0
 2019-01-14	KaiqianZhang	susie-np	0	0	0
@@ -465,5 +462,8 @@ date	user	repo	forks	stars	open_issues
 2019-06-24	timtrice	automated_workflowr	0	2	0
 2019-06-24	Wenhe-Lin	myproject	0	0	0
 2019-06-25	fdhidalgo	transparency_pilot	0	0	0
+2019-06-27	zihao12	topic-model-experiments	0	0	0
 2019-06-28	tinalasisi	HairPhenotypingMethods	0	0	0
-2019-07-01	n-mounier	workflowr_my_first_project	0	0	0
+2019-07-04	cimentadaj	spain_census	1	0	0
+2019-07-04	RenTissier	shrinkCRISPRSimulations	0	0	0
+2019-07-08	lazappi	clamour-example	0	0	0

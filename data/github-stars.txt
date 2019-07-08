@@ -324,3 +324,7 @@ date	stargazer
 2019-06-24	imartinezl
 2019-06-25	ChiChunLiu
 2019-06-25	drunaar
+2019-07-02	andreamorosati
+2019-07-04	farleyknight
+2019-07-06	ljmesi
+2019-07-06	sbvelinga
