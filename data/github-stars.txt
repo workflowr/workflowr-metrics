@@ -328,3 +328,6 @@ date	stargazer
 2019-07-04	farleyknight
 2019-07-06	ljmesi
 2019-07-06	sbvelinga
+2019-07-12	kongdd
+2019-07-12	tinalasisi
+2019-07-13	ZackLarsen

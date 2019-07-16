@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	111	11
+2015-06-14	stephens999	fiveMinuteStats	45	112	11
 2015-10-14	stephenslab	gtexresults	5	11	1
 2015-12-15	stephens999	hgen48600	9	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -49,7 +49,7 @@ date	user	repo	forks	stars	open_issues
 2017-03-28	han16	rare-var-project	0	0	0
 2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
-2017-04-14	stephens999	misc	1	2	1
+2017-04-14	stephens999	misc	1	2	0
 2017-04-20	mengyin	bulk_single	0	0	0
 2017-04-21	docmanny	Data-In-Motion	0	1	0
 2017-05-07	han16	Bioinformatics	0	0	0
@@ -271,7 +271,7 @@ date	user	repo	forks	stars	open_issues
 2018-09-07	dewoller	doctor-shopping	0	0	0
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
-2018-09-13	Oshlack	combes-organoid-paper	0	3	0
+2018-09-13	Oshlack	combes-organoid-paper	0	4	0
 2018-09-18	Lauren-Blake	weight_restoration	0	0	0
 2018-09-21	amrutapn	my_first_project	0	0	0
 2018-09-21	CreRecombinase	my_project	0	0	0
@@ -298,8 +298,8 @@ date	user	repo	forks	stars	open_issues
 2018-10-07	zihao12	stat374-fall-2018	0	0	0
 2018-10-11	michellemiron	Human-T-cell-CyTOF	0	0	0
 2018-10-11	xhyuo	Workflowr_GBRS_array	0	0	0
-2018-10-14	jean997	cause	1	1	0
-2018-10-15	annakrystalli	rrtools-repro-research	3	9	4
+2018-10-14	jean997	cause	2	1	2
+2018-10-15	annakrystalli	rrtools-repro-research	3	10	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -463,7 +463,11 @@ date	user	repo	forks	stars	open_issues
 2019-06-24	Wenhe-Lin	myproject	0	0	0
 2019-06-25	fdhidalgo	transparency_pilot	0	0	0
 2019-06-27	zihao12	topic-model-experiments	0	0	0
-2019-06-28	tinalasisi	HairPhenotypingMethods	0	0	0
 2019-07-04	cimentadaj	spain_census	1	0	0
 2019-07-04	RenTissier	shrinkCRISPRSimulations	0	0	0
 2019-07-08	lazappi	clamour-example	0	0	0
+2019-07-08	zihao12	count_dataset_analysis	0	0	0
+2019-07-09	tinalasisi	HairPhenotyping_Methods	0	0	0
+2019-07-10	surbut	KKScardiology	0	0	0
+2019-07-10	the-pudding	shelters	0	0	0
+2019-07-15	zjiang2	myproject	0	0	0
