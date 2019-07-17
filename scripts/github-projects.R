@@ -91,6 +91,13 @@ project_names <- vapply(projects,
                         function(x) x[["repository"]][["name"]],
                         character(1))
 
+# Manually add some known workflowr projects that don't contain a
+# _workflowr.yml file (it's not actually required)
+project_users <- c(project_users,
+                   "stephens999", "brimittleman")
+project_names <- c(project_names,
+                   "fiveMinuteStats", "apaQTL")
+
 # Get created_at dates and other repo info
 created_at <- character(length(project_users))
 forks <- numeric(length(project_users))
@@ -107,7 +114,7 @@ for (i in seq_along(project_users)) {
   # To avoid triggering abuse detection mechanisms
   rate_lim <- gh("/rate_limit")
   if (rate_lim$resources$core$remaining < 100) Sys.sleep(15) else Sys.sleep(1)
-  if (i %% 25 == 0) message(sprintf("Completed %d / %d", i, length(projects)))
+  if (i %% 25 == 0) message(sprintf("Completed %d / %d", i, length(project_users)))
 }
 created_at <- as_date(created_at)
 
