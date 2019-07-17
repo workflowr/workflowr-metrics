@@ -63,4 +63,8 @@ stars_mon
 # Final plot -------------------------------------------------------------------
 
 plot_grid(proj_cum, proj_mon, stars_cum, stars_mon)
-ggsave("growth.png", width = 10, height = 10)
+
+plot_grid(proj_cum, stars_cum)
+ggsave("figures/growth.png", width = 10, height = 5)
+
+plot_grid(proj_mon, stars_mon)
