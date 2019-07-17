@@ -23,43 +23,65 @@ while (TRUE) {
   }
 }
 
-# Search query:
-# https://github.com/search?q=_site.yml+in%3Apath+path%3Aanalysis&type=Code
+# Search queries:
+#
+# Find projects created with workflowr >= 1.0:
+# https://github.com/search?q=filename%3A_workflowr.yml
+# They contain the file _workflowr.yml
+#
+# Find projects created with workflowr < 1.0
+# https://github.com/search?q=chunks.R+in%3Apath+path%3Aanalysis
+# They contain the file analysis/chunks.R
 projects <- list()
 
-# The pagination for the search queries is a real pain. The max I can get it to
-# return is 100, and I often get duplicated and missing results because of minor
-# reorderings around the page boundaries.
-total <- gh("/search/code?q=_site.yml+in%3Apath+path%3Aanalysis")$total_count
-per_page <- 100
-pages <- ceiling(total / per_page)
-p <- 1
-message("Searching for workflowr projects")
-message(sprintf("Expecting %d projects", total))
-while (length(projects) < total) {
+search_code <- function(query, per_page = 100) {
+  results <- list()
+  total <- gh(paste0("/search/code?q=", query))$total_count
+  pages <- ceiling(total / per_page)
 
-  g <- gh(paste0("/search/code?page=", p,
-                 "&q=_site.yml+in%3Apath+path%3Aanalysis&sort=indexed&per_page=100"))
-  projects <- c(projects, g$items)
+  message(sprintf("Expecting %d search results", total))
+  for (p in seq_len(pages)) {
+    api_call <- paste0("/search/code?page=", p, "&q=", query,
+                       "&per_page=", per_page)
+    g <- gh(api_call)
+    results <- c(results, g$items)
+    Sys.sleep(1)
+  }
 
-  # Remove duplicates
+  message(sprintf("Retreived %d search results", length(results)))
+  message(sprintf("The latest count returned by the search was %d", g$total_count))
+  stopifnot(length(results) == total || length(results) == g$total_count)
+  if (g$total_count != total) {
+    warning("Mismatch between original and final estimates of total results: ",
+            sprintf("%d vs %d", total, g$total_count))
+  }
+  return(results)
+}
+
+remove_duplicate_projects <- function(projects) {
   id <- vapply(projects, function(x) x[["repository"]][["id"]], numeric(1))
   projects <- projects[!duplicated(id)]
-
-  p <- if (p < pages) p + 1 else 1
-  # To avoid triggering abuse detection mechanisms
-  rate_lim <- gh("/rate_limit")
-  if (rate_lim$resources$search$remaining < 10) Sys.sleep(15) else Sys.sleep(5)
+  return(projects)
 }
 
-message("Finished searching for workflowr projects")
-message(sprintf("Found %d projects", length(projects)))
-message(sprintf("The latest count returned by the search was %d", g$total_count))
-stopifnot(length(projects) == total || length(projects) == g$total_count)
-if (g$total_count != total) {
-  warning("Mismatch between original and final estimates of workflowr projects: ",
-          sprintf("%d vs %d", total, g$total_count))
-}
+# Search for workflowr 1.0+ projects with a _workflowr.yml file
+message("Searching for workflowr 1.0+ projects")
+projects <- search_code("filename%3A_workflowr.yml")
+message("Finished searching for workflowr 1.0+ projects")
+projects <- remove_duplicate_projects(projects)
+message(sprintf("Found %d unique workflowr 1.0+ projects", length(projects)))
+
+Sys.sleep(15)
+
+# Search for workflowr <1.0 projects with an analysis/chunks.R file
+message("Searching for workflowr <1.0 projects")
+projects_beta <- search_code("chunks.R+in%3Apath+path%3Aanalysis")
+message("Finished searching for workflowr <1.0 projects")
+projects_beta <- remove_duplicate_projects(projects_beta)
+message(sprintf("Found %d unique workflowr <1.0 projects", length(projects_beta)))
+
+projects <- c(projects, projects_beta)
+projects <- remove_duplicate_projects(projects)
 
 project_users <- vapply(projects,
                         function(x) x[["repository"]][["owner"]][["login"]],
@@ -96,5 +118,10 @@ output <- output[order(output$date, output$user, output$repo), ]
 # Note: Some repositories may have been created prior to the beta release of
 # workflowr in Dec 2016 because they were later converted to workflowr
 # projects.
+
+# Remove main workflowr repository and the cran mirror
+pkgs <- output$repo == "workflowr" & (output$user == "jdblischak" | output$user == "cran")
+stopifnot(sum(pkgs) == 2)
+output <- output[!pkgs, ]
 
 write.table(output, file = fname, quote = FALSE, sep = "\t", row.names = FALSE)
