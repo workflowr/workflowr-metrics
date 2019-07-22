@@ -49,7 +49,6 @@ date	user	repo	forks	stars	open_issues
 2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
 2017-04-14	stephens999	misc	1	2	0
-2017-04-20	mengyin	bulk_single	0	0	0
 2017-04-21	docmanny	Data-In-Motion	0	1	0
 2017-05-07	han16	Bioinformatics	0	0	0
 2017-05-07	han16	ScientificComputing	0	0	0
@@ -143,6 +142,7 @@ date	user	repo	forks	stars	open_issues
 2018-02-06	tk382	diffNet	0	0	0
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
+2018-02-19	egouldo	ReproEcoDecisions	1	2	4
 2018-02-26	MarkPlatts	Bee_Clustering_Website	1	2	0
 2018-02-27	psudmant	BurgeLabBeerTasting2018	0	0	0
 2018-03-09	ck2136	ttp_prediction	0	0	0
@@ -235,7 +235,7 @@ date	user	repo	forks	stars	open_issues
 2018-07-18	juliusPeppers	PepperFlow	0	0	0
 2018-07-19	ballardtj	recruitment	0	0	0
 2018-07-20	dewoller	benzodiazepine_opioid_usage	0	0	0
-2018-07-23	bingrus	myproject	0	0	0
+2018-07-23	bingrus	myproject	1	0	0
 2018-07-23	dewoller	data_science_students_2018	0	0	0
 2018-07-24	dewoller	workflowr_tutorial	0	0	0
 2018-07-24	Nirmala100	STM5IPL	0	0	0
@@ -249,6 +249,7 @@ date	user	repo	forks	stars	open_issues
 2018-08-07	davismcc	fibroblast-clonality	4	3	0
 2018-08-07	umccr	google_lims	1	0	1
 2018-08-09	dewoller	LMS_reports	0	0	0
+2018-08-10	carlmurie	RTSSProject	0	0	0
 2018-08-12	AustinTHilliard	networks	0	0	0
 2018-08-13	dennyshin	Elements-of-Stats-Lab	0	0	0
 2018-08-17	egarcias	prueba5	0	0	0
@@ -264,7 +265,7 @@ date	user	repo	forks	stars	open_issues
 2018-09-10	dewoller	wf_continuing	0	0	0
 2018-09-10	jonathandash	tekapo-shelterbelt	0	0	0
 2018-09-11	SWS-Methodology	faoswsAquastat	0	0	0
-2018-09-13	Oshlack	combes-organoid-paper	0	4	0
+2018-09-13	Oshlack	combes-organoid-paper	1	4	0
 2018-09-18	Lauren-Blake	weight_restoration	0	0	0
 2018-09-21	amrutapn	my_first_project	0	0	0
 2018-09-21	CreRecombinase	my_project	0	0	0
@@ -273,6 +274,7 @@ date	user	repo	forks	stars	open_issues
 2018-09-21	JordanJousma	example_project	0	0	0
 2018-09-21	kzawieracz	mynewproject1	0	0	0
 2018-09-21	lobbrabe	my_project	0	0	0
+2018-09-21	qicaibiology	my_project	0	0	0
 2018-09-21	sophiacarryl	workflow_project	0	0	0
 2018-09-21	XRCHAM	myproject	0	0	0
 2018-09-23	egarcias	desigualdad_colombia	0	0	0
@@ -306,6 +308,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-30	ralphramos	ensamblaje	0	0	0
 2018-10-30	rosaespejo	ensamblaje2	0	0	0
 2018-10-31	epacheco7	ensamblaje2	0	0	0
+2018-10-31	han16	Data-Science-in-R	0	0	0
 2018-10-31	jcalderonv	ensamblaje2	0	0	0
 2018-10-31	Mabelvac	ensamblaje	0	0	0
 2018-10-31	robertomansilla	ensamblaje2	0	0	0
@@ -361,6 +364,7 @@ date	user	repo	forks	stars	open_issues
 2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0
 2019-02-17	euctrl-pru	reproducible-ans-performance-paper	0	0	0
 2019-02-20	ValentinVoillet	collab_SylvainSimon	0	0	0
+2019-02-23	MohamedRefaat92	myproject	0	0	0
 2019-02-24	zihao12	topics-simulation-experiments	0	0	0
 2019-03-01	KaiqianZhang	paper-reading	0	0	0
 2019-03-04	jcquiroz	projection_fishpop	0	0	0
@@ -368,7 +372,7 @@ date	user	repo	forks	stars	open_issues
 2019-03-06	youyupei	workflowr	0	0	0
 2019-03-07	lukeholman	queen-pheromone-RNAseq	0	0	0
 2019-03-09	frm1789	gt_examples	2	18	1
-2019-03-10	timtrice	workflowr_skeleton	0	0	0
+2019-03-10	frm1789	ShinyExample	0	0	0
 2019-03-11	githubz0r	fuck	0	0	0
 2019-03-11	HelenaLC	muscat-comparison	0	0	0
 2019-03-12	han16	network-analysis-for-autism	0	0	0
@@ -416,6 +420,7 @@ date	user	repo	forks	stars	open_issues
 2019-05-31	jjmaynard	SoilID	0	0	0
 2019-05-31	KaiqianZhang	statistical-inference	0	0	0
 2019-06-03	dewoller	vaed_rnn	0	0	0
+2019-06-03	LoriLoriLori	MouseAging_LDK	0	0	0
 2019-06-05	hillarykoch	SILLYACRONYM	0	0	0
 2019-06-06	dewoller	sva_compare	0	0	0
 2019-06-06	ellysong	SILLYACRONYM	0	0	0
@@ -439,16 +444,21 @@ date	user	repo	forks	stars	open_issues
 2019-06-17	allenczhu	summerstats2019	0	0	0
 2019-06-17	CoolEarth-James	forest_monitoring	0	0	0
 2019-06-18	bfairkun	snaptron-analysis	1	0	0
-2019-06-18	lazappi	OzSingleCells2019	0	0	0
+2019-06-18	lazappi	OzSingleCell2019	0	0	0
 2019-06-20	johnmorehouse	workflow_template	0	0	0
 2019-06-24	AMChalkie	test_workflowr	0	0	0
-2019-06-24	timtrice	automated_workflowr	0	2	0
 2019-06-24	Wenhe-Lin	myproject	0	0	0
 2019-06-25	fdhidalgo	transparency_pilot	0	0	0
 2019-06-27	zihao12	topic-model-experiments	0	0	0
 2019-07-04	cimentadaj	spain_census	1	0	0
 2019-07-04	RenTissier	shrinkCRISPRSimulations	0	0	0
 2019-07-08	zihao12	count_dataset_analysis	0	0	0
-2019-07-09	tinalasisi	HairPhenotyping_Methods	0	0	0
+2019-07-09	tinalasisi	HairPhenotyping_Methods	0	1	0
 2019-07-10	surbut	KKScardiology	0	0	0
 2019-07-15	zjiang2	myproject	0	0	0
+2019-07-17	hillarykoch	lieb_page	0	0	0
+2019-07-19	chj1ar	practice_project	0	0	0
+2019-07-19	ghousman	human-chimp-skeletal-scRNA	0	0	0
+2019-07-19	timtrice	enhanced_workflowr	0	1	0
+2019-07-20	kvasilopoulos	myproject	0	0	0
+2019-07-21	kkdey	Robocov	0	0	0
