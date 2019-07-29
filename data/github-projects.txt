@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues
 2014-03-19	stephenslab	smash-paper	0	3	0
-2015-06-14	stephens999	fiveMinuteStats	45	112	11
+2015-06-14	stephens999	fiveMinuteStats	45	114	11
 2015-10-14	stephenslab	gtexresults	5	11	1
 2015-12-15	stephens999	hgen48600	9	1	0
 2015-12-30	timtrice	ncdc_storm_events	0	0	1
@@ -21,7 +21,6 @@ date	user	repo	forks	stars	open_issues
 2017-01-17	annakrystalli	ACCE_RDM	1	1	0
 2017-01-19	kevinlkx	workflow_test	0	0	0
 2017-01-20	NKweiwang	flash_workflow	1	2	0
-2017-01-21	NKweiwang	logisticFlash_workflow	0	0	0
 2017-01-22	NKweiwang	TDS_study1	0	0	0
 2017-01-29	LSun	truncash	1	1	0
 2017-02-05	simecek	TheAgingProteome	2	4	0
@@ -49,6 +48,7 @@ date	user	repo	forks	stars	open_issues
 2017-03-31	han16	JumpSeq-project	1	0	0
 2017-04-06	kkdey	aRchaic	3	16	5
 2017-04-14	stephens999	misc	1	2	0
+2017-04-20	mengyin	bulk_single	0	0	0
 2017-04-21	docmanny	Data-In-Motion	0	1	0
 2017-05-07	han16	Bioinformatics	0	0	0
 2017-05-07	han16	ScientificComputing	0	0	0
@@ -142,7 +142,6 @@ date	user	repo	forks	stars	open_issues
 2018-02-06	tk382	diffNet	0	0	0
 2018-02-07	zouyuxin	mash_application	0	0	0
 2018-02-16	kkdey	dashr-pages	0	0	0
-2018-02-19	egouldo	ReproEcoDecisions	1	2	4
 2018-02-26	MarkPlatts	Bee_Clustering_Website	1	2	0
 2018-02-27	psudmant	BurgeLabBeerTasting2018	0	0	0
 2018-03-09	ck2136	ttp_prediction	0	0	0
@@ -156,7 +155,6 @@ date	user	repo	forks	stars	open_issues
 2018-04-11	kevinlkx	data_smoothing	0	0	0
 2018-04-11	Lauren-Blake	Chimp_eqtl	0	0	0
 2018-04-12	kkdey	Black_magazines	0	0	0
-2018-04-13	Lauren-Blake	Explore_WGCNA	0	1	0
 2018-04-16	zouyuxin	mash_John_2015	0	0	0
 2018-04-25	syl0125	myproject	0	0	0
 2018-04-26	daaronr	substitution-replaced	0	0	0
@@ -292,7 +290,7 @@ date	user	repo	forks	stars	open_issues
 2018-10-11	michellemiron	Human-T-cell-CyTOF	0	0	0
 2018-10-11	xhyuo	Workflowr_GBRS_array	0	0	0
 2018-10-14	jean997	cause	2	1	2
-2018-10-15	annakrystalli	rrtools-repro-research	3	10	4
+2018-10-15	annakrystalli	rrtools-repro-research	3	11	4
 2018-10-15	jacevedopardo	ElectionProjectCD	0	0	0
 2018-10-15	JonahBKing	ElectionProjectCD	0	0	0
 2018-10-15	Khadimul1980	ElectionProjectCD	0	0	0
@@ -374,7 +372,7 @@ date	user	repo	forks	stars	open_issues
 2019-03-09	frm1789	gt_examples	2	18	1
 2019-03-10	frm1789	ShinyExample	0	0	0
 2019-03-11	githubz0r	fuck	0	0	0
-2019-03-11	HelenaLC	muscat-comparison	0	0	0
+2019-03-11	HelenaLC	muscat-comparison	1	1	0
 2019-03-12	han16	network-analysis-for-autism	0	0	0
 2019-03-12	IttaiEres	HiCiPSC	0	0	0
 2019-03-18	psychemistz	test_project	0	0	0
@@ -413,6 +411,7 @@ date	user	repo	forks	stars	open_issues
 2019-05-13	robwschlegel	MHWNWA	0	0	0
 2019-05-20	pcarbo	workflowr_test	0	0	0
 2019-05-22	jdblischak	test-httr	0	0	0
+2019-05-23	goergen95	polymeRID	0	1	0
 2019-05-28	almutlue	characterize_batches	0	0	0
 2019-05-29	jjmaynard	ESG.Mapping	0	0	0
 2019-05-29	jjmaynard	ESG.Mapping2	0	0	0
@@ -462,3 +461,7 @@ date	user	repo	forks	stars	open_issues
 2019-07-19	timtrice	enhanced_workflowr	0	1	0
 2019-07-20	kvasilopoulos	myproject	0	0	0
 2019-07-21	kkdey	Robocov	0	0	0
+2019-07-23	crazyhottommy	scRNA-seq-workshop-Fall-2019	0	9	0
+2019-07-23	DongyueXie	FMF	0	0	0
+2019-07-25	chj1ar	weekly_report20190715-21	0	0	0
+2019-07-26	surbut	LVAD	0	0	0
