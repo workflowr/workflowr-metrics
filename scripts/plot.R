@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(cowplot)
-theme_set(theme_cowplot())
+theme_set(theme_cowplot(font_size = 16, rel_small = 1))
 library(lubridate)
 
 ## Projects --------------------------------------------------------------------
@@ -65,6 +65,6 @@ stars_mon
 plot_grid(proj_cum, proj_mon, stars_cum, stars_mon)
 
 plot_grid(proj_cum, stars_cum)
-ggsave("figures/growth.png", width = 10, height = 5)
+ggsave("figures/growth.png", width = 6.5 * 2, height = 2 * 2)
 
 plot_grid(proj_mon, stars_mon)
