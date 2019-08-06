@@ -100,6 +100,7 @@ project_names <- c(project_names,
 
 # Get created_at dates and other repo info
 created_at <- character(length(project_users))
+updated_at <- character(length(project_users))
 forks <- numeric(length(project_users))
 stars <- numeric(length(project_users))
 open_issues <- forks <- numeric(length(project_users))
@@ -108,6 +109,7 @@ for (i in seq_along(project_users)) {
   g <- gh("/repos/:owner/:repo", owner = project_users[i],
           repo = project_names[i])
   created_at[i] <- g$created_at
+  updated_at[i] <- g$updated_at
   forks[i] <- g$forks_count
   stars[i] <- g$stargazers_count
   open_issues[i] <- g$open_issues_count
@@ -117,9 +119,11 @@ for (i in seq_along(project_users)) {
   if (i %% 25 == 0) message(sprintf("Completed %d / %d", i, length(project_users)))
 }
 created_at <- as_date(created_at)
+updated_at <- as_date(updated_at)
 
 output <- data.frame(date = created_at, user = project_users,
                      repo = project_names, forks, stars, open_issues,
+                     last_update = updated_at,
                      stringsAsFactors = FALSE)
 output <- output[order(output$date, output$user, output$repo), ]
 # Note: Some repositories may have been created prior to the beta release of
