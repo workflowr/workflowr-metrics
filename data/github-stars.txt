@@ -340,3 +340,6 @@ date	stargazer
 2019-07-29	atanasj
 2019-08-04	xxz19900
 2019-08-05	porchard
+2019-08-22	annawoodard
+2019-08-22	lindsay-stevens
+2019-08-25	bnoland
