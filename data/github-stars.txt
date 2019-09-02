@@ -233,7 +233,6 @@ date	stargazer
 2018-11-25	gisma
 2018-11-26	jaapwalhout
 2018-11-28	harlydurbin
-2018-11-30	gfleetwood
 2018-11-30	mauriziopaul
 2018-12-05	KangchengHou
 2018-12-07	EricAlcaide
@@ -343,3 +342,5 @@ date	stargazer
 2019-08-22	annawoodard
 2019-08-22	lindsay-stevens
 2019-08-25	bnoland
+2019-08-28	krzjoa
+2019-08-29	gorgitko
