@@ -288,7 +288,7 @@ date	stargazer
 2019-03-20	hugh1li
 2019-03-22	dcroteau-chonka
 2019-03-22	Nazeeefa
-2019-03-23	blair919
+2019-03-23	blrwmck
 2019-03-25	johnnysullivan
 2019-04-01	davidski
 2019-04-05	romgienious
@@ -319,7 +319,6 @@ date	stargazer
 2019-06-13	sergiballestar
 2019-06-13	TBradley27
 2019-06-20	sonoshah
-2019-06-22	BassK
 2019-06-24	imartinezl
 2019-06-25	ChiChunLiu
 2019-06-25	drunaar
@@ -344,3 +343,5 @@ date	stargazer
 2019-08-25	bnoland
 2019-08-28	krzjoa
 2019-08-29	gorgitko
+2019-09-04	ShixiangWang
+2019-09-04	kuzmenkov111
