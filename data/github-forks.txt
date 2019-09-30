@@ -8,7 +8,7 @@ date	user	update_difftime
 2017-08-24	stevepeak	2
 2017-08-25	xingjiegenetics	2
 2017-09-01	johnsonlab	3
-2017-09-18	CreRecombinase	58926815
+2017-09-18	CreRecombinase	63506738
 2017-10-11	MMesbahU	2
 2017-10-20	dondealban	2
 2017-10-31	vanAmsterdam	2
@@ -52,3 +52,4 @@ date	user	update_difftime
 2019-07-14	presagia-analytics	1977825
 2019-08-03	mcadledavidson	3
 2019-09-04	jakezhusph	1
+2019-09-29	yandgong307	1
