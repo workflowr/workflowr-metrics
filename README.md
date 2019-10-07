@@ -7,24 +7,24 @@ workflowr-metrics
 
 Source: public GitHub repositories
 
-Last update: 2019-09-30 15:15:24
+Last update: 2019-10-07 15:16:13
 
--   Weekly active projects (unique users): 40 (32)
+-   Weekly active projects (unique users): 29 (24)
 
--   Monthly active projects (unique users): 111 (84)
+-   Monthly active projects (unique users): 90 (70)
 
--   Number of workflowr projects on GitHub: 546
+-   Number of workflowr projects on GitHub: 552
 
--   Stars of workflowr GitHub repository: 348
+-   Stars of workflowr GitHub repository: 351
 
--   CRAN downloads: 7690
+-   CRAN downloads: 7751
 
 -   Watchers of workflowr GitHub repository: 25
 
--   Forks of workflowr GitHub repository: 54
+-   Forks of workflowr GitHub repository: 56
 
 -   Forks of workflowr GitHub repository with updates: 8
 
--   Views of workflowr GitHub repository: 14939
+-   Views of workflowr GitHub repository: 15248
 
--   Clones of workflowr GitHub repository: 2213
+-   Clones of workflowr GitHub repository: 2316
