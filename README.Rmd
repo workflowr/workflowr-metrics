@@ -68,6 +68,13 @@ downloads$cumulative <- cumsum(downloads$count)
 
 * CRAN downloads: `r downloads$cumulative[nrow(downloads)]`
 
+```{r packagerank}
+packagerank <- read.delim("data/packagerank.txt", stringsAsFactors = FALSE)
+packagerank_latest <- packagerank[nrow(packagerank), ]
+```
+
+* CRAN package percentile (on `r packagerank_latest$date`): `r packagerank_latest$percentile`
+
 ```{r watchers}
 watchers <- read.delim("data/github-watchers.txt", stringsAsFactors = FALSE)
 ```
