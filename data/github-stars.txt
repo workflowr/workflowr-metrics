@@ -353,3 +353,7 @@ date	stargazer
 2019-10-08	mgargiulo
 2019-10-16	Shyamniper
 2019-10-19	grst
+2019-10-22	jeanmanguy
+2019-10-24	cvanderaa
+2019-10-24	tomwenseleers
+2019-10-25	HaipengU
