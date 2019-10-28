@@ -3,7 +3,8 @@ pkgs <- c(
   "gh",
   "lubridate",
   "packageRank",
-  "rmarkdown"
+  "rmarkdown",
+  "R.utils"
 )
 # To run scripts/github-projects-stats.R locally
 # pkgs <- c(pkgs, "git2r", "workflowr")
