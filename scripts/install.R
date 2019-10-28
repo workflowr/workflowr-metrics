@@ -2,6 +2,7 @@ pkgs <- c(
   "cranlogs",
   "gh",
   "lubridate",
+  "packageRank",
   "rmarkdown"
 )
 # To run scripts/github-projects-stats.R locally
