@@ -1,2 +1,3 @@
 date	packages	downloads	rank	percentile	total.downloads	total.packages
 2019-10-23	workflowr	23	10186	41.3	5097912	17350
+2019-10-30	workflowr	16	6239	64.1	4695790	17396

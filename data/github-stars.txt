@@ -191,7 +191,6 @@ date	stargazer
 2018-07-19	GMFranceschini
 2018-07-19	RLesur
 2018-07-19	svmiller
-2018-07-19	juyeongkim
 2018-07-21	embracefall
 2018-07-22	melsiddieg
 2018-07-31	mLRY
@@ -357,3 +356,6 @@ date	stargazer
 2019-10-24	cvanderaa
 2019-10-24	tomwenseleers
 2019-10-25	HaipengU
+2019-11-02	hurrialice
+2019-11-02	nrkoehler
+2019-11-03	szcf-weiya
