@@ -16,7 +16,6 @@ date	user	update_difftime
 2017-11-21	VladimirDimov	2
 2018-01-16	tcratius	2
 2018-01-17	guhjy	44755900
-2018-01-31	munterfinger	55637134
 2018-02-02	anorris8	2
 2018-04-24	pcarbo	2
 2018-06-28	anhnguyendepocen	3

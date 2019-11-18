@@ -365,3 +365,6 @@ date	stargazer
 2019-11-06	mschilli87
 2019-11-07	ntncmch
 2019-11-10	daltonjorge
+2019-11-12	nathaneastwood
+2019-11-15	hlfernandez
+2019-11-15	TrashBirdEcology
