@@ -3,7 +3,6 @@ date	stargazer
 2017-01-08	jhmarcus
 2017-01-10	jhsiao999
 2017-01-12	dcgerard
-2017-02-12	jchrom
 2017-03-15	xiangzhu
 2017-03-22	juhy-git
 2017-03-23	kylelundstedt
@@ -368,3 +367,4 @@ date	stargazer
 2019-11-12	nathaneastwood
 2019-11-15	hlfernandez
 2019-11-15	TrashBirdEcology
+2019-11-24	davll
