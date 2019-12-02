@@ -158,7 +158,6 @@ date	stargazer
 2018-05-30	chen10an
 2018-05-30	shabbybanks
 2018-06-03	hesscl
-2018-06-04	jomuller
 2018-06-08	ifantasy
 2018-06-12	gaiatek
 2018-06-20	chrMongeau
