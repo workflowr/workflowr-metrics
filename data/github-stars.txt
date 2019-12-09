@@ -367,3 +367,6 @@ date	stargazer
 2019-11-15	hlfernandez
 2019-11-15	TrashBirdEcology
 2019-11-24	davll
+2019-12-04	tranbach
+2019-12-04	lopierra
+2019-12-05	guanhuac
