@@ -6,3 +6,4 @@ date	weekly_projects	weekly_users	monthly_projects	monthly_users
 2019-11-25	36	28	83	60
 2019-12-02	36	32	89	62
 2019-12-09	41	34	84	61
+2019-12-16	43	34	95	69

@@ -370,3 +370,7 @@ date	stargazer
 2019-12-04	tranbach
 2019-12-04	lopierra
 2019-12-05	guanhuac
+2019-12-09	jasonratcliff
+2019-12-10	fschaffner
+2019-12-10	matthewbegun
+2019-12-13	tandoorichicken
