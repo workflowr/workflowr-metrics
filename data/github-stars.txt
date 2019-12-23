@@ -374,3 +374,5 @@ date	stargazer
 2019-12-10	fschaffner
 2019-12-10	matthewbegun
 2019-12-13	tandoorichicken
+2019-12-19	alexkyllo
+2019-12-20	Raylc
