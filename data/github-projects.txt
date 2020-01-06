@@ -1,5 +1,5 @@
 date	user	repo	forks	stars	open_issues	last_update
-2014-03-19	stephenslab	smash-paper	0	3	0	2019-12-20
+2014-03-19	stephenslab	smash-paper	0	3	0	2020-01-02
 2015-06-14	stephens999	fiveMinuteStats	49	138	11	2019-12-28
 2015-10-14	stephenslab	gtexresults	5	12	1	2019-11-20
 2015-12-15	stephens999	hgen48600	10	1	0	2018-03-19
@@ -175,10 +175,10 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-06-05	mturchin20	InterPath	0	0	0	2019-12-28
 2018-06-05	xinguangliu	myproject	0	0	0	2018-06-05
 2018-06-06	han16	PartitionMCMCDAG	0	1	0	2018-12-07
+2018-06-07	dleelab	impcsummary	0	0	0	2018-06-12
 2018-06-09	willwerscheid	MASHvFLASH	0	2	0	2018-09-22
 2018-06-12	ballardtj	discounting_recovery	2	0	1	2019-12-02
 2018-06-12	egouldo	ReplicatingEcoConsDecisions	0	0	0	2018-12-10
-2018-06-15	davidhen	syncourse	0	0	0	2018-06-20
 2018-06-19	biomonika	myproject	0	0	0	2018-06-19
 2018-06-20	biomonika	cechova_website	0	0	0	2018-06-20
 2018-06-20	biomonika	myproject2	0	0	0	2018-06-20
@@ -186,7 +186,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-06-20	firephoenix11	Fengping_website	0	0	0	2018-06-20
 2018-06-20	haiderinam	myproject	0	0	0	2018-06-20
 2018-06-20	Jas1374	Bootcamp-Website	0	0	0	2018-06-20
-2018-06-20	kevinlkx	ATAC-seq_footprint_analysis	0	1	0	2019-05-18
+2018-06-20	kevinlkx	ATAC-seq_footprint_analysis	0	2	0	2020-01-02
 2018-06-20	rongma	bootcamp	0	0	0	2018-06-20
 2018-06-20	skitchen19	website_mock	0	0	0	2018-06-20
 2018-06-20	Vieira34	myworkflowr	0	0	0	2018-06-20
@@ -197,12 +197,10 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-06-21	zzl136	zfy	0	0	0	2018-06-21
 2018-06-26	KaiqianZhang	Celltype-Variable-Selection	0	0	0	2018-06-26
 2018-07-05	mengyin	general_ash	1	1	0	2019-08-29
-2018-07-08	sefabey	fbi_hate_crimes_data_viz	0	0	0	2019-12-24
 2018-07-11	dewoller	user-conference	0	0	0	2018-07-13
 2018-07-12	han16	An_Introduction_to_Bayesian_Statistics	0	0	0	2019-12-19
 2018-07-15	dewoller	sleep_apneoa	0	0	0	2018-07-31
 2018-07-15	willwerscheid	FLASHvestigations	0	0	0	2019-11-21
-2018-07-16	chunghueywu	my_wflow_project	0	0	0	2018-07-16
 2018-07-17	amcguinn	live-demo	0	0	0	2018-07-17
 2018-07-17	amyloughman	live-demo	0	0	0	2018-07-17
 2018-07-17	bingrus	live-demo	0	0	0	2018-07-23
@@ -212,11 +210,9 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-07-17	gtsambos	live-demo	0	0	0	2018-07-17
 2018-07-17	heejungshim	live-demo	0	0	0	2018-07-17
 2018-07-17	jackieduckie	workflow-demo	0	0	0	2018-07-17
-2018-07-17	jdblischak	live-demo	0	0	0	2018-07-17
 2018-07-17	JMarzec	live-demo	0	0	0	2018-07-17
 2018-07-17	kristyhoran	workflow-demo	0	0	0	2018-07-17
 2018-07-17	lecook	live-demo	0	0	0	2018-07-17
-2018-07-17	mamut343	live_demo	0	0	0	2018-07-17
 2018-07-17	mmYeung	Reproducibility_Live_Demo	0	0	0	2018-07-17
 2018-07-17	Moderate-PG	workflowr-live-demo	0	0	0	2018-07-17
 2018-07-17	MomenehForoutan	live-demo	0	0	0	2018-07-17
@@ -235,6 +231,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-07-19	ballardtj	recruitment	0	0	0	2019-02-22
 2018-07-20	dewoller	benzodiazepine_opioid_usage	0	0	0	2019-12-10
 2018-07-23	bingrus	myproject	1	0	0	2018-12-02
+2018-07-23	dewoller	data_science_students_2018	0	0	0	2019-07-29
 2018-07-24	dewoller	workflowr_tutorial	0	0	0	2018-07-24
 2018-07-24	Nirmala100	STM5IPL	0	0	0	2018-07-24
 2018-07-24	rukaht	RUK1IPL	0	0	0	2018-07-24
@@ -300,7 +297,6 @@ date	user	repo	forks	stars	open_issues	last_update
 2018-10-25	surbut	Kidneyproject	0	0	0	2018-10-25
 2018-10-26	PytrikFolkertsma	10x-adipocyte-analysis	0	1	0	2019-12-02
 2018-10-26	youngseok-kim	EFASH	0	0	0	2018-11-07
-2018-10-29	rsimon64	bioinfo	0	0	0	2018-10-30
 2018-10-30	charo1999	ensamblar	0	0	0	2018-10-31
 2018-10-30	ralphramos	ensamblaje	0	0	0	2018-10-31
 2018-10-30	rosaespejo	ensamblaje2	0	0	0	2018-10-31
@@ -340,7 +336,6 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-01-07	jean997	ptb	0	0	0	2019-01-07
 2019-01-10	lazappi	phd-thesis-analysis	0	1	0	2019-10-15
 2019-01-11	timtrice	connors_rsi	1	0	0	2019-06-28
-2019-01-12	parajago	TCGA-Nigerian-RNAseq	0	1	0	2019-12-04
 2019-01-14	KaiqianZhang	susie-np	0	0	0	2019-06-11
 2019-01-14	kkdey	CorShrink2	0	0	0	2019-01-23
 2019-01-15	zouyuxin	dsc-susie-z	0	0	0	2019-11-29
@@ -351,6 +346,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-01-25	umccr	SNVCNV	0	0	0	2019-12-18
 2019-01-25	yasinkaymaz	Harvard-NissenLab	0	0	0	2019-02-06
 2019-01-28	markrobinsonuzh	differential_state_examples	0	0	0	2019-01-31
+2019-02-05	dewoller	generate_vaed_dataset	0	0	0	2019-02-11
 2019-02-06	lo2811	IPF_LB	0	0	0	2019-04-03
 2019-02-07	envima	EMMa	0	0	0	2019-07-24
 2019-02-07	parajago	Tempus	0	0	0	2019-05-29
@@ -359,8 +355,11 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-02-14	yasinkaymaz	Harvard-GillardonLab	0	0	0	2019-02-21
 2019-02-14	youngseok-kim	simplerflash	0	0	0	2019-02-15
 2019-02-16	KLRhodes	CM_ATAC_Workflow	0	0	0	2019-02-21
+2019-02-17	euctrl-pru	reproducible-ans-performance-paper	0	0	0	2019-11-25
+2019-02-20	ValentinVoillet	collab_SylvainSimon	0	0	0	2019-05-29
 2019-02-23	MohamedRefaat92	myproject	0	0	0	2019-02-23
-2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0	2019-12-11
+2019-02-24	zihao12	topics-simulation-experiments	0	0	0	2019-05-21
+2019-02-25	joellarwood	AlexithymiaMusicAffectPsychophysiology2019	0	0	0	2020-01-06
 2019-03-01	KaiqianZhang	paper-reading	0	0	0	2019-10-15
 2019-03-04	jcquiroz	projection_fishpop	0	0	0	2019-03-04
 2019-03-05	yasinkaymaz	Harvard-RosenbrockLab	0	1	0	2019-05-08
@@ -396,6 +395,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-04-23	maxaweis	myproject	0	0	0	2019-04-23
 2019-04-23	sgartner456	myproject	0	0	0	2019-04-23
 2019-04-23	That-Other-Other-Guy	My_Project	0	0	0	2019-04-23
+2019-04-23	yym7670	myproject	0	0	0	2019-04-23
 2019-04-25	KaiqianZhang	brooker-genetics	0	0	0	2019-05-05
 2019-04-26	MrsLaviniaG	NotesOnReproducibility	0	0	0	2019-05-16
 2019-04-30	dewoller	ehr_exploration	0	0	0	2019-04-30
@@ -433,8 +433,9 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-06-07	jiuchao	STAT555-RNAseq	0	0	0	2019-06-07
 2019-06-11	jdblischak	wflow-tidy-tuesday	0	0	0	2019-10-17
 2019-06-12	jdblischak	wflow-datos-de-miercoles	0	0	0	2019-06-21
-2019-06-12	surbut	nejm	0	0	0	2019-12-27
+2019-06-12	surbut	nejm	0	0	0	2019-12-30
 2019-06-16	FangBigSheep	stats-topics	0	1	0	2019-08-28
+2019-06-17	allenczhu	stats_2019_lecture_2	0	0	0	2019-06-17
 2019-06-17	allenczhu	summerstats2019	0	0	0	2019-06-17
 2019-06-18	bfairkun	snaptron-analysis	1	0	0	2019-09-03
 2019-06-18	lazappi	OzSingleCell2019	0	1	0	2019-12-06
@@ -454,7 +455,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-07-19	ghousman	human-chimp-skeletal-scRNA	0	0	0	2019-07-19
 2019-07-19	timtrice	enhanced_workflowr	0	1	0	2019-07-28
 2019-07-21	kkdey	Robocov	0	0	0	2019-11-23
-2019-07-23	crazyhottommy	scRNA-seq-workshop-Fall-2019	3	18	0	2019-10-22
+2019-07-23	crazyhottommy	scRNA-seq-workshop-Fall-2019	4	18	0	2019-10-22
 2019-07-23	DongyueXie	SMF	1	0	0	2019-12-13
 2019-07-25	chj1ar	weekly_report20190715-21	0	0	0	2019-12-30
 2019-07-26	surbut	LVAD	0	0	0	2019-07-27
@@ -479,7 +480,6 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-08-25	jenrichmond	regression	0	0	0	2019-08-26
 2019-08-26	jean997	sumstatFactors	0	0	0	2019-11-21
 2019-08-29	andrewg3311	Group_SuSiE	0	0	0	2019-09-02
-2019-08-29	relorbany	Exp1_prelim_analysis	0	0	0	2019-08-30
 2019-08-29	relorbany	testproject	0	0	0	2019-08-29
 2019-08-30	AustinQiu	STA463	0	0	0	2019-08-30
 2019-08-30	carterlf	STA463	0	0	0	2019-08-30
@@ -492,9 +492,10 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-08-30	Sarahjfrick	LabAssignment1	0	0	0	2019-08-30
 2019-08-30	sebrinkc	test	0	0	0	2019-08-30
 2019-08-30	shakermavs10	STA463Test	0	0	0	2019-08-30
+2019-08-30	shiy14	666	0	0	0	2019-08-30
 2019-08-30	vorpekl	STA563Test	0	0	0	2019-08-30
 2019-08-31	DanzyStats	STA463_workflowR	0	0	0	2019-09-06
-2019-09-02	brimittleman	Comparative_APA	0	0	0	2019-12-27
+2019-09-02	brimittleman	Comparative_APA	0	0	0	2020-01-05
 2019-09-02	shiy14	Assginment1	0	0	0	2019-09-02
 2019-09-02	shiy14	Lab1	0	0	0	2019-09-02
 2019-09-02	shiy14	Lab1Assignment	0	0	0	2019-09-04
@@ -503,6 +504,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-09-04	YANGY44	STA463-Lab1	0	0	0	2019-09-04
 2019-09-05	andrewg3311	Multiplicative_Additive_Effect_Models	0	0	0	2019-09-06
 2019-09-05	bakulskilab	CTD_SpontAb	0	0	0	2019-09-05
+2019-09-06	PhuongHo99	statest	0	0	0	2019-09-06
 2019-09-06	shiy14	Lab2	0	0	0	2019-09-13
 2019-09-06	statslee	STA463_563_Fall2019	2	0	0	2019-09-06
 2019-09-06	vorpekl	Lab01	0	0	0	2019-09-06
@@ -511,7 +513,6 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-09-11	jma1991	heart	0	0	0	2019-12-18
 2019-09-12	DanzyStats	STA462	0	0	0	2019-10-31
 2019-09-12	KaiqianZhang	princeton-research-diary	0	0	0	2019-09-19
-2019-09-13	dleelab	STA463_563_Fall2019	0	0	0	2019-11-25
 2019-09-16	jma1991	EHF	0	0	0	2019-12-18
 2019-09-17	jma1991	LHF	0	0	0	2019-12-18
 2019-09-18	CreRecombinase	bed_fiz	0	0	0	2019-11-06
@@ -555,6 +556,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-10-13	topographos	surveys	0	0	0	2019-10-14
 2019-10-14	sefabey	hatelab_website	0	0	0	2019-12-17
 2019-10-15	joellarwood	MusicalEmotionModelling	0	0	0	2019-10-15
+2019-10-16	jens-daniel-mueller	Diurnal_pCO2_variability_Baltic	0	0	0	2019-10-17
 2019-10-17	adamzhang22	myproject	0	0	0	2019-10-17
 2019-10-17	benjaminlharris	Lecture6	0	0	0	2019-10-17
 2019-10-17	jens-daniel-mueller	Baltic_Productivity	0	0	2	2019-12-19
@@ -588,7 +590,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-10-25	omaratr	myproject2	0	0	0	2019-10-25
 2019-10-25	pcarbo	wflow-tornadoes	0	0	0	2019-10-25
 2019-10-29	jixing475	hdi	0	0	0	2019-10-29
-2019-10-31	ludvigla	STUtility_web_site	0	0	0	2019-12-16
+2019-10-31	ludvigla	STUtility_web_site	0	0	0	2020-01-01
 2019-10-31	sefabey	GoodnessBot	0	0	0	2019-10-31
 2019-11-01	AdamCSmithCWS	BBSIndices	0	1	0	2019-11-15
 2019-11-03	davetang	reproducible_bioinformatics	0	3	0	2019-12-07
@@ -596,20 +598,19 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-11-08	jgblanc	infer_mutational_bias	0	0	0	2019-12-09
 2019-11-11	Bayless	myproject	0	0	0	2019-11-12
 2019-11-12	meliao	metabolomics_analysis	0	0	0	2019-11-12
-2019-11-14	Margareth2407	Thesis_single_RNA	0	0	0	2019-12-28
 2019-11-18	sxt1229	myproject	0	0	0	2019-11-18
 2019-11-18	wolfemd	NGCassava_SOPs	0	0	0	2019-11-18
-2019-11-20	stephenslab	mash-single-cell-rnaseq	0	0	0	2019-11-21
+2019-11-20	stephenslab	mash-single-cell-rnaseq	0	0	0	2020-01-04
 2019-11-21	sefabey	Drug_Flows	0	0	0	2019-11-21
 2019-11-21	wolfemd	IITA_2019GS	0	0	0	2019-11-23
 2019-11-21	wolfemd	NRCRI_2019GS	0	0	0	2019-11-21
-2019-11-22	DongyueXie	misc	0	0	0	2019-12-12
+2019-11-22	DongyueXie	misc	0	0	0	2020-01-04
 2019-11-26	bfairkun	cookiecutter-wflowR-smk	0	1	0	2019-12-02
-2019-11-27	anthonyhung	OAStrain	0	0	0	2019-12-19
+2019-11-27	anthonyhung	OAStrain	0	0	0	2020-01-03
 2019-11-27	jennysjaarda	PSYMETAB	0	0	0	2019-12-19
 2019-11-28	pzross	AdamsLab	0	0	0	2019-11-28
 2019-11-29	vincent-van-hoef	workflowr_test	0	0	0	2019-12-03
-2019-12-02	bfairkun	rna-seq-dhx38	0	0	0	2019-12-16
+2019-12-02	bfairkun	rna-seq-dhx38	0	0	0	2020-01-05
 2019-12-03	AnselmJeong	OCIR	0	0	0	2019-12-06
 2019-12-03	AnselmJeong	workflowr_demo	0	0	0	2019-12-03
 2019-12-06	han16	mirage	0	0	0	2019-12-06
@@ -624,10 +625,11 @@ date	user	repo	forks	stars	open_issues	last_update
 2019-12-13	brookshenry3	PMD_project_workflowr	0	0	0	2019-12-16
 2019-12-14	KaiqianZhang	F_ST	0	0	0	2019-12-14
 2019-12-18	Cadaei-Yuvxvs	snrnaseq	0	0	0	2019-12-18
-2019-12-18	cgpu	ggpackages	0	0	0	2019-12-18
 2019-12-19	dewoller	update_opioid_drug_factors	0	0	0	2019-12-19
 2019-12-20	jennysjaarda	future_reference	0	0	0	2019-12-20
 2019-12-20	sg-woodman	testProject	0	0	0	2019-12-24
 2019-12-22	cgpu	alfie	0	0	0	2019-12-26
 2019-12-26	pnatsi	orthosims	0	0	0	2019-12-26
-2019-12-30	jens-daniel-mueller	SOCAT_pCO2_temperature_conversion	0	0	0	2019-12-30
+2019-12-30	jens-daniel-mueller	SOCAT_pCO2_temperature_conversion	0	0	0	2020-01-03
+2019-12-31	ysfoo	sparsefactor	0	0	0	2019-12-31
+2020-01-06	hakyimlab	hgen471	0	0	0	2020-01-06
