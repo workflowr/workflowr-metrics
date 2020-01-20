@@ -222,7 +222,7 @@ date	stargazer
 2018-10-24	hongqin
 2018-11-03	PatBall1
 2018-11-09	willvieira
-2018-11-12	mrjaffery
+2018-11-12	mrj31
 2018-11-19	zambujo
 2018-11-19	m3hdad
 2018-11-21	sannpeterson
@@ -347,7 +347,7 @@ date	stargazer
 2019-10-04	dsumpter
 2019-10-05	danilofreire
 2019-10-05	raphael-bruce
-2019-10-08	mgargiulo
+2019-10-08	thegargiulian
 2019-10-16	Shyamniper
 2019-10-19	grst
 2019-10-22	jeanmanguy
@@ -380,3 +380,6 @@ date	stargazer
 2019-12-29	systats
 2019-12-31	maskegger
 2020-01-08	zhangxiubo
+2020-01-13	sipemu
+2020-01-17	JustGitting
+2020-01-19	khughitt
