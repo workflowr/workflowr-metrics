@@ -35,6 +35,10 @@ while (TRUE) {
 projects <- list()
 
 search_code <- function(query, per_page = 100) {
+  # Note: This code is convoluted because the .limit argument is not supported
+  # by the /search endpoint. If this gets updated (see open Issue below), all
+  # the looping could be handled internally by gh().
+  # https://github.com/r-lib/gh/issues/33
   results <- list()
   total <- gh(paste0("/search/code?q=", query))$total_count
   pages <- ceiling(total / per_page)
