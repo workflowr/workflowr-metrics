@@ -386,7 +386,6 @@ date	stargazer
 2020-01-20	jeffreypullin
 2020-01-22	juanvillada
 2020-01-24	unawaz1996
-2020-01-26	Nexller
 2020-01-26	IndrajeetPatil
 2020-01-26	jethronap
 2020-01-26	ratanon97
@@ -394,3 +393,9 @@ date	stargazer
 2020-01-27	gzliuzhijun
 2020-01-27	melonki
 2020-01-27	Otomadmt
+2020-01-27	alexdai
+2020-01-28	fjibj
+2020-01-29	PietrH
+2020-01-30	brshallo
+2020-02-01	ryurko
+2020-02-02	ecosang
