@@ -402,3 +402,7 @@ date	stargazer
 2020-02-05	amitjavilaventura
 2020-02-06	fdbesanto2
 2020-02-08	kaizer1
+2020-02-11	daniloimparato
+2020-02-12	lisancao
+2020-02-14	Mpaperlee
+2020-02-17	vntasis
