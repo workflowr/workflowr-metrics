@@ -34,7 +34,7 @@ date	stargazer
 2017-07-15	nitinongit
 2017-07-16	MarioJose
 2017-07-19	padpadpadpad
-2017-07-23	elilindner
+2017-07-23	kyrannian
 2017-07-27	johnsonlab
 2017-08-12	sdhutchins
 2017-08-14	lxhuang7
@@ -372,7 +372,6 @@ date	stargazer
 2019-12-05	guanhuac
 2019-12-09	jasonratcliff
 2019-12-10	fschaffner
-2019-12-10	matthewbegun
 2019-12-13	tandoorichicken
 2019-12-19	alexkyllo
 2019-12-20	Raylc
@@ -410,3 +409,6 @@ date	stargazer
 2020-02-18	giocomai
 2020-02-19	abichat
 2020-02-19	ries9112
+2020-02-26	Robinlovelace
+2020-02-26	rCarto
+2020-02-29	jg-bernard

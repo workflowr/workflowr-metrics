@@ -17,3 +17,4 @@ date	packages	downloads	rank	percentile	total.downloads	total.packages
 2020-02-05	workflowr	71	2386	86.6	5123793	17856
 2020-02-12	workflowr	35	4877	72.7	5424212	17899
 2020-02-19	workflowr	37	5557	69	5614296	17918
+2020-02-26	workflowr	47	3675	79.5	5408221	17973
