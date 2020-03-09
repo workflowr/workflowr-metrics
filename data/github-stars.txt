@@ -412,3 +412,7 @@ date	stargazer
 2020-02-26	Robinlovelace
 2020-02-26	rCarto
 2020-02-29	jg-bernard
+2020-03-05	drkrynstrng
+2020-03-06	diogo-almeida
+2020-03-07	carstenstann
+2020-03-07	mmatkinson
