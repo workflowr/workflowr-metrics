@@ -196,7 +196,6 @@ date	stargazer
 2018-08-08	behnido
 2018-08-10	scottfromsf
 2018-08-10	leo1900227
-2018-08-11	williamrowell
 2018-08-13	jasonserviss
 2018-08-13	Svanuytven
 2018-08-20	kmcconeghy
@@ -416,3 +415,7 @@ date	stargazer
 2020-03-06	diogo-almeida
 2020-03-07	carstenstann
 2020-03-07	mmatkinson
+2020-03-10	williamrowell
+2020-03-12	stevenpawley
+2020-03-15	TomBener
+2020-03-15	KirillShaman
