@@ -29,12 +29,14 @@ projects$cumulative <- cumsum(projects$count)
 projects$last_update <- as_date(projects$last_update)
 # weekly active projects
 last_week <- today() - weeks(1)
+stopifnot(is.Date(last_week))
 weekly_active <- projects$last_update >= last_week
 weekly_active_proj <- sum(weekly_active)
 weekly_active_user <- length(unique(projects$user[weekly_active]))
 
 # monthly active projects
-last_month <- today() - months(1)
+last_month <- today() %m-% months(1)
+stopifnot(is.Date(last_month))
 monthly_active <- projects$last_update >= last_month
 monthly_active_proj <- sum(monthly_active)
 monthly_active_user <- length(unique(projects$user[monthly_active]))
