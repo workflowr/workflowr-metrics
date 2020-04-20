@@ -294,7 +294,6 @@ date	stargazer
 2019-04-13	mikemc
 2019-04-18	paularstrpo
 2019-04-19	PoisonAlien
-2019-04-19	11rchitwood
 2019-04-22	sweing
 2019-04-23	jimbrig2011
 2019-05-03	lsheble
@@ -426,3 +425,4 @@ date	stargazer
 2020-03-30	adrientaudiere
 2020-04-03	mascaretti
 2020-04-07	neksa
+2020-04-17	niheaven
