@@ -191,7 +191,6 @@ date	stargazer
 2018-07-19	svmiller
 2018-07-21	embracefall
 2018-07-22	melsiddieg
-2018-07-31	mLRY
 2018-08-02	bailliecharles
 2018-08-08	behnido
 2018-08-10	scottfromsf
@@ -248,7 +247,6 @@ date	stargazer
 2019-02-08	CarlaBirdy
 2019-02-14	tharangni
 2019-02-15	jsta
-2019-02-15	fmmattioni
 2019-02-15	my-R-help
 2019-02-15	ashim-k-saha
 2019-02-15	SiwTurner
@@ -295,7 +293,7 @@ date	stargazer
 2019-04-18	paularstrpo
 2019-04-19	PoisonAlien
 2019-04-22	sweing
-2019-04-23	jimbrig2011
+2019-04-23	jimbrig
 2019-05-03	lsheble
 2019-05-07	jordandsnyder
 2019-05-08	CrumpLab
@@ -426,3 +424,10 @@ date	stargazer
 2020-04-03	mascaretti
 2020-04-07	neksa
 2020-04-17	niheaven
+2020-04-21	markheckmann
+2020-04-23	coatless
+2020-04-23	fmmattioni
+2020-04-24	medewitt
+2020-04-24	michbur
+2020-04-24	ismirsehregal
+2020-04-26	ycaedes

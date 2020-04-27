@@ -25,3 +25,4 @@ date	weekly_projects	weekly_users	monthly_projects	monthly_users
 2020-04-06	50	40	106	77
 2020-04-13	31	28	104	78
 2020-04-20	41	36	102	75
+2020-04-27	53	43	110	79
