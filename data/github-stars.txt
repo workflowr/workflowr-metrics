@@ -439,3 +439,12 @@ date	stargazer
 2020-05-07	milanmlft
 2020-05-07	knowah
 2020-05-09	drieslab
+2020-05-15	CStats
+2020-05-17	cuixueqin
+2020-05-18	alearrigo
+2020-05-18	Max2W
+2020-05-22	combiz
+2020-05-24	kkermode
+2020-05-27	battila7
+2020-05-27	ricoperdiz
+2020-05-29	nmcglincy-Zymergen
