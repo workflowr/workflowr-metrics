@@ -321,7 +321,6 @@ date	stargazer
 2019-07-12	kongdd
 2019-07-12	tinalasisi
 2019-07-13	ZackLarsen
-2019-07-18	stephhuynh
 2019-07-23	swajid
 2019-07-25	AliYoussef96
 2019-07-25	eturkes
@@ -454,3 +453,7 @@ date	stargazer
 2020-06-04	AdrianForsythe
 2020-06-04	nt-williams
 2020-06-08	mjseignon
+2020-06-09	Stalkcomrade
+2020-06-09	kfrac
+2020-06-11	stephhuynh
+2020-06-13	AlwinW
