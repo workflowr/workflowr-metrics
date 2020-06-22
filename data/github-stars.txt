@@ -457,3 +457,6 @@ date	stargazer
 2020-06-09	kfrac
 2020-06-11	stephhuynh
 2020-06-13	AlwinW
+2020-06-16	bkutlu
+2020-06-18	tbrittoborges
+2020-06-20	abearab
