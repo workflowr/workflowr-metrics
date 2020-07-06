@@ -321,7 +321,7 @@ date	stargazer
 2019-07-12	kongdd
 2019-07-12	tinalasisi
 2019-07-13	ZackLarsen
-2019-07-23	tmuxsw
+2019-07-23	echosw
 2019-07-25	AliYoussef96
 2019-07-25	eturkes
 2019-07-29	goergen95
@@ -360,7 +360,7 @@ date	stargazer
 2019-11-10	daltonjorge
 2019-11-12	nathaneastwood
 2019-11-15	hlfernandez
-2019-11-15	TrashBirdEcology
+2019-11-15	trashbirdecology
 2019-11-24	davll
 2019-12-04	tranbach
 2019-12-04	lopierra
@@ -463,3 +463,4 @@ date	stargazer
 2020-06-24	Ankita-1211
 2020-06-28	danlooo
 2020-06-29	ShuguangSun
+2020-06-29	AThibault92

@@ -58,7 +58,6 @@ date	user	update_difftime
 2020-03-13	tennma1	1
 2020-03-28	VSNishtala	2
 2020-04-18	trannhatanh89	876859
-2020-04-18	jameslamb	83612
 2020-04-18	skpurdue	79924
 2020-04-22	hugheylab	70366
 2020-04-23	jimhester	3
