@@ -226,7 +226,6 @@ date	stargazer
 2018-11-26	jaapwalhout
 2018-11-28	harlydurbin
 2018-11-30	mauriziopaul
-2018-12-05	KangchengHou
 2018-12-07	EricAlcaide
 2018-12-14	ASKurz
 2018-12-25	scarbunkle
@@ -440,7 +439,7 @@ date	stargazer
 2020-05-18	alearrigo
 2020-05-18	Max2W
 2020-05-22	combiz
-2020-05-24	kkermode
+2020-05-24	kellykermode
 2020-05-27	battila7
 2020-05-27	ricoperdiz
 2020-05-29	nmcglincy-Zymergen
@@ -473,3 +472,4 @@ date	stargazer
 2020-08-09	gfleetwood
 2020-08-10	jonekeat
 2020-08-10	kieran-mace
+2020-08-14	mrajeev08
