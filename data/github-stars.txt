@@ -192,7 +192,7 @@ date	stargazer
 2018-08-02	bailliecharles
 2018-08-08	behnido
 2018-08-10	scottfromsf
-2018-08-10	leo1900227
+2018-08-10	zhiliang-lin
 2018-08-13	jasonserviss
 2018-08-13	Svanuytven
 2018-08-20	kmcconeghy
@@ -490,3 +490,7 @@ date	stargazer
 2020-09-10	rsgodoy
 2020-09-11	mhweber
 2020-09-13	PaulaNietoG
+2020-09-15	mireia-bioinfo
+2020-09-15	seblammers
+2020-09-16	Ljupch0
+2020-09-16	Paecklar

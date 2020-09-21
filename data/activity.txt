@@ -42,3 +42,4 @@ date	weekly_projects	weekly_users	monthly_projects	monthly_users
 2020-08-17	73	70	164	131
 2020-08-31	48	44	141	118
 2020-09-14	50	40	141	116
+2020-09-21	154	134	217	182
