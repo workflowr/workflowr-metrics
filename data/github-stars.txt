@@ -494,3 +494,12 @@ date	stargazer
 2020-09-15	seblammers
 2020-09-16	Ljupch0
 2020-09-16	Paecklar
+2020-09-21	d3v3l0
+2020-09-22	ashirwad
+2020-09-22	nfrerebeau
+2020-09-22	atsyplenkov
+2020-09-22	joekirincic
+2020-09-23	snowdj
+2020-09-23	markusdumke
+2020-09-24	daniellga
+2020-09-26	v-a-s-a
