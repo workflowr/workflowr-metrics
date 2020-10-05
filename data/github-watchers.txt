@@ -13,7 +13,6 @@ EugOT
 freestatman
 GaoYu
 harryprince
-jcvall-olympus
 jdblischak
 jinyancool
 jordandsnyder
