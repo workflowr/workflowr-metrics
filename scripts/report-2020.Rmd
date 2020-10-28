@@ -1,0 +1,181 @@
+---
+title: "Workflowr usage report 2020"
+subtitle: "November 2019 to October 2020"
+author: "John Blischak"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(eval.after = "fig.cap", root.dir = "..")
+knitr::opts_chunk$set(echo = FALSE, fig.width = 4, fig.height = 4,
+                      fig.pos = "h", message = FALSE)
+```
+
+```{r packages}
+library("dplyr")
+library("ggplot2")
+theme_set(theme_classic(base_size = 12))
+library("reshape2")
+```
+
+```{r functions}
+loadData <- function(filename, dateFilter = "2019-11-01", cumulate = TRUE) {
+  stopifnot(file.exists(filename))
+  x <- read.delim(filename, stringsAsFactors = FALSE)
+  if (cumulate) {
+    if (!"count" %in% colnames(x)) x$count <- 1
+    x$cumulative <- cumsum(x$count)  
+  }
+  x$date <- as.Date(x$date, format = "%Y-%m-%d", tz = "America/Chicago")
+  x <- subset(x, date >= as.Date(dateFilter))
+  x
+}
+
+plotData <- function(x, y = "count", title = "", smooth = FALSE) {
+  ggplot(x, aes(x = date, y = .data[[y]])) +
+    geom_point() +
+    labs(x = "Date", y = "Count", title = title) +
+    if (smooth) geom_smooth()
+}
+```
+
+```{r data}
+projects <- loadData("data/github-projects.txt")
+stars <- loadData("data/github-stars.txt")
+activity <- loadData("data/activity.txt", cumulate = FALSE)
+downloads <- loadData("data/cranlogs.txt")
+clones <- loadData("data/github-clones.txt")
+views <- loadData("data/github-views.txt")
+```
+
+```{r prep}
+colnames(activity) <- c("Date", "Weekly Projects", "Weekly Users",
+                        "Monthly Projects", "Monthly Users")
+activityLong <- melt(activity, id.vars = "Date", variable.name = "Metric",
+                     value.name = "Count")
+```
+
+## Summary
+
+Last year I started systematically measuring workflowr usage metrics. I setup a
+script to run every Monday morning. This regular measurement is critical because
+GitHub only keeps some metrics for a 2 week period. Here's what I found:
+
+### The Good
+
+Both the number of workflowr projects on GitHub and the number of stars of the
+workflowr repository continue to steadily rise. This indicates that people are
+interested in workflowr and actively trying it out.
+
+### The Bad
+
+The number of active projects and users hasn't grown over the last year. This is
+corroborated by the package downloads from CRAN and the views and clones of the
+workflowr GitHub repository. This indicates that we are not maintaining users
+over the long-term.
+
+### The Ugly
+
+I can no longer continue using this strategy to measure active projects and
+users because the [GitHub Search API][gh-search-api] has a limit of 1,000 search
+results.
+
+While it is exciting that there are now over 1,000 workflowr
+projects on GitHub, the complication is that this breaks my query to the GitHub
+API. They do not want the Search API to be used to catalog all the results, but
+instead to find a few hits among the top results. From their
+documentation:
+
+[gh-search-api]: https://docs.github.com/en/free-pro-team@latest/rest/reference/search#about-the-search-api
+
+> The Search API helps you search for the specific item you want to find. For
+example, you can find a user or a specific file in a repository. Think of it the
+way you think of performing a search on Google. It's designed to help you find
+the one result you're looking for (or maybe the few results you're looking for).
+Just like searching on Google, you sometimes want to see a few pages of search
+results so that you can find the item that best meets your needs. To satisfy
+that need, the GitHub Search API provides up to 1,000 results for each search.
+
+The recommended workaround to this problem is to apply additional search
+filters, e.g. perform a separate query for each year. Frustratingly, while this
+works for many of the search features, it doesn't work when searching for the
+existence of a specific file in a repository. I identify workflowr projects by
+searching for the file `_workflowr.yml`.
+
+Thus to continue obtaining these useful metrics, I'll need to switch to a
+different source. I think I should be able to use the [Google BigQuery dataset
+of public GitHub repositories][bigquery], but I have to figure out how to use it
+first.
+
+[bigquery]: https://console.cloud.google.com/bigquery?project=swift-fabric-269218&p=bigquery-public-data&d=github_repos&page=dataset
+
+## Tables
+
+```{r activity-table}
+activitySum <- activityLong %>%
+  group_by(Metric) %>%
+  summarize(`November 2019` = Count[Date == "2019-11-11"],
+            Median = median(Count),
+            `June 2020` = Count[Date == "2020-06-29"],
+            `October 2020` = Count[Date == "2020-10-05"])
+knitr::kable(activitySum, caption = "Active projects and users on GitHub.")
+```
+
+```{r workshops}
+workshopDates <- c("2020-07-20", "2020-07-27", "2020-08-03", #useR
+                   "2020-08-10", "2020-08-17", "2020-08-31", #PSU
+                   "2020-09-14", "2020-09-21", "2020-09-28" #QBIO
+                   )
+workshopDates <- as.Date(workshopDates, format = "%Y-%m-%d", tz = "America/Chicago")
+workshops <- activity %>%
+  filter(Date %in% workshopDates)
+rownames(workshops) <- c("Before useR", "useR", "After useR",
+                         "Before PSU", "PSU", "After PSU",
+                         "Before QBIO", "QBIO", "After QBIO")
+knitr::kable(workshops,
+             caption = "The recent increase in monthy projects and users is driven by the workshops we taught in July (useR!), August (Penn State), and September (QBIO).")
+```
+
+\newpage
+## Figures
+
+```{r projects, fig.cap=caption}
+caption <- sprintf("The number of public workflowr projects on GitHub increased from %d to %d.",
+                   projects$cumulative[1], projects$cumulative[nrow(projects)])
+plotData(projects, y = "cumulative", title = "Cumulative GitHub projects")
+```
+
+```{r stars, fig.cap=caption}
+caption <- sprintf("The number of stars of the workflowr GitHub repository increased from %d to %d.",
+                   stars$cumulative[1], stars$cumulative[nrow(stars)])
+plotData(stars, y = "cumulative", title = "Cumulative GitHub stars")
+```
+
+```{r activity, fig.cap=caption, fig.width=8, fig.height=8}
+caption <- "Avtive projects and users on GitHub. An active project is any repository with at least one new commit in the previous time period (week or month). An active user is the owner of at least one of the repositories with a new commit in the previous time period (week or month). In other words, it is a count of the unique users."
+ggplot(activityLong, aes(x = Date, y = Count)) +
+  geom_point() +
+  facet_wrap(~Metric) +
+  labs(title = "Activity") +
+  geom_smooth()
+```
+
+```{r downloads, fig.cap=caption}
+caption <- "The daily downloads of the workflowr package from CRAN. The absolute number is not that informative since many downloads are from automated systems. The relative change over time (or lack of change) is more interpretable."
+plotData(downloads, title = "Package downloads from CRAN", smooth = TRUE)
+```
+
+```{r views, fig.cap=caption}
+caption <- "The daily views of the workflowr repository on GitHub."
+plotData(views, title = "Views of GitHub repository", smooth = TRUE)
+```
+
+```{r clones, fig.cap=caption}
+caption <- "The daily clones of the workflowr repository from GitHub."
+plotData(clones, title = "Clones of GitHub repository", smooth = TRUE)
+```
