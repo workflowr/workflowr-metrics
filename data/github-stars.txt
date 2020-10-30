@@ -401,7 +401,6 @@ date	stargazer
 2020-02-19	abichat
 2020-02-19	ries9112
 2020-02-26	Robinlovelace
-2020-02-26	rCarto
 2020-02-29	jg-bernard
 2020-03-05	drkrynstrng
 2020-03-06	diogo-almeida
@@ -445,7 +444,6 @@ date	stargazer
 2020-06-01	M3nin0
 2020-06-01	AdrianoPereira
 2020-06-04	mrtns
-2020-06-04	AdrianForsythe
 2020-06-04	nt-williams
 2020-06-08	mjseignon
 2020-06-09	Stalkcomrade
@@ -467,7 +465,7 @@ date	stargazer
 2020-07-23	cengizbayrak
 2020-07-27	remlapmot
 2020-07-30	tom-fenn-4
-2020-08-03	dominicdones
+2020-08-03	djd0723
 2020-08-09	gfleetwood
 2020-08-10	jonekeat
 2020-08-10	kieran-mace
@@ -504,3 +502,9 @@ date	stargazer
 2020-09-24	daniellga
 2020-09-26	v-a-s-a
 2020-09-29	haro-ca
+2020-10-10	taiyun
+2020-10-10	JonathonMifsud
+2020-10-13	AdrianForsythe
+2020-10-14	fagostini
+2020-10-15	FYGLE
+2020-10-30	MrTCell

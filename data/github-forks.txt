@@ -33,8 +33,7 @@ date	user	update_difftime
 2018-09-13	bensonik	3
 2018-09-21	pridiltal	2
 2018-10-24	QinLab	3
-2018-11-03	Jaugust7	3
-2018-11-09	workflowr	58666490
+2018-11-09	workflowr	62063536
 2018-11-28	envima	2
 2019-02-11	singwoo	2
 2019-02-18	friend1ws	3
@@ -71,3 +70,6 @@ date	user	update_difftime
 2020-08-23	SNAnalyst	2
 2020-09-22	rohitpandey13	2
 2020-10-04	shubzzz98	1
+2020-10-20	Verrah	2
+2020-10-26	genomix	2
+2020-10-29	FellipeMira	1
