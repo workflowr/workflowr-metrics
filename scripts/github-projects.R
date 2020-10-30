@@ -41,9 +41,13 @@ search_code <- function(query, per_page = 100) {
   # https://github.com/r-lib/gh/issues/33
   results <- list()
   total <- gh(paste0("/search/code?q=", query))$total_count
+  message(sprintf("There were %d search results", total))
+  if (total > 1000) {
+    message("The results collected with be limited to the first 1000 because this is the GitHub Search API limit.")
+    total <- 1000
+  }
   pages <- ceiling(total / per_page)
 
-  message(sprintf("Expecting %d search results", total))
   for (p in seq_len(pages)) {
     api_call <- paste0("/search/code?page=", p, "&q=", query,
                        "&per_page=", per_page)
@@ -54,11 +58,7 @@ search_code <- function(query, per_page = 100) {
 
   message(sprintf("Retreived %d search results", length(results)))
   message(sprintf("The latest count returned by the search was %d", g$total_count))
-  stopifnot(length(results) == total || length(results) == g$total_count)
-  if (g$total_count != total) {
-    warning("Mismatch between original and final estimates of total results: ",
-            sprintf("%d vs %d", total, g$total_count))
-  }
+
   return(results)
 }
 
@@ -129,14 +129,23 @@ output <- data.frame(date = created_at, user = project_users,
                      repo = project_names, forks, stars, open_issues,
                      last_update = updated_at,
                      stringsAsFactors = FALSE)
+
+# Remove main workflowr repository and the cran mirror
+pkgs <- output$repo == "workflowr" & (output$user == "jdblischak" | output$user == "cran")
+output <- output[!pkgs, ]
+
+# Merge with existing data
+existing <- read.delim("data/github-projects.txt", stringsAsFactors = FALSE)
+existing$date <- as_date(existing$date)
+existing$last_update <- as_date(existing$last_update)
+id_existing <- paste(existing$user, existing$repo, sep = "/")
+id_new <- paste(output$user, output$repo, sep = "/")
+
+output <- rbind.data.frame(existing[!id_existing %in% id_new, ], output)
+
 output <- output[order(output$date, output$user, output$repo), ]
 # Note: Some repositories may have been created prior to the beta release of
 # workflowr in Dec 2016 because they were later converted to workflowr
 # projects.
-
-# Remove main workflowr repository and the cran mirror
-pkgs <- output$repo == "workflowr" & (output$user == "jdblischak" | output$user == "cran")
-stopifnot(sum(pkgs) == 2)
-output <- output[!pkgs, ]
 
 write.table(output, file = fname, quote = FALSE, sep = "\t", row.names = FALSE)
