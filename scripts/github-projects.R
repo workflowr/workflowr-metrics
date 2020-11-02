@@ -105,6 +105,7 @@ project_names <- c(project_names,
 # Get created_at dates and other repo info
 created_at <- character(length(project_users))
 updated_at <- character(length(project_users))
+pushed_at <- character(length(project_users))
 forks <- numeric(length(project_users))
 stars <- numeric(length(project_users))
 open_issues <- forks <- numeric(length(project_users))
@@ -114,6 +115,7 @@ for (i in seq_along(project_users)) {
           repo = project_names[i])
   created_at[i] <- g$created_at
   updated_at[i] <- g$updated_at
+  pushed_at[i] <- g$pushed_at
   forks[i] <- g$forks_count
   stars[i] <- g$stargazers_count
   open_issues[i] <- g$open_issues_count
@@ -124,10 +126,11 @@ for (i in seq_along(project_users)) {
 }
 created_at <- as_date(created_at)
 updated_at <- as_date(updated_at)
+pushed_at <- as_date(pushed_at)
 
 output <- data.frame(date = created_at, user = project_users,
                      repo = project_names, forks, stars, open_issues,
-                     last_update = updated_at,
+                     last_update = updated_at, last_push = pushed_at,
                      stringsAsFactors = FALSE)
 
 # Remove main workflowr repository and the cran mirror
@@ -138,6 +141,7 @@ output <- output[!pkgs, ]
 existing <- read.delim("data/github-projects.txt", stringsAsFactors = FALSE)
 existing$date <- as_date(existing$date)
 existing$last_update <- as_date(existing$last_update)
+existing$last_push <- as_date(existing$last_push)
 id_existing <- paste(existing$user, existing$repo, sep = "/")
 id_new <- paste(output$user, output$repo, sep = "/")
 
