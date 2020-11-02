@@ -1,6 +1,6 @@
 date	user	repo	forks	stars	open_issues	last_update
 2014-03-19	stephenslab	smash-paper	1	3	0	2020-06-26
-2015-06-14	stephens999	fiveMinuteStats	62	192	12	2020-10-29
+2015-06-14	stephens999	fiveMinuteStats	62	193	12	2020-11-02
 2015-09-28	stephenslab	rss	10	35	1	2020-07-18
 2015-10-14	stephenslab	gtexresults	7	14	0	2020-06-28
 2015-12-15	stephens999	hgen48600	10	1	0	2018-03-19
@@ -658,7 +658,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-02-07	sefabey	tr_sheeps	0	0	0	2020-02-08
 2020-02-07	Xinyu-L	test2	0	0	0	2020-02-14
 2020-02-07	yangj17	workflowrTest	0	0	0	2020-02-14
-2020-02-10	nt246	NTRES6940-data-science	35	21	1	2020-10-30
+2020-02-10	nt246	NTRES6940-data-science	35	21	1	2020-11-02
 2020-02-11	pcarbo	research-workflowr-template	0	0	0	2020-02-12
 2020-02-12	kkdey	singlecellLDSC	0	0	0	2020-03-06
 2020-02-12	liuz61	sta463	0	0	0	2020-02-14
@@ -773,7 +773,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-05-05	zihao12	statsNotes	0	0	0	2020-05-05
 2020-05-07	Arslan-Zaidi	popstructure	2	0	0	2020-10-30
 2020-05-09	dvespasiani	Archaic_introgression_in_PNG	0	1	0	2020-10-14
-2020-05-11	zihao12	ebpmf_data_analysis	0	1	0	2020-10-26
+2020-05-11	zihao12	ebpmf_data_analysis	0	1	0	2020-10-31
 2020-05-12	lucaraess	Master_Thesis	0	0	0	2020-06-16
 2020-05-14	KaranSShakya	erfle-corn_yields	0	0	0	2020-05-26
 2020-05-14	KaranSShakya	R-codes	0	0	0	2020-06-14
@@ -846,13 +846,13 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-07-07	Swarland	SF3B1_data	0	0	0	2020-07-07
 2020-07-08	DECIDELab	EIU_STAT401	0	0	0	2020-07-08
 2020-07-09	dewoller	latrobe-r-users-group	0	0	0	2020-07-23
-2020-07-09	troyrowan	local_adaptation_sequence	0	0	0	2020-10-27
+2020-07-09	troyrowan	local_adaptation_sequence	0	0	0	2020-11-01
 2020-07-10	davetang	muse	0	0	0	2020-10-18
 2020-07-10	hugheylab	coding_sprint	0	0	0	2020-07-15
 2020-07-10	mariesaitou	myproject	0	0	0	2020-09-06
 2020-07-11	lazappi	requestival	0	0	0	2020-07-11
 2020-07-11	ogorodriguez	ggplot_practice	0	0	0	2020-07-11
-2020-07-14	damonbayer	uci_covid19_dashboard	0	2	2	2020-10-30
+2020-07-14	damonbayer	uci_covid19_dashboard	0	2	2	2020-11-01
 2020-07-14	SaideepGona	Joao_rnaseq_variant	0	0	0	2020-07-14
 2020-07-16	mmm373	workflowr-spotify	0	0	0	2020-07-17
 2020-07-17	bfairkun	leafcutter_ds_pipeline	1	0	0	2020-07-17
@@ -946,7 +946,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-08-14	nathanderstine	bootcamp	0	0	0	2020-08-15
 2020-08-14	pzd-115	bootcamp	0	0	0	2020-08-14
 2020-08-14	rfleeman95	bootcamp	0	0	0	2020-08-15
-2020-08-14	sciencificity	R4DS_study_exams	0	0	0	2020-10-26
+2020-08-14	sciencificity	R4DS_study_exams	0	0	0	2020-11-01
 2020-08-14	smdewing	bootcamp	0	0	0	2020-08-14
 2020-08-14	sszarmach	bootcamp	0	0	0	2020-08-14
 2020-08-14	xmz5176May	bootcamp2	0	0	0	2020-08-14
@@ -955,7 +955,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-08-20	cdu8	sldsc_splicing	0	0	0	2020-09-23
 2020-08-20	dsbkennedy	dashboard	0	0	0	2020-08-20
 2020-08-20	stefanherzog	ais_surveys	0	0	0	2020-08-20
-2020-08-21	bfairkun	ChromatinSplicingQTLs	0	0	0	2020-10-27
+2020-08-21	bfairkun	ChromatinSplicingQTLs	0	0	0	2020-11-01
 2020-08-21	zvaricka	BG-Retreat	0	0	0	2020-08-21
 2020-08-25	asunmayoral	RGitHub	0	0	0	2020-08-25
 2020-08-25	JulienGAMartin	optim_hibernation	0	0	0	2020-08-25
@@ -988,7 +988,7 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-09-07	yuqimiao	multiomics-SIMLR	0	0	0	2020-09-23
 2020-09-09	1onic	snscc_workflowR	0	0	0	2020-09-29
 2020-09-09	SabinaRa	proba	0	0	0	2020-09-09
-2020-09-10	jenrichmond	sakiko_project	0	0	0	2020-10-28
+2020-09-10	jenrichmond	sakiko_project	0	0	0	2020-11-01
 2020-09-10	LearnUseZone	myTestProject	0	0	0	2020-10-04
 2020-09-10	SabinaRa	tidytuesday	0	0	0	2020-09-11
 2020-09-11	kvergy	myproject	0	0	0	2020-09-11
@@ -1100,9 +1100,9 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-09-18	higginsboson	myproject	0	0	0	2020-09-18
 2020-09-18	karltayeb	karl_workflowr	0	0	0	2020-09-18
 2020-09-18	manto1213	COVID	0	0	0	2020-09-18
-2020-09-18	philippbayer	R_gene_analysis	0	0	0	2020-09-24
+2020-09-18	philippbayer	R_gene_analysis	0	0	0	2020-11-02
 2020-09-18	PraljakReps	myproject	0	0	0	2020-09-18
-2020-09-18	rheaprag	GWAS_QC	0	0	0	2020-10-26
+2020-09-18	rheaprag	GWAS_QC	0	0	0	2020-11-02
 2020-09-18	samanwoy1989	dummyproject	0	0	0	2020-09-19
 2020-09-19	thainsCEB	PopulationManagement	0	0	0	2020-09-19
 2020-09-20	ashirwad	stat599-creative-component	0	0	0	2020-10-22
@@ -1114,12 +1114,13 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-09-24	GreathouseLab	esoph-micro-cancer-workflow	0	0	0	2020-10-22
 2020-09-25	tomkeaney	SD_sexual_selection_wflowr	0	0	0	2020-10-28
 2020-09-28	hwheeler01	myproject1	0	0	0	2020-09-28
-2020-09-30	Donghe-Zhu	eMLR_model_test	0	0	0	2020-10-30
+2020-09-30	Donghe-Zhu	eMLR_model_test	0	0	0	2020-11-02
 2020-10-01	jovianyu	CMSC33750	0	0	0	2020-10-01
 2020-10-01	steveped	snakemake_rnaseq_pe	0	0	0	2020-10-01
 2020-10-01	steveped	snakemake_rnaseq_se	0	1	0	2020-10-28
 2020-10-02	LearnUseZone	testbranches	0	0	0	2020-10-04
 2020-10-03	SWSchaeffer	GeneConversionInversion	0	0	0	2020-10-16
+2020-10-04	dewoller	exam_generation	0	0	0	2020-11-01
 2020-10-05	rheaprag	GWAS_QC2	0	0	0	2020-10-05
 2020-10-05	YushaLiu	NB_ash_PG	0	0	0	2020-10-06
 2020-10-06	JJCoen	Analysis-Concept-and-Practice	0	0	0	2020-10-06
@@ -1131,10 +1132,10 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-10-09	hwittich	GWAS_QC	0	0	0	2020-10-26
 2020-10-09	jma1991	LPMP_LHF_C	0	0	0	2020-10-13
 2020-10-09	wolfemd	NaCRRI_2020GS	0	1	0	2020-10-13
-2020-10-10	GavinMasterson	reptiles_fire	0	0	0	2020-10-28
-2020-10-10	KiseokUchicago	Homework	0	0	0	2020-10-26
+2020-10-10	GavinMasterson	reptiles_fire	0	0	0	2020-11-02
+2020-10-10	KiseokUchicago	Homework	0	0	0	2020-11-02
 2020-10-12	jovianyu	geomx-exploration	0	0	0	2020-10-17
-2020-10-12	LearnUseZone	rpkgs	0	0	0	2020-10-26
+2020-10-12	LearnUseZone	rpkgs	0	0	0	2020-11-02
 2020-10-14	jma1991	NMP_EHF	0	0	0	2020-10-14
 2020-10-14	mleukam	tcga_micro	0	0	0	2020-10-28
 2020-10-15	liliw-w	GradLog	0	0	0	2020-10-19
@@ -1161,3 +1162,5 @@ date	user	repo	forks	stars	open_issues	last_update
 2020-10-29	xiaomaohao	teacher_status	0	0	0	2020-10-29
 2020-10-30	christianholland	test-workflowr	0	0	0	2020-10-30
 2020-10-30	L-ENA	website	0	0	0	2020-10-30
+2020-11-02	tessbrodie	PhX_revision	0	0	0	2020-11-02
+2020-11-02	YushaLiu	poisson_mash_random_effects	0	0	0	2020-11-02
