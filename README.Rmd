@@ -26,19 +26,19 @@ projects$cumulative <- cumsum(projects$count)
 ```
 
 ```{r activity}
-projects$last_update <- as_date(projects$last_update)
+projects$last_push <- as_date(projects$last_push)
 # weekly active projects
 last_week <- today() - weeks(1)
 stopifnot(is.Date(last_week))
-weekly_active <- projects$last_update >= last_week
-weekly_active_proj <- sum(weekly_active)
+weekly_active <- projects$last_push >= last_week
+weekly_active_proj <- sum(weekly_active, na.rm = TRUE)
 weekly_active_user <- length(unique(projects$user[weekly_active]))
 
 # monthly active projects
 last_month <- today() %m-% months(1)
 stopifnot(is.Date(last_month))
-monthly_active <- projects$last_update >= last_month
-monthly_active_proj <- sum(monthly_active)
+monthly_active <- projects$last_push >= last_month
+monthly_active_proj <- sum(monthly_active, na.rm = TRUE)
 monthly_active_user <- length(unique(projects$user[monthly_active]))
 ```
 
@@ -93,7 +93,7 @@ forks$cumulative <- cumsum(forks$count)
 
 ```{r forks-updated}
 # How many forks were updated more than 60 seconds after being created?
-forks_updated <- sum(forks$update_difftime > 60)
+forks_updated <- sum(forks$update_difftime > 60, na.rm = TRUE)
 ```
 
 * Forks of workflowr GitHub repository with updates: `r forks_updated`
