@@ -14,15 +14,34 @@ library("data.table")
 projects <- fread("data/github-projects.txt")
 str(projects)
 toDate <- function(x) as.Date(x, format = "%Y-%m-%d", tz = "America/Chicago")
-projects[, date := toDate(date)][, last_update := toDate(last_update)]
-projects[, range := last_update - date]
-str(projects)
+projects[, date := toDate(date)]
+projects[, last_update := toDate(last_update)]
+projects[, last_push := toDate(last_push)]
+projects[, rangeUpdate := last_update - date]
+projects[, rangePush := last_push - date]
+projects[, rangeLag := last_update - last_push]
 
-projectsUsed <- projects[range > 3, ]
+str(projects)
+sum(is.na(projects$last_push))
+projects[is.na(last_push), date]
+
+difftimeSummary <- function(x, units = "days") summary(as.double(x, units = units))
+difftimeSummary(projects$rangeUpdate)
+difftimeSummary(projects$rangePush)
+difftimeSummary(projects$rangeLag)
+
+# OK. So for the majority of projects, the last update is the same date as the
+# last push.
+mean(projects$rangeLag == 0, na.rm = TRUE)
+
+# Remove missing values
+projects <- projects[!is.na(last_push), ]
+
+projectsUsed <- projects[rangeUpdate > 3 & rangePush > 3, ]
 nrow(projectsUsed)
 
 png("figures/projects-duration.png", width = 7, height = 7, units = "in", res = 72 * 2)
-hist(as.double(projectsUsed$range, units = "days"),
+hist(as.double(projectsUsed$rangeUpdate, units = "days"),
      col = "#6E2E9E",
      xlab = "Days between creation and last update",
      ylab = "Number of projects",
@@ -34,9 +53,9 @@ dev.off()
 users <- projects[,
                   .(repos = .N,
                     start = min(date),
-                    end = max(last_update),
-                    rangeRepoMean = mean(range),
-                    rangeRepoMedian = median(range)
+                    end = max(last_push),
+                    rangeRepoMean = mean(rangePush),
+                    rangeRepoMedian = median(rangePush)
                   ),
                   by = user]
 users[, rangeUser := end - start]
@@ -85,6 +104,6 @@ dev.off()
 usersLongTerm <- users[rangeRepoMean > 50, ]
 nrow(usersLongTerm)
 png("figures/users-power.png", width = 7, height = 7, units = "in", res = 72 * 2)
-plotUsagePatterns(usersLongTerm$repos, usersLongTerm$rangeRepoMean, labels = users$user)
+plotUsagePatterns(usersLongTerm$repos, usersLongTerm$rangeRepoMean, labels = usersLongTerm$user)
 title(sub = sprintf("Data last collected on %s", max(projects$last_update)))
 dev.off()
