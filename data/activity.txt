@@ -48,3 +48,4 @@ date	weekly_projects	weekly_users	monthly_projects	monthly_users
 2020-10-30	63	57	130	97
 2020-11-02	60	53	129	95
 2020-11-02	62	54	130	95
+2020-11-03	57	52	120	92
