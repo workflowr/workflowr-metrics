@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 
 # workflowr-metrics
 
-[![Travis-CI Build Status](https://travis-ci.org/workflowr/workflowr-metrics.svg?branch=master)](https://travis-ci.org/workflowr/workflowr-metrics)
+[![Travis-CI Build Status](https://travis-ci.com/workflowr/workflowr-metrics.svg?branch=master)](https://travis-ci.com/workflowr/workflowr-metrics)
 
 Source: public GitHub repositories
 
