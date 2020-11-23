@@ -513,3 +513,5 @@ date	stargazer
 2020-11-13	nhihin
 2020-11-15	OnlyBelter
 2020-11-16	sbw78
+2020-11-17	kevin-wamae
+2020-11-18	jonmcalder
