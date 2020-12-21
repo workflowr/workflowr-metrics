@@ -516,9 +516,12 @@ date	stargazer
 2020-11-17	kevin-wamae
 2020-11-18	jonmcalder
 2020-11-28	venkatanarayanan
-2020-12-09	bwy9800
+2020-12-09	weiyubai
 2020-12-10	13w13
 2020-12-12	JamesAngus
 2020-12-12	Shusei-E
 2020-12-13	soxv
 2020-12-14	lvzeyu
+2020-12-14	aksel-blaise
+2020-12-15	frederic-santos
+2020-12-20	zadrafi
