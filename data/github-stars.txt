@@ -456,7 +456,6 @@ date	stargazer
 2020-06-24	Ankita-1211
 2020-06-28	danlooo
 2020-06-29	ShuguangSun
-2020-06-29	AThibault92
 2020-07-07	williamrowell
 2020-07-08	MrPops
 2020-07-16	humanfactors
@@ -524,4 +523,11 @@ date	stargazer
 2020-12-14	lvzeyu
 2020-12-14	aksel-blaise
 2020-12-15	frederic-santos
-2020-12-20	zadrafi
+2020-12-21	cjops
+2020-12-22	omertarikaydin
+2020-12-22	AThibault92
+2020-12-23	eejd
+2020-12-25	FatemaPatel
+2020-12-27	shubhra-agrawal
+2020-12-28	JustMJ
+2020-12-28	leawlb
