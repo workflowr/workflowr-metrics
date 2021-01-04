@@ -226,7 +226,7 @@ date	stargazer
 2018-11-26	jaapwalhout
 2018-11-28	harlydurbin
 2018-11-30	mauriziopaul
-2018-12-07	EricAlcaide
+2018-12-07	hypnopump
 2018-12-14	ASKurz
 2018-12-25	scarbunkle
 2019-01-03	durraniu
@@ -531,3 +531,4 @@ date	stargazer
 2020-12-27	shubhra-agrawal
 2020-12-28	JustMJ
 2020-12-28	leawlb
+2021-01-01	milescsmith
