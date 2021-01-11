@@ -426,7 +426,6 @@ date	stargazer
 2020-04-26	ycaedes
 2020-04-28	HaoZeke
 2020-04-29	trannhatanh89
-2020-04-29	compbioNJU
 2020-05-01	nilseling
 2020-05-02	badbye
 2020-05-07	milanmlft
@@ -532,3 +531,5 @@ date	stargazer
 2020-12-28	JustMJ
 2020-12-28	leawlb
 2021-01-01	milescsmith
+2021-01-07	ernestguevarra
+2021-01-10	compbioNJU
