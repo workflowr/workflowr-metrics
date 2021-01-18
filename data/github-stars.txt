@@ -91,7 +91,7 @@ date	stargazer
 2018-02-04	cderv
 2018-02-06	kabaum
 2018-02-06	mscharpf
-2018-02-17	fullstackstatistician
+2018-02-17	omair-a-khan
 2018-02-19	daf
 2018-02-20	stewid
 2018-02-23	hs3180
@@ -533,3 +533,4 @@ date	stargazer
 2021-01-01	milescsmith
 2021-01-07	ernestguevarra
 2021-01-10	compbioNJU
+2021-01-11	erdagnese
