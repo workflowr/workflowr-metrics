@@ -542,3 +542,6 @@ date	stargazer
 2021-02-01	psychub
 2021-02-04	DataStrategist
 2021-02-07	mrlnryba
+2021-02-19	changwn
+2021-02-20	SamBryce-Smith
+2021-02-20	ZekeMarshall
