@@ -254,7 +254,6 @@ date	stargazer
 2019-02-25	luojun-yang
 2019-03-06	wlandau
 2019-03-06	arendsee
-2019-03-09	yanxianl
 2019-03-11	bergberg
 2019-03-11	jananiravi
 2019-03-11	mpaulacaldas
@@ -545,3 +544,7 @@ date	stargazer
 2021-02-19	changwn
 2021-02-20	SamBryce-Smith
 2021-02-20	ZekeMarshall
+2021-02-23	gjgandy
+2021-02-23	tonobles
+2021-02-26	chunyunma
+2021-02-26	woodywonge

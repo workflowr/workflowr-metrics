@@ -64,3 +64,4 @@ date	weekly_projects	weekly_users	monthly_projects	monthly_users
 2021-02-01	50	49	161	133
 2021-02-15	47	43	153	124
 2021-02-22	63	55	172	145
+2021-03-01	56	53	160	134
