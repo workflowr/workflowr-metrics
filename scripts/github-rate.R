@@ -12,6 +12,8 @@ rate_lim <- gh("/rate_limit")
 
 message(Sys.time())
 
+message("Account: ", gh_whoami()$login)
+
 msg_core <- sprintf("Core: %d / %d",
                     rate_lim$resources$core$remaining,
                     rate_lim$resources$core$limit)
