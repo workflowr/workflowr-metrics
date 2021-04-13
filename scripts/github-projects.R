@@ -53,7 +53,7 @@ search_code <- function(query, per_page = 100) {
                        "&per_page=", per_page)
     g <- gh(api_call)
     results <- c(results, g$items)
-    Sys.sleep(1)
+    Sys.sleep(10)
   }
 
   message(sprintf("Retreived %d search results", length(results)))
