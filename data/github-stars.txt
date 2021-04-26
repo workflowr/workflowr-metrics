@@ -175,7 +175,7 @@ date	stargazer
 2018-07-12	omorissette
 2018-07-15	lambdamoses
 2018-07-15	bcarancibia
-2018-07-16	Perseus1812
+2018-07-16	prs1812
 2018-07-17	senhao
 2018-07-17	dennyshin
 2018-07-17	daniel-pedersen
@@ -529,7 +529,6 @@ date	stargazer
 2020-12-27	shubhra-agrawal
 2020-12-28	JustMJ
 2020-12-28	leawlb
-2021-01-01	milescsmith
 2021-01-07	ernestguevarra
 2021-01-10	compbioNJU
 2021-01-11	erdagnese
@@ -552,3 +551,18 @@ date	stargazer
 2021-03-12	QianhuiWan
 2021-03-21	aaronsmulktis
 2021-03-22	IdaDawn
+2021-03-31	zhou-ran
+2021-03-31	jazznbass
+2021-04-03	jeroenpullens
+2021-04-04	DuyTran16
+2021-04-04	hao203
+2021-04-06	dindiarto
+2021-04-06	Otoliths
+2021-04-08	xiayh17
+2021-04-08	kanekalla
+2021-04-09	LautenbachMJ
+2021-04-17	wierzbinskiadam
+2021-04-18	alexjj
+2021-04-18	mjponichtera
+2021-04-18	Forum324
+2021-04-18	10adavis
