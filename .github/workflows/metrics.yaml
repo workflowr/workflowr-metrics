@@ -7,8 +7,6 @@ jobs:
   metrics:
     runs-on: ubuntu-22.04
     name: metrics
-    permissions:
-      issues: write
     steps:
       - uses: actions/checkout@v3
       - name: Setup r2u
@@ -17,7 +15,7 @@ jobs:
         run: sudo bash scripts/ci/install-dependencies.sh
       - name: Download metrics
         env:
-          GITHUB_PAT: ${{ github.token }}
+          GITHUB_PAT: ${{ secrets.MANUALLY_ADDED_REPO_SECRET_WORKFLOWR_BOT }}
         run: |
           #Rscript scripts/github-rate.R
           #Rscript scripts/github-projects.R data/github-projects.txt
