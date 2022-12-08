@@ -9,7 +9,6 @@ apt-get install --yes \
   r-cran-gh \
   r-cran-lubridate \
   r-cran-packagerank \
-  r-cran-remotes \
   r-cran-rmarkdown \
   r-cran-r.utils
 

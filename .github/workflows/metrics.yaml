@@ -13,9 +13,6 @@ jobs:
         run: sudo bash scripts/ci/setup-r2u.sh
       - name: Install dependencies
         run: sudo bash scripts/ci/install-dependencies.sh
-      - name: Install dev version of gh (required for new fine-grained PAT)
-        run: remotes::install_github("r-lib/gh", dependencies = FALSE)
-        shell: sudo Rscript {0}
       - name: Download metrics
         env:
           GITHUB_PAT: ${{ secrets.MANUALLY_ADDED_REPO_SECRET_WORKFLOWR_BOT }}
