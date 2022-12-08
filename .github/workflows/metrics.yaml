@@ -1,0 +1,45 @@
+name: metrics
+on:
+  schedule:
+    - cron: "0 09 * * 1" # weekly
+  workflow_dispatch:
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    name: metrics
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install
+        run: sudo Rscript scripts/install.R
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
+      - name: Download metrics
+        env:
+          GITHUB_PAT: ${{ github.token }}
+        run: |
+          Rscript scripts/github-rate.R
+          #Rscript scripts/github-projects.R data/github-projects.txt
+          #Rscript scripts/github-rate.R
+          Rscript scripts/github-stars.R data/github-stars.txt
+          Rscript scripts/cranlogs.R data/cranlogs.txt
+          Rscript scripts/packagerank.R data/packagerank.txt
+          Rscript scripts/github-watchers.R data/github-watchers.txt
+          Rscript scripts/github-forks.R data/github-forks.txt
+          Rscript scripts/github-views.R data/github-views.txt
+          Rscript scripts/github-clones.R data/github-clones.txt
+      - name: Rerender README
+        run: Rscript -e 'rmarkdown::render("README.Rmd")'
+      - name: Check Git SHA of libtiledb
+        if: success()
+        run: |
+          git config user.name "workflowr-bot"
+          git config user.email "jdblischak+workflowr-bot@gmail.com"
+          git checkout -q main
+          git pull origin main
+          git add data/ README.md
+          git commit --allow-empty -m "Update data [skip ci]"
+          git push origin main
