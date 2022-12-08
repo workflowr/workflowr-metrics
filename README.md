@@ -7,13 +7,22 @@
 
 Source: public GitHub repositories
 
-Last update: 2022-12-08 20:08:26
+Last update: 2022-12-08 20:27:07
 
-  - Weekly active projects (unique users): 0 (1)
+<!--
 
-  - Monthly active projects (unique users): 0 (1)
 
-  - Number of workflowr projects on GitHub: 1942
+
+
+
+* Weekly active projects (unique users):  ()
+
+* Monthly active projects (unique users):  ()
+
+* Number of workflowr projects on GitHub: 
+
+
+-->
 
   - Stars of workflowr GitHub repository: 742
 
