@@ -7,7 +7,7 @@
 
 Source: public GitHub repositories
 
-Last update: 2022-12-08 20:03:26
+Last update: 2022-12-08 20:08:26
 
   - Weekly active projects (unique users): 0 (1)
 
@@ -27,6 +27,6 @@ Last update: 2022-12-08 20:03:26
 
   - Forks of workflowr GitHub repository with updates: 83
 
-  - Views of workflowr GitHub repository: 42495
+  - Views of workflowr GitHub repository: 42498
 
   - Clones of workflowr GitHub repository: 4695
