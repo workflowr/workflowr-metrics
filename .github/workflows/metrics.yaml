@@ -20,7 +20,7 @@ jobs:
           GITHUB_PAT: ${{ secrets.MANUALLY_ADDED_REPO_SECRET_WORKFLOWR_BOT }}
         run: |
           Rscript scripts/github-rate.R
-          #Rscript scripts/github-projects.R data/github-projects.txt
+          Rscript scripts/github-projects.R data/github-projects.txt
           Rscript scripts/github-rate.R
           Rscript scripts/github-stars.R data/github-stars.txt
           Rscript scripts/cranlogs.R data/cranlogs.txt
