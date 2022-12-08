@@ -1,32 +1,32 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-workflowr-metrics
-=================
 
-[![Travis-CI Build Status](https://travis-ci.com/workflowr/workflowr-metrics.svg?branch=master)](https://travis-ci.com/workflowr/workflowr-metrics)
+# workflowr-metrics
+
+[![status](https://github.com/workflowr/workflowr-metrics/workflows/metrics/badge.svg)](https://github.com/workflowr/workflowr-metrics/actions/workflows/metrics.yaml)
 
 Source: public GitHub repositories
 
-Last update: 2021-04-26 16:14:56
+Last update: 2022-12-08 20:03:26
 
--   Weekly active projects (unique users): 41 (41)
+  - Weekly active projects (unique users): 0 (1)
 
--   Monthly active projects (unique users): 102 (93)
+  - Monthly active projects (unique users): 0 (1)
 
--   Number of workflowr projects on GitHub: 1942
+  - Number of workflowr projects on GitHub: 1942
 
--   Stars of workflowr GitHub repository: 567
+  - Stars of workflowr GitHub repository: 742
 
--   CRAN downloads: 22887
+  - CRAN downloads: 23191
 
--   CRAN package percentile (on 2021-04-21): 77.5
+  - CRAN package percentile (on 2022-12-07): 83.3407199
 
--   Watchers of workflowr GitHub repository: 27
+  - Watchers of workflowr GitHub repository: 31
 
--   Forks of workflowr GitHub repository: 81
+  - Forks of workflowr GitHub repository: 98
 
--   Forks of workflowr GitHub repository with updates: 15
+  - Forks of workflowr GitHub repository with updates: 83
 
--   Views of workflowr GitHub repository: 42080
+  - Views of workflowr GitHub repository: 42495
 
--   Clones of workflowr GitHub repository: 4666
+  - Clones of workflowr GitHub repository: 4695
