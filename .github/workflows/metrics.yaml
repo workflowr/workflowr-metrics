@@ -6,6 +6,8 @@ on:
 jobs:
   metrics:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     name: metrics
     steps:
       - uses: actions/checkout@v3
