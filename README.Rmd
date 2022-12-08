@@ -19,41 +19,44 @@ Source: public GitHub repositories
 
 Last update: `r Sys.time()`
 
+<!--
+
 ```{r projects}
-projects <- read.delim("data/github-projects.txt", stringsAsFactors = FALSE)
-projects$count <- 1
-projects$cumulative <- cumsum(projects$count)
+# projects <- read.delim("data/github-projects.txt", stringsAsFactors = FALSE)
+# projects$count <- 1
+# projects$cumulative <- cumsum(projects$count)
 ```
 
 ```{r activity}
-projects$last_push <- as_date(projects$last_push)
-# weekly active projects
-last_week <- today() - weeks(1)
-stopifnot(is.Date(last_week))
-weekly_active <- projects$last_push >= last_week
-weekly_active_proj <- sum(weekly_active, na.rm = TRUE)
-weekly_active_user <- length(unique(projects$user[weekly_active]))
-
-# monthly active projects
-last_month <- today() %m-% months(1)
-stopifnot(is.Date(last_month))
-monthly_active <- projects$last_push >= last_month
-monthly_active_proj <- sum(monthly_active, na.rm = TRUE)
-monthly_active_user <- length(unique(projects$user[monthly_active]))
+# projects$last_push <- as_date(projects$last_push)
+# # weekly active projects
+# last_week <- today() - weeks(1)
+# stopifnot(is.Date(last_week))
+# weekly_active <- projects$last_push >= last_week
+# weekly_active_proj <- sum(weekly_active, na.rm = TRUE)
+# weekly_active_user <- length(unique(projects$user[weekly_active]))
+# 
+# # monthly active projects
+# last_month <- today() %m-% months(1)
+# stopifnot(is.Date(last_month))
+# monthly_active <- projects$last_push >= last_month
+# monthly_active_proj <- sum(monthly_active, na.rm = TRUE)
+# monthly_active_user <- length(unique(projects$user[monthly_active]))
 ```
 
-* Weekly active projects (unique users): `r weekly_active_proj` (`r weekly_active_user`)
+* Weekly active projects (unique users): `r #weekly_active_proj` (`r #weekly_active_user`)
 
-* Monthly active projects (unique users): `r monthly_active_proj` (`r monthly_active_user`)
+* Monthly active projects (unique users): `r #monthly_active_proj` (`r #monthly_active_user`)
 
-* Number of workflowr projects on GitHub: `r projects$cumulative[nrow(projects)]`
+* Number of workflowr projects on GitHub: `r #projects$cumulative[nrow(projects)]`
 
 ```{r activity-save}
-activity_line <- sprintf("%s\t%d\t%d\t%d\t%d\n", today(),
-                         weekly_active_proj, weekly_active_user,
-                         monthly_active_proj, monthly_active_user)
-cat(activity_line, file = "data/activity.txt", append = TRUE)
+# activity_line <- sprintf("%s\t%d\t%d\t%d\t%d\n", today(),
+#                          weekly_active_proj, weekly_active_user,
+#                          monthly_active_proj, monthly_active_user)
+# cat(activity_line, file = "data/activity.txt", append = TRUE)
 ```
+-->
 
 ```{r stars}
 stars <- read.delim("data/github-stars.txt", stringsAsFactors = FALSE)
