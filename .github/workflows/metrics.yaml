@@ -5,30 +5,16 @@ on:
   workflow_dispatch:
 jobs:
   metrics:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: metrics
     permissions:
       issues: write
     steps:
       - uses: actions/checkout@v3
-      - name: Download r-ci run.sh
-        run: |
-          curl -OLs https://raw.githubusercontent.com/eddelbuettel/r-ci/29341a7acce00990c3ba95e8ef1c88c977722d67/docs/run.sh
-          chmod 0755 run.sh
-      - name: Bootstrap R setup
-        run: ./run.sh bootstrap
-      - name: Install R packages
-        run: ./run.sh install_r_binary \
-          cranlogs \
-          gh \
-          lubridate \
-          packageRank \
-          rmarkdown \
-          R.utils
-      - name: Install pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install pandoc
+      - name: Setup r2u
+        run: sudo bash scripts/ci/setup-r2u.sh
+      - name: Install dependencies
+        run: sudo bash scripts/ci/install-dependencies.sh
       - name: Download metrics
         env:
           GITHUB_PAT: ${{ github.token }}
