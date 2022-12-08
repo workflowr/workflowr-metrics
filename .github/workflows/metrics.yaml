@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ github.token }}
         run: |
-          Rscript scripts/github-rate.R
+          #Rscript scripts/github-rate.R
           #Rscript scripts/github-projects.R data/github-projects.txt
           #Rscript scripts/github-rate.R
           Rscript scripts/github-stars.R data/github-stars.txt
