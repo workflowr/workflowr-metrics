@@ -272,7 +272,6 @@ date	stargazer
 2019-03-22	dcroteau-chonka
 2019-03-22	Nazeeefa
 2019-03-23	blrwmck
-2019-03-25	johnnysullivan
 2019-04-01	davidski
 2019-04-05	romgienious
 2019-04-09	nachti
@@ -729,7 +728,7 @@ date	stargazer
 2022-09-08	schoulten
 2022-09-25	DylanGaramani
 2022-10-04	SmitsG
-2022-10-13	ilakast
+2022-10-13	iraklis10
 2022-10-23	renatogcruz
 2022-10-26	allisonvmitch
 2022-11-02	pushp360
@@ -749,3 +748,6 @@ date	stargazer
 2022-12-22	nopsybot
 2023-01-02	gamontal
 2023-01-03	linusha
+2023-01-09	JTO-TN
+2023-01-10	ick003
+2023-01-14	desk7
