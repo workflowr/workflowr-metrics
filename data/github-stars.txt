@@ -462,7 +462,7 @@ date	stargazer
 2020-08-28	yingstat
 2020-08-31	wydty
 2020-09-02	Flavjack
-2020-09-03	GCBrito
+2020-09-03	guicbrito
 2020-09-04	iaradsouza1
 2020-09-04	Adonisjgallardo
 2020-09-04	mvuorre
@@ -753,3 +753,5 @@ date	stargazer
 2023-01-10	ick003
 2023-01-14	desk7
 2023-01-19	flumpus-dev
+2023-02-08	swhawes
+2023-02-10	hathawayj
