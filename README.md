@@ -7,7 +7,7 @@
 
 Source: public GitHub repositories
 
-Last update: 2023-05-22 09:13:04.06137
+Last update: 2023-05-29 09:12:58.823767
 
 <!--
 
@@ -24,11 +24,11 @@ Last update: 2023-05-22 09:13:04.06137
 
 -->
 
-  - Stars of workflowr GitHub repository: 767
+  - Stars of workflowr GitHub repository: 768
 
-  - CRAN downloads: 26680
+  - CRAN downloads: 26825
 
-  - CRAN package percentile (on 2023-05-17): 82.1689796
+  - CRAN package percentile (on 2023-05-24): 80.3520682
 
   - Watchers of workflowr GitHub repository: 31
 
@@ -36,6 +36,6 @@ Last update: 2023-05-22 09:13:04.06137
 
   - Forks of workflowr GitHub repository with updates: 83
 
-  - Views of workflowr GitHub repository: 46642
+  - Views of workflowr GitHub repository: 46796
 
-  - Clones of workflowr GitHub repository: 4907
+  - Clones of workflowr GitHub repository: 4930
