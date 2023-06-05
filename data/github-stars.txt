@@ -108,7 +108,6 @@ date	stargazer
 2018-04-22	lazappi
 2018-04-23	hrbrmstr
 2018-04-23	cschwem2er
-2018-04-23	qqadssp
 2018-04-23	thanhleviet
 2018-04-23	welch16
 2018-04-23	kerkomen
