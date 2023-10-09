@@ -784,3 +784,5 @@ date	stargazer
 2023-09-18	RickyEsclapon
 2023-09-22	stefaneng
 2023-09-26	sebastiandig
+2023-10-04	mariaadeliaw
+2023-10-08	mrliuw
