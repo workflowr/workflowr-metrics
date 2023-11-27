@@ -365,7 +365,6 @@ date	stargazer
 2020-01-26	IndrajeetPatil
 2020-01-26	jethronap
 2020-01-26	ratanon97
-2020-01-27	fly51fly
 2020-01-27	gzliuzhijun
 2020-01-27	melonki
 2020-01-27	Otomadmt
