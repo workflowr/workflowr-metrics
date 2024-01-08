@@ -555,7 +555,7 @@ date	stargazer
 2021-05-30	BradyAJohnston
 2021-05-30	StevenTimeTW
 2021-06-01	swim86unifyd
-2021-06-07	franfram
+2021-06-07	tatakof
 2021-06-10	liliw-w
 2021-06-10	DaveParr
 2021-06-14	rtaph
@@ -574,7 +574,7 @@ date	stargazer
 2021-07-21	karolisr
 2021-07-23	HINATASDK
 2021-07-23	sj-io
-2021-07-27	c5creative
+2021-07-27	jpcartailler
 2021-07-27	emmarshall
 2021-07-29	roshni-b
 2021-08-02	robertdigital
