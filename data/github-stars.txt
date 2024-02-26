@@ -723,7 +723,6 @@ date	stargazer
 2022-10-13	iraklis10
 2022-10-23	renatogcruz
 2022-10-26	allisonvmitch
-2022-11-02	pushp360
 2022-11-03	Broccolito
 2022-11-05	mattocci27
 2022-11-14	gjcooper
