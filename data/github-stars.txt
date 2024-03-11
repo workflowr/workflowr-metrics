@@ -268,7 +268,6 @@ date	stargazer
 2019-03-22	dcroteau-chonka
 2019-03-22	Nazeeefa
 2019-03-23	blrwmck
-2019-03-25	johnnysullivan
 2019-04-01	davidski
 2019-04-05	romgienious
 2019-04-09	nachti
@@ -794,3 +793,4 @@ date	stargazer
 2024-02-18	shijxovo
 2024-02-28	seanrobryan
 2024-03-03	Hollandcm1
+2024-03-05	andrewallenbruce
