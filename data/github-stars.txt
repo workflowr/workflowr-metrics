@@ -510,7 +510,6 @@ date	stargazer
 2021-01-11	erdagnese
 2021-01-25	WubingZhang
 2021-01-28	camilogarciabotero
-2021-01-29	jromanowska
 2021-01-29	anh
 2021-01-31	Al3n70rn
 2021-02-01	psychub
@@ -804,3 +803,5 @@ date	stargazer
 2024-04-11	susanasarmento
 2024-04-18	nmarin-irsi
 2024-04-21	ChuaChoi
+2024-04-25	zhigaoqin
+2024-04-26	lassedochreden
