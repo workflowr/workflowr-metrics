@@ -38,7 +38,6 @@ date	user	update_difftime
 2019-03-10	anniew	87786609
 2019-03-19	changrong1023	87075604
 2019-03-24	JiaxiangBU	86616897
-2019-04-14	sdhutchins	108945274
 2019-05-09	antass	82606669
 2019-07-14	presagia-analytics	76891455
 2019-08-03	mcadledavidson	75169774
