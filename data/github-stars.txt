@@ -815,3 +815,5 @@ date	stargazer
 2024-07-01	lawrenceh1850
 2024-07-22	americ-anfootball
 2024-07-26	xiongxu
+2024-07-30	austinsonger
+2024-08-01	anthonyokc
