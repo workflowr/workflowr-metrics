@@ -786,7 +786,6 @@ date	stargazer
 2023-12-26	hluebbering
 2024-01-15	amazingshi
 2024-01-31	hyperupcall
-2024-02-06	EconMaett
 2024-02-08	brancengregory
 2024-02-18	shijxovo
 2024-02-28	seanrobryan
