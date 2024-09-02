@@ -7,7 +7,6 @@ date	user	update_difftime
 2017-08-25	xingjiegenetics	136364807
 2017-09-01	johnsonlab	135800887
 2017-09-18	CreRecombinase	134284459
-2017-10-11	MMesbahU	132313981
 2017-10-20	dondealban	131546531
 2017-10-31	vanAmsterdam	130597154
 2017-11-06	annakrystalli	130049261
