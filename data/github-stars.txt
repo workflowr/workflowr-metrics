@@ -423,7 +423,7 @@ date	stargazer
 2020-06-04	mrtns
 2020-06-04	nt-williams
 2020-06-08	mjseignon
-2020-06-09	Stalkcomrade
+2020-06-09	stlkcmrd
 2020-06-09	kfrac
 2020-06-13	alwinw
 2020-06-16	bkutlu
